@@ -1,47 +1,72 @@
 #!/usr/bin/env node
-// Refresh tldr's mock feed with real headlines from NewsAPI.
+// Refresh tldr's feed from NewsAPI (English) + curated Hebrew RSS.
 //
-// Runs from GitHub Actions (see .github/workflows/refresh-content.yml).
-// Reads NEWSAPI_KEY from env. Writes assets/content/cards.json.
+// Reads NEWSAPI_KEY from env, fetches, normalizes into ContentCard, writes
+// assets/content/cards.json.
 //
-// Design notes:
-//   * The output schema matches the app's ContentCard.fromJson(). Any change
-//     to lib/models/card.dart must be mirrored here.
-//   * Free-tier NewsAPI restrictions we respect:
-//       - no more than ~100 requests/day (this cron fires 12x/day, ~6 req each
-//         = 72/day headroom for reruns).
-//       - server-side only (this runs in CI, so CORS is irrelevant).
-//   * v1 has NO LLM summarization — we use the article title + description
-//     as-is. Adding Claude/GPT summarization is a v1.5 concern; the shape
-//     already supports richer bullets + why-it-matters.
-//   * We deduplicate on URL AND on a normalized-title hash so wire-service
-//     re-runs of the same story don't flood the feed.
+// Two sources:
+//   1. NewsAPI — English coverage across tech, markets, science, world, AI.
+//      Free-tier friendly (~72 requests/day).
+//   2. Curated Hebrew RSS — the leading Israeli outlets that publish real
+//      Hebrew (not English wire copy on the country=il route). Verified
+//      alive as of Sep 2026: Ynet, Globes, Walla, Israel Hayom, Haaretz.
+//
+// The output shape matches lib/models/card.dart#ContentCard.fromJson().
 
 import { writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
+import Parser from 'rss-parser';
 
+// ── NewsAPI queries ────────────────────────────────────────────────
 const NEWSAPI = 'https://newsapi.org/v2';
 const KEY = process.env.NEWSAPI_KEY;
-if (!KEY) {
-  console.error('NEWSAPI_KEY env var is required.');
-  process.exit(1);
-}
 
-// ── What we pull ───────────────────────────────────────────────────
-// Each entry becomes one API call. Keep total under 90/day (12 runs × <=8).
-const QUERIES = [
-  { topic: 'tech',        endpoint: 'top-headlines', params: { country: 'us', category: 'technology', pageSize: 15 } },
-  { topic: 'markets',     endpoint: 'top-headlines', params: { country: 'us', category: 'business',   pageSize: 12 } },
-  { topic: 'science',     endpoint: 'top-headlines', params: { country: 'us', category: 'science',    pageSize: 10 } },
-  { topic: 'world',       endpoint: 'top-headlines', params: { country: 'us', category: 'general',    pageSize: 15 } },
-  { topic: 'israel',      endpoint: 'top-headlines', params: { country: 'il',                          pageSize: 15 } },
-  { topic: 'ai',          endpoint: 'everything',    params: { q: '"artificial intelligence" OR "machine learning"', language: 'en', sortBy: 'publishedAt', pageSize: 10 } },
+const NEWSAPI_QUERIES = [
+  { topic: 'tech',    endpoint: 'top-headlines', params: { country: 'us', category: 'technology', pageSize: 15 } },
+  { topic: 'markets', endpoint: 'top-headlines', params: { country: 'us', category: 'business',   pageSize: 12 } },
+  { topic: 'science', endpoint: 'top-headlines', params: { country: 'us', category: 'science',    pageSize: 10 } },
+  { topic: 'world',   endpoint: 'top-headlines', params: { country: 'us', category: 'general',    pageSize: 15 } },
+  { topic: 'ai',      endpoint: 'everything',    params: { q: '"artificial intelligence" OR "machine learning"', language: 'en', sortBy: 'publishedAt', pageSize: 10 } },
 ];
 
-// Simple map from article topic → additional secondary topics we tag on the
-// card. Keeps cards.json queryable by multiple interests without exploding
-// the number of API calls.
+// ── Hebrew RSS feeds ───────────────────────────────────────────────
+// Kept minimal + verified. Each entry contributes ~10 items after cap.
+const RSS_FEEDS = [
+  {
+    url: 'https://www.ynet.co.il/Integration/StoryRss2.xml',
+    publisher: 'Ynet',
+    topics: ['israel', 'world'],
+    max: 10,
+  },
+  {
+    url: 'https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=2',
+    publisher: 'Globes',
+    topics: ['markets', 'israel'],
+    max: 10,
+  },
+  {
+    url: 'https://rss.walla.co.il/feed/1',
+    publisher: 'Walla',
+    topics: ['israel', 'world'],
+    max: 8,
+  },
+  {
+    url: 'https://www.israelhayom.co.il/rss.xml',
+    publisher: 'Israel Hayom',
+    topics: ['israel'],
+    max: 8,
+  },
+  {
+    url: 'https://www.haaretz.co.il/cmlink/1.1470869',
+    publisher: 'Haaretz',
+    topics: ['israel', 'world'],
+    max: 10,
+  },
+];
+
+// Additional topic tags that get bolted on based on the primary topic —
+// keeps every card findable under adjacent interests.
 const SECONDARY_TAGS = {
   tech:     ['ai'],
   ai:       ['tech'],
@@ -51,19 +76,7 @@ const SECONDARY_TAGS = {
   israel:   ['world', 'geopolitics'],
 };
 
-async function fetchQuery({ endpoint, params }) {
-  const url = new URL(`${NEWSAPI}/${endpoint}`);
-  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
-  const res = await fetch(url, {
-    headers: { 'X-Api-Key': KEY, 'User-Agent': 'tldr-content-refresh/1.0' },
-  });
-  if (!res.ok) {
-    const body = await res.text().catch(() => '');
-    throw new Error(`NewsAPI ${endpoint} → ${res.status}: ${body.slice(0, 200)}`);
-  }
-  const j = await res.json();
-  return j.articles ?? [];
-}
+// ── Utilities ──────────────────────────────────────────────────────
 
 function normalizeTitle(s) {
   return (s ?? '')
@@ -78,62 +91,77 @@ function isHebrew(s) {
   return /[֐-׿]/.test(s ?? '');
 }
 
-function detectLanguage(article) {
-  const t = `${article.title ?? ''} ${article.description ?? ''}`;
-  return isHebrew(t) ? 'he' : 'en';
+function stripHtml(s) {
+  return (s ?? '')
+    .replace(/<script[\s\S]*?<\/script>/gi, '')
+    .replace(/<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function estimateSeconds(text) {
   const words = (text ?? '').split(/\s+/).filter(Boolean).length;
-  // 3 words per second read speed, clamped to 20–120s.
   return Math.max(20, Math.min(120, Math.round(words / 3)));
 }
 
-function buildBullets(article) {
+function idFor(seed) {
+  return 'c_' + createHash('sha1').update(seed).digest('hex').slice(0, 10);
+}
+
+// ── NewsAPI fetch ──────────────────────────────────────────────────
+
+async function fetchNewsApi({ endpoint, params }) {
+  if (!KEY) throw new Error('NEWSAPI_KEY not set');
+  const url = new URL(`${NEWSAPI}/${endpoint}`);
+  for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+  const res = await fetch(url, {
+    headers: { 'X-Api-Key': KEY, 'User-Agent': 'tldr-content-refresh/1.0' },
+  });
+  if (!res.ok) {
+    const body = await res.text().catch(() => '');
+    throw new Error(`NewsAPI ${endpoint} → ${res.status}: ${body.slice(0, 200)}`);
+  }
+  const j = await res.json();
+  return j.articles ?? [];
+}
+
+function buildBulletsFromNewsApi(article) {
   const out = [];
   const desc = (article.description ?? '').trim();
   if (desc) out.push(desc);
   const content = (article.content ?? '').replace(/\[\+\d+ chars\]$/, '').trim();
-  // NewsAPI's `content` is a snippet; split on sentence-ish boundaries.
   if (content) {
     const extra = content.split(/(?<=[.!?])\s+/).filter(s => s.length > 20);
     for (const s of extra.slice(0, 2)) out.push(s);
   }
-  // Cap at 4 bullets so the card stays lightweight.
   return out.slice(0, 4);
 }
 
-function idFor(article) {
-  return 'na_' + createHash('sha1').update(article.url ?? article.title ?? '').digest('hex').slice(0, 10);
-}
-
-function toCard(article, topic) {
-  const language = detectLanguage(article);
-  const bullets = buildBullets(article);
-  const source = article.source ?? {};
-  const publisher = source.name ?? 'Unknown';
+function newsApiToCard(article, topic) {
+  const bullets = buildBulletsFromNewsApi(article);
+  const publisher = article.source?.name ?? 'Unknown';
   const url = article.url ?? '';
   return {
-    id: idFor(article),
+    id: idFor(url || article.title || ''),
     kind: 'news',
-    language,
+    language: isHebrew(`${article.title ?? ''} ${article.description ?? ''}`) ? 'he' : 'en',
     topicTags: [topic, ...(SECONDARY_TAGS[topic] ?? [])],
     headline: (article.title ?? '').replace(/\s+-\s+[^-]+$/, '').trim(),
     bullets,
-    // Without an LLM we can't safely write "why it matters" from thin air.
-    // Leave it null so the card just doesn't render that section.
     whyItMatters: null,
     confidence: 'confirmed',
     risk: 'standard',
     estimatedSeconds: estimateSeconds(bullets.join(' ')),
     publishedAt: article.publishedAt ?? new Date().toISOString(),
     sources: url
-      ? [{
-          publisher,
-          url,
-          tier: 1,
-          publishedAt: article.publishedAt ?? new Date().toISOString(),
-        }]
+      ? [{ publisher, url, tier: 1, publishedAt: article.publishedAt ?? new Date().toISOString() }]
       : [],
     disagreement: null,
     youtubeId: null,
@@ -142,27 +170,122 @@ function toCard(article, topic) {
   };
 }
 
+// ── RSS fetch ──────────────────────────────────────────────────────
+
+const rssParser = new Parser({
+  timeout: 12_000,
+  headers: {
+    // Some Israeli sites 403 non-browser UAs.
+    'User-Agent':
+      'Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/605.1.15 tldr-content-refresh/1.0',
+    Accept: 'application/rss+xml, application/xml, text/xml, */*',
+  },
+});
+
+function buildBulletsFromRss(item) {
+  // rss-parser exposes content, contentSnippet, and (for some feeds)
+  // content:encoded. Prefer the cleanest available.
+  const raw =
+    item.contentSnippet?.trim() ||
+    stripHtml(item.content) ||
+    stripHtml(item['content:encoded']) ||
+    stripHtml(item.summary) ||
+    '';
+  if (!raw) return [];
+  // Break into sentences on Hebrew and Latin punctuation.
+  const sentences = raw
+    .split(/(?<=[.!?׃…])\s+/)
+    .map(s => s.trim())
+    .filter(s => s.length >= 12);
+  if (sentences.length === 0) return [raw.slice(0, 280)];
+  return sentences.slice(0, 3);
+}
+
+function rssToCard(item, feed) {
+  const headline = stripHtml(item.title || '').trim();
+  if (!headline) return null;
+  const url = item.link || item.guid || '';
+  if (!url) return null;
+  const bullets = buildBulletsFromRss(item);
+  const publishedAt = item.isoDate || item.pubDate || new Date().toISOString();
+  const primaryTopic = feed.topics[0];
+  const tags = new Set([...feed.topics, ...(SECONDARY_TAGS[primaryTopic] ?? [])]);
+  return {
+    id: idFor(url),
+    kind: 'news',
+    language: 'he',
+    topicTags: [...tags],
+    headline,
+    bullets,
+    whyItMatters: null,
+    confidence: 'confirmed',
+    risk: 'standard',
+    estimatedSeconds: estimateSeconds(bullets.join(' ')),
+    publishedAt: new Date(publishedAt).toISOString(),
+    sources: [
+      {
+        publisher: feed.publisher,
+        url,
+        tier: 1,
+        publishedAt: new Date(publishedAt).toISOString(),
+      },
+    ],
+    disagreement: null,
+    youtubeId: null,
+    channel: null,
+    imageUrl: item.enclosure?.url ?? null,
+  };
+}
+
+async function fetchRss(feed) {
+  const parsed = await rssParser.parseURL(feed.url);
+  const items = (parsed.items ?? []).slice(0, feed.max);
+  const cards = [];
+  for (const it of items) {
+    const c = rssToCard(it, feed);
+    if (c) cards.push(c);
+  }
+  return cards;
+}
+
+// ── Main ───────────────────────────────────────────────────────────
+
 async function main() {
   const all = [];
-  for (const q of QUERIES) {
-    try {
-      console.log(`[fetch] ${q.topic}`);
-      const articles = await fetchQuery(q);
-      console.log(`   → ${articles.length} articles`);
-      for (const a of articles) {
-        // Skip articles NewsAPI returns as `[Removed]` — dead placeholders.
-        if ((a.title ?? '').startsWith('[Removed]')) continue;
-        // Skip empty ones.
-        if (!a.title || !a.url) continue;
-        all.push(toCard(a, q.topic));
+
+  // NewsAPI (English).
+  if (KEY) {
+    for (const q of NEWSAPI_QUERIES) {
+      try {
+        console.log(`[newsapi] ${q.topic}`);
+        const articles = await fetchNewsApi(q);
+        console.log(`   → ${articles.length} articles`);
+        for (const a of articles) {
+          if ((a.title ?? '').startsWith('[Removed]')) continue;
+          if (!a.title || !a.url) continue;
+          all.push(newsApiToCard(a, q.topic));
+        }
+      } catch (e) {
+        console.error(`   ✗ newsapi ${q.topic}: ${e.message}`);
       }
+    }
+  } else {
+    console.warn('[newsapi] NEWSAPI_KEY not set — skipping NewsAPI fetches.');
+  }
+
+  // Hebrew RSS.
+  for (const feed of RSS_FEEDS) {
+    try {
+      console.log(`[rss] ${feed.publisher}`);
+      const cards = await fetchRss(feed);
+      console.log(`   → ${cards.length} items`);
+      all.push(...cards);
     } catch (e) {
-      console.error(`   ✗ ${q.topic}: ${e.message}`);
-      // Keep going — one failed topic shouldn't kill the whole refresh.
+      console.error(`   ✗ rss ${feed.publisher}: ${e.message}`);
     }
   }
 
-  // Deduplicate: prefer earlier entries (higher-priority topic queries first).
+  // Deduplicate by URL + normalized-title.
   const seenUrl = new Set();
   const seenTitle = new Set();
   const dedup = [];
@@ -175,17 +298,22 @@ async function main() {
     dedup.push(c);
   }
 
-  // Sort newest first so the feed opens on the freshest story.
+  // Sort newest first.
   dedup.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
 
-  // Cap to keep the JSON file small on the wire.
-  const capped = dedup.slice(0, 80);
+  // Cap.
+  const capped = dedup.slice(0, 100);
 
   const outPath = path.resolve(process.cwd(), 'assets', 'content', 'cards.json');
   await mkdir(path.dirname(outPath), { recursive: true });
   await writeFile(outPath, JSON.stringify(capped, null, 2) + '\n', 'utf8');
 
+  const byLang = capped.reduce((acc, c) => {
+    acc[c.language] = (acc[c.language] ?? 0) + 1;
+    return acc;
+  }, {});
   console.log(`\n[done] wrote ${capped.length} cards → ${outPath}`);
+  console.log(`       breakdown: ${JSON.stringify(byLang)}`);
 }
 
 main().catch(err => {

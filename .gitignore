@@ -49,3 +49,6 @@ app.*.map.json
 /tmp/
 tldr.iml
 tldr_android.iml
+
+# Content-refresh script deps (installed in CI)
+node_modules/

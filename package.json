@@ -1,0 +1,16 @@
+{
+  "name": "tldr-content-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node scripts that refresh assets/content/cards.json from external sources.",
+  "scripts": {
+    "refresh": "node scripts/refresh_content.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
