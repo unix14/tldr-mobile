@@ -6,6 +6,7 @@ import '../../../widgets/confidence_chip.dart';
 import '../../../widgets/publisher_favicon.dart';
 import '../../../widgets/topic_chip.dart';
 import 'card_actions.dart';
+import 'read_more_link.dart';
 
 /// Text/news card — editorial layout.
 ///
@@ -52,6 +53,10 @@ class TextCard extends StatelessWidget {
                     _byline(context),
                     const SizedBox(height: 24),
                     for (final b in card.bullets) _bullet(context, b),
+                    if (card.sources.isNotEmpty) ...[
+                      const SizedBox(height: 4),
+                      ReadMoreLink(card: card),
+                    ],
                     if (card.whyItMatters != null) ...[
                       const SizedBox(height: 20),
                       _whyItMatters(context),

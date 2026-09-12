@@ -6,6 +6,7 @@ import '../../../widgets/confidence_chip.dart';
 import '../../../widgets/publisher_favicon.dart';
 import '../../../widgets/topic_chip.dart';
 import 'card_actions.dart';
+import 'read_more_link.dart';
 
 class VideoCard extends StatelessWidget {
   final ContentCard card;
@@ -55,6 +56,10 @@ class VideoCard extends StatelessWidget {
                               .copyWith(color: AppColors.textPrimary),
                         ),
                       ),
+                    if (card.sources.isNotEmpty) ...[
+                      const SizedBox(height: 2),
+                      ReadMoreLink(card: card),
+                    ],
                     if (card.whyItMatters != null) ...[
                       const SizedBox(height: 14),
                       Text(

@@ -5,11 +5,24 @@ import 'package:share_plus/share_plus.dart';
 
 import '../../../data/session_stats.dart';
 import '../../../data/settings_repository.dart';
+import '../../../data/signals.dart';
 import '../../../models/card.dart';
 import '../../../theme/colors.dart';
 import 'sources_sheet.dart';
 import 'video_player_drawer.dart';
 
+/// Card action row.
+///
+/// The row is *chrome*, not article body — its labels follow the UI
+/// language (settings.language), not the card's language. That way a
+/// Hebrew user reading an English article still sees Hebrew action
+/// labels; only the article body renders in its own direction.
+///
+/// No More/Less buttons anymore — interest weights are driven by
+/// implicit signals (dwell, save, sources open) via `SignalTracker`.
+/// Unsave still lives here (single tap on Save toggles); double-tap on
+/// the card body is save-only (never unsave — that behaviour lives in
+/// `GestureLayer`).
 class CardActions extends ConsumerStatefulWidget {
   final ContentCard card;
   const CardActions({super.key, required this.card});
@@ -21,8 +34,6 @@ class CardActions extends ConsumerStatefulWidget {
 class _CardActionsState extends ConsumerState<CardActions>
     with SingleTickerProviderStateMixin {
   late final AnimationController _saveAnim;
-
-  bool get _isHe => widget.card.language == 'he';
 
   @override
   void initState() {
@@ -45,6 +56,7 @@ class _CardActionsState extends ConsumerState<CardActions>
   Widget build(BuildContext context) {
     final settings = ref.watch(settingsControllerProvider);
     final saved = settings.librarySavedIds.contains(widget.card.id);
+    final isHe = settings.language == 'he';
 
     Widget btn({
       required IconData icon,
@@ -87,11 +99,10 @@ class _CardActionsState extends ConsumerState<CardActions>
         btn(
           icon: saved ? Icons.bookmark : Icons.bookmark_border,
           color: saved ? AppColors.accent : null,
-          label: _isHe ? 'שמור' : 'Save',
+          label: isHe ? 'שמור' : 'Save',
           iconOverride: AnimatedBuilder(
             animation: _saveAnim,
             builder: (context, _) {
-              // Ease-out overshoot: 1.0 → 1.35 → 1.0
               final t = _saveAnim.value;
               final scale = 1.0 + (0.35 * (t < 0.5 ? t * 2 : (1 - t) * 2));
               return Transform.scale(
@@ -114,53 +125,26 @@ class _CardActionsState extends ConsumerState<CardActions>
                 .toggleSave(widget.card.id);
             if (becomingSaved) {
               ref.read(sessionStatsProvider.notifier).markSaved();
-              _showToast(messenger,
-                  _isHe ? 'נשמר לספרייה' : 'Saved to Library');
+              await SignalTracker(ref).recordSave(widget.card);
+              _showToast(
+                  messenger, isHe ? 'נשמר לספרייה' : 'Saved to Library');
             }
-          },
-        ),
-        btn(
-          icon: Icons.add,
-          label: _isHe ? 'עוד כאלה' : 'More',
-          onTap: () async {
-            final messenger = ScaffoldMessenger.of(context);
-            for (final t in widget.card.topicTags) {
-              await ref
-                  .read(settingsControllerProvider.notifier)
-                  .adjustInterestWeight(t, 0.3);
-            }
-            _showToast(messenger,
-                _isHe ? 'נראה יותר כאלה' : 'Showing more like this');
-          },
-        ),
-        btn(
-          icon: Icons.remove,
-          label: _isHe ? 'פחות' : 'Less',
-          onTap: () async {
-            final messenger = ScaffoldMessenger.of(context);
-            for (final t in widget.card.topicTags) {
-              await ref
-                  .read(settingsControllerProvider.notifier)
-                  .adjustInterestWeight(t, -0.4);
-            }
-            _showToast(messenger,
-                _isHe ? 'נראה פחות כאלה' : 'Showing less like this');
           },
         ),
         btn(
           icon: Icons.article_outlined,
-          label: _isHe ? 'מקורות' : 'Sources',
+          label: isHe ? 'מקורות' : 'Sources',
           onTap: () => _showSources(context),
         ),
         if (widget.card.hasVideo)
           btn(
             icon: Icons.play_circle_outline,
-            label: _isHe ? 'צפייה' : 'Watch',
+            label: isHe ? 'צפייה' : 'Watch',
             onTap: () => _showPlayer(context),
           ),
         btn(
           icon: Icons.ios_share,
-          label: _isHe ? 'שתף' : 'Share',
+          label: isHe ? 'שתף' : 'Share',
           onTap: () => _share(),
         ),
       ],
@@ -169,6 +153,7 @@ class _CardActionsState extends ConsumerState<CardActions>
 
   void _showSources(BuildContext context) {
     ref.read(sessionStatsProvider.notifier).markSourcesOpened();
+    SignalTracker(ref).recordSourcesOpened(widget.card);
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,

@@ -95,15 +95,49 @@ function stripHtml(s) {
   return (s ?? '')
     .replace(/<script[\s\S]*?<\/script>/gi, '')
     .replace(/<style[\s\S]*?<\/style>/gi, '')
+    // Common list-item markup → sentence break so lists survive as text.
+    .replace(/<\/li>\s*<li[^>]*>/gi, '. ')
+    .replace(/<li[^>]*>/gi, '')
+    .replace(/<\/li>/gi, '. ')
+    // All other tags → space so words don't run together.
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&')
     .replace(/&quot;/g, '"')
     .replace(/&#x27;/g, "'")
+    .replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
+    .replace(/&hellip;/g, '…')
+    // Numeric entities (&#8217; etc.) → best-effort decode.
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    // Collapse whitespace + trim.
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+// Boilerplate patterns that show up in publisher descriptions and add no
+// value on a card. Applied AFTER html stripping.
+const BOILERPLATE = [
+  /continue reading\.{0,3}$/i,
+  /read (the|full) (article|story)\.?$/i,
+  /the post .+ appeared first on .+\.?$/i,
+  /this article was originally published on .+\.?$/i,
+  /credit: .+$/i,
+  /photo(?:s)?: .+$/i,
+  /\[…?\]$/,
+  /…$/,       // Trailing ellipsis
+  /\.{2,}$/,  // Trailing dots run
+];
+
+function cleanBullet(s) {
+  let out = stripHtml(s);
+  for (const re of BOILERPLATE) out = out.replace(re, '').trim();
+  // Fix "Wrong mindset.Treating AI" → "Wrong mindset. Treating AI"
+  out = out.replace(/([.!?])([A-Z֐-׿])/g, '$1 $2');
+  // Collapse runs of periods that HTML-list conversion sometimes leaves.
+  out = out.replace(/(\s*\.\s*){2,}/g, '. ');
+  return out.trim();
 }
 
 function estimateSeconds(text) {
@@ -134,14 +168,19 @@ async function fetchNewsApi({ endpoint, params }) {
 
 function buildBulletsFromNewsApi(article) {
   const out = [];
-  const desc = (article.description ?? '').trim();
-  if (desc) out.push(desc);
-  const content = (article.content ?? '').replace(/\[\+\d+ chars\]$/, '').trim();
-  if (content) {
-    const extra = content.split(/(?<=[.!?])\s+/).filter(s => s.length > 20);
-    for (const s of extra.slice(0, 2)) out.push(s);
+  const desc = cleanBullet(article.description ?? '');
+  if (desc && desc.length >= 20) out.push(desc);
+  const content = cleanBullet(
+    (article.content ?? '').replace(/\[\+\d+ chars\]$/, ''),
+  );
+  if (content && content !== desc) {
+    const sentences = content
+      .split(/(?<=[.!?])\s+/)
+      .map(cleanBullet)
+      .filter(s => s.length >= 20 && s !== desc);
+    for (const s of sentences.slice(0, 2)) out.push(s);
   }
-  return out.slice(0, 4);
+  return out.slice(0, 3);
 }
 
 function newsApiToCard(article, topic) {
@@ -153,7 +192,7 @@ function newsApiToCard(article, topic) {
     kind: 'news',
     language: isHebrew(`${article.title ?? ''} ${article.description ?? ''}`) ? 'he' : 'en',
     topicTags: [topic, ...(SECONDARY_TAGS[topic] ?? [])],
-    headline: (article.title ?? '').replace(/\s+-\s+[^-]+$/, '').trim(),
+    headline: stripHtml((article.title ?? '').replace(/\s+-\s+[^-]+$/, '')),
     bullets,
     whyItMatters: null,
     confidence: 'confirmed',
@@ -183,19 +222,17 @@ const rssParser = new Parser({
 });
 
 function buildBulletsFromRss(item) {
-  // rss-parser exposes content, contentSnippet, and (for some feeds)
-  // content:encoded. Prefer the cleanest available.
-  const raw =
-    item.contentSnippet?.trim() ||
-    stripHtml(item.content) ||
-    stripHtml(item['content:encoded']) ||
-    stripHtml(item.summary) ||
-    '';
+  const raw = cleanBullet(
+    item.contentSnippet ||
+      item['content:encoded'] ||
+      item.content ||
+      item.summary ||
+      '',
+  );
   if (!raw) return [];
-  // Break into sentences on Hebrew and Latin punctuation.
   const sentences = raw
     .split(/(?<=[.!?׃…])\s+/)
-    .map(s => s.trim())
+    .map(cleanBullet)
     .filter(s => s.length >= 12);
   if (sentences.length === 0) return [raw.slice(0, 280)];
   return sentences.slice(0, 3);

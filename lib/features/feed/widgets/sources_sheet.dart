@@ -1,28 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../data/settings_repository.dart';
+import '../../../data/signals.dart';
 import '../../../models/card.dart';
 import '../../../theme/colors.dart';
 import '../../../widgets/publisher_favicon.dart';
 
 /// The trust surface.
 ///
-/// Each row is treated like a proper footnote: publisher name, host/date,
-/// a subtle chip when it's a primary source (tier 0), open externally on
-/// tap and copy the URL on a long-press. Disagreement is rendered in the
-/// same callout style as the card body for visual continuity.
-class SourcesSheet extends StatelessWidget {
+/// UI labels ("Sources", "just now", copy toast) follow the UI language,
+/// since the sheet is *chrome*. The article's own headline/publisher
+/// stays in its native script/direction because it's article body.
+class SourcesSheet extends ConsumerWidget {
   final ContentCard card;
   const SourcesSheet({super.key, required this.card});
 
-  bool get _isHe => card.language == 'he';
-
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isHe = ref.watch(settingsControllerProvider).language == 'he';
     final t = Theme.of(context).textTheme;
     return Directionality(
-      textDirection: _isHe ? TextDirection.rtl : TextDirection.ltr,
+      textDirection: isHe ? TextDirection.rtl : TextDirection.ltr,
       child: SafeArea(
         top: false,
         child: Padding(
@@ -31,16 +32,20 @@ class SourcesSheet extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _header(context, t),
+              _header(context, t, isHe),
               const SizedBox(height: 18),
               for (var i = 0; i < card.sources.length; i++)
-                _SourceRow(source: card.sources[i], isHe: _isHe, index: i),
+                _SourceRow(
+                  source: card.sources[i],
+                  isHe: isHe,
+                  index: i,
+                  onOpen: () => SignalTracker(ref).recordSourceOpened(card),
+                ),
               if (card.disagreement != null) ...[
                 const SizedBox(height: 20),
-                _disagreement(context, t),
+                _disagreement(context, t, isHe),
               ],
-              const SizedBox(height: 20),
-              _reportRow(context, t),
+              const SizedBox(height: 8),
             ],
           ),
         ),
@@ -48,7 +53,7 @@ class SourcesSheet extends StatelessWidget {
     );
   }
 
-  Widget _header(BuildContext context, TextTheme t) {
+  Widget _header(BuildContext context, TextTheme t, bool isHe) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -70,12 +75,12 @@ class SourcesSheet extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                _isHe ? 'מקורות' : 'Sources',
+                isHe ? 'מקורות' : 'Sources',
                 style: t.titleLarge!.copyWith(fontWeight: FontWeight.w600),
               ),
               const SizedBox(height: 2),
               Text(
-                _isHe
+                isHe
                     ? 'סוכם מ־${card.sources.length} מקורות'
                     : 'Summarised from ${card.sources.length} '
                         '${card.sources.length == 1 ? "source" : "sources"}',
@@ -88,7 +93,7 @@ class SourcesSheet extends StatelessWidget {
     );
   }
 
-  Widget _disagreement(BuildContext context, TextTheme t) {
+  Widget _disagreement(BuildContext context, TextTheme t, bool isHe) {
     return Container(
       padding: const EdgeInsets.fromLTRB(14, 12, 14, 14),
       decoration: BoxDecoration(
@@ -111,7 +116,7 @@ class SourcesSheet extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               Text(
-                (_isHe ? 'חילוקי דעות' : 'Disagreement').toUpperCase(),
+                (isHe ? 'חילוקי דעות' : 'Disagreement').toUpperCase(),
                 style: t.labelSmall!.copyWith(
                   color: AppColors.disputed,
                   letterSpacing: 1.2,
@@ -131,50 +136,19 @@ class SourcesSheet extends StatelessWidget {
       ),
     );
   }
-
-  Widget _reportRow(BuildContext context, TextTheme t) {
-    return InkWell(
-      onTap: () {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              _isHe
-                  ? 'תודה. הכרטיס הועבר לבדיקה.'
-                  : 'Thanks. The card has been flagged for review.',
-            ),
-            backgroundColor: AppColors.surfaceElevated,
-            duration: const Duration(seconds: 2),
-          ),
-        );
-      },
-      borderRadius: BorderRadius.circular(8),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8),
-        child: Row(
-          children: [
-            const Icon(Icons.flag_outlined,
-                color: AppColors.textMuted, size: 16),
-            const SizedBox(width: 8),
-            Text(
-              _isHe ? 'דיווח על כרטיס זה' : 'Report this card',
-              style: t.bodyMedium!.copyWith(color: AppColors.textMuted),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
 }
 
 class _SourceRow extends StatelessWidget {
   final SourceRef source;
   final bool isHe;
   final int index;
+  final VoidCallback onOpen;
 
   const _SourceRow({
     required this.source,
     required this.isHe,
     required this.index,
+    required this.onOpen,
   });
 
   String get _host {
@@ -204,7 +178,6 @@ class _SourceRow extends StatelessWidget {
       final d = diff.inDays;
       return isHe ? 'לפני $d ימים' : '${d}d ago';
     }
-    // Older: absolute date
     final d = source.publishedAt;
     return '${d.day}.${d.month}.${d.year % 100}';
   }
@@ -212,6 +185,7 @@ class _SourceRow extends StatelessWidget {
   Future<void> _open() async {
     final uri = Uri.tryParse(source.url);
     if (uri == null) return;
+    onOpen();
     await launchUrl(uri, mode: LaunchMode.externalApplication);
   }
 
@@ -234,7 +208,6 @@ class _SourceRow extends StatelessWidget {
     final date = _relativeDate();
     final isPrimary = source.tier == 0;
 
-    // Anim on open: quick fade + tiny slide-up, staggered by index.
     return TweenAnimationBuilder<double>(
       tween: Tween(begin: 0, end: 1),
       duration: Duration(milliseconds: 320 + index * 60),

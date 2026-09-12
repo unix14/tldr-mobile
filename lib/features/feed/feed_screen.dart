@@ -7,6 +7,7 @@ import '../../data/content_repository.dart';
 import '../../data/session_stats.dart';
 import '../../data/session_timer.dart';
 import '../../data/settings_repository.dart';
+import '../../data/signals.dart';
 import '../../models/card.dart';
 import '../../theme/colors.dart';
 import 'feed_ranker.dart';
@@ -77,6 +78,13 @@ class _FeedScreenState extends ConsumerState<FeedScreen> {
 
   Timer? _checkInTicker;
 
+  // Dwell tracking — the only implicit signal for engagement now that
+  // More/Less buttons are gone. On each onPageChanged we snapshot the
+  // card that was visible + the time; when the page changes again we
+  // compute dwell and hand it to SignalTracker to adjust interest weights.
+  int? _currentIndex;
+  DateTime? _currentPageEnteredAt;
+
   @override
   void initState() {
     super.initState();
@@ -91,6 +99,19 @@ class _FeedScreenState extends ConsumerState<FeedScreen> {
 
   @override
   void dispose() {
+    // Close out any in-flight dwell so we don't lose the last signal
+    // when the user leaves the feed / backgrounds the app.
+    final leaving = _currentIndex;
+    final leftAt = _currentPageEnteredAt;
+    final cards = _cards;
+    if (leaving != null &&
+        leftAt != null &&
+        cards != null &&
+        leaving < cards.length) {
+      final dwell = DateTime.now().difference(leftAt);
+      // Fire-and-forget; the app is tearing down, we don't await.
+      SignalTracker(ref).recordDwell(cards[leaving], dwell);
+    }
     _checkInTicker?.cancel();
     _controller.dispose();
     super.dispose();
@@ -162,6 +183,18 @@ class _FeedScreenState extends ConsumerState<FeedScreen> {
       physics: const _SnappyPagePhysics(),
       itemCount: cards.length + 1,
       onPageChanged: (i) {
+        // Close-out dwell on the card we just left.
+        final leaving = _currentIndex;
+        final leftAt = _currentPageEnteredAt;
+        if (leaving != null &&
+            leftAt != null &&
+            leaving < cards.length) {
+          final dwell = DateTime.now().difference(leftAt);
+          SignalTracker(ref).recordDwell(cards[leaving], dwell);
+        }
+        // Record entry into the new card.
+        _currentIndex = i;
+        _currentPageEnteredAt = DateTime.now();
         if (i < cards.length) {
           ref
               .read(settingsControllerProvider.notifier)
