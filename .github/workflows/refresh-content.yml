@@ -1,0 +1,61 @@
+# .github/workflows/refresh-content.yml
+#
+# Every 2 hours, refresh assets/content/cards.json from NewsAPI.
+#
+# The app fetches this file at runtime from raw.githubusercontent.com so a
+# freshly-refreshed feed appears the next time a user opens the app — no
+# APK rebuild required. The bundled cards.json is the offline fallback.
+#
+# Requires:
+#   * Secret NEWSAPI_KEY — free tier key from https://newsapi.org/register
+#
+# The commit is marked [skip ci] so it does NOT trigger the CI or Release
+# workflow (there's nothing to rebuild — only content changed).
+
+name: Refresh content
+
+on:
+  schedule:
+    # Every 2 hours on the hour. Free tier: 100 req/day, we use ~72.
+    - cron: '0 */2 * * *'
+  workflow_dispatch:   # Manual trigger from the Actions tab.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-content
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # We need to push back on the same branch.
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run refresh script
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: node scripts/refresh_content.mjs
+
+      - name: Commit + push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/content/cards.json; then
+            echo "No content change — nothing to commit."
+            exit 0
+          fi
+          COUNT=$(jq 'length' assets/content/cards.json)
+          git add assets/content/cards.json
+          git commit -m "chore(content): refresh feed (${COUNT} cards) [skip ci]"
+          git push
