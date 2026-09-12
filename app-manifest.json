@@ -4,8 +4,10 @@
   "repository": "unix14/tldr-mobile",
   "short_description": "A private, calm feed of short news.",
   "long_description": "tldr replaces mindless doom-scrolling with a personal feed of short, trusted news briefings. Editorial serif type, source-transparent cards, bilingual EN/HE with true RTL. No account. No streaks. No noise. Everything stays on your device.",
-  "supported_platforms": ["android_mobile"],
-  "latest_version": "0.0.0",
+  "supported_platforms": [
+    "android_mobile"
+  ],
+  "latest_version": "1.0.0",
   "apk_asset_name": "app-release.apk",
-  "release_notes": "Initial manifest — CI fills this on the first tagged release."
+  "release_notes": "Bump version to 1.0.0"
 }
