@@ -1,634 +1,1692 @@
 [
   {
-    "id": "n001",
+    "id": "na_780cfe9f46",
     "kind": "news",
     "language": "en",
-    "topicTags": ["tech", "ai", "markets"],
-    "headline": "Nvidia posts $35B in Q3 revenue, beats expectations",
-    "bullets": [
-      "Data-center revenue up 112% year-over-year.",
-      "China exposure now under 10% of total sales.",
-      "Guidance for Q4 raised to $37B ± 2%.",
-      "Analyst reaction is mixed on forward margins."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "Signals AI capex is still expanding into 2026 despite export controls and rising supply-chain costs.",
+    "headline": "Why Big Tech's AI Layoff Playbook Doesn't Work on the Frontline",
+    "bullets": [
+      "When a technician or rep becomes several times more productive, the right move is hiring more of them, not fewer.\nContinue reading...",
+      "<ul><li>Wrong mindset.Treating AI as a headcount-reduction tool misreads what it actually does for frontline service teams.</li><li>Productivity, not replacement.AI-equipped frontline workers can bec…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-10T12:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T19:59:51Z",
     "sources": [
-      {"publisher": "Reuters", "url": "https://www.reuters.com/technology/", "tier": 1, "publishedAt": "2026-09-10T11:22:00Z"},
-      {"publisher": "Nvidia IR", "url": "https://investor.nvidia.com/", "tier": 0, "publishedAt": "2026-09-10T10:00:00Z"},
-      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/", "tier": 1, "publishedAt": "2026-09-10T11:45:00Z"}
+      {
+        "publisher": "CMSWire",
+        "url": "https://www.cmswire.com/customer-experience/why-big-techs-ai-layoff-playbook-doesnt-work-on-the-frontline/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:59:51Z"
+      }
     ],
-    "disagreement": "Bloomberg flags margin concerns that Reuters characterizes as routine."
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.cmswire.com/-/media/e3be6b2154284b7fa2d3df7cea88171e.ashx"
   },
   {
-    "id": "n002",
+    "id": "na_1120153de8",
     "kind": "news",
     "language": "en",
-    "topicTags": ["world", "geopolitics"],
-    "headline": "Hostage-release framework reportedly near, key details disputed",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "netron 9.2.8",
     "bullets": [
-      "Reuters and AP cite named US officials saying a deal is close.",
-      "Ynet reports Israeli side sees ‘significant gaps’ remaining.",
-      "Timing and exchange counts remain unresolved."
+      "Viewer for neural network, deep learning and machine learning models.",
+      "A required part of this site couldnt load.",
+      "This may be due to a browser\r\n extension, network issues, or browser settings."
     ],
-    "whyItMatters": "A confirmed deal would shift regional posture and briefly affect oil markets, but prior ‘near-deal’ moments have not resulted in agreements.",
-    "confidence": "developing",
-    "risk": "sensitive",
-    "estimatedSeconds": 55,
-    "publishedAt": "2026-09-12T09:15:00Z",
-    "sources": [
-      {"publisher": "Reuters", "url": "https://www.reuters.com/world/", "tier": 1, "publishedAt": "2026-09-12T08:30:00Z"},
-      {"publisher": "AP", "url": "https://apnews.com/", "tier": 1, "publishedAt": "2026-09-12T08:45:00Z"},
-      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-12T09:00:00Z"}
-    ],
-    "disagreement": "US-side reports characterize the deal as imminent; Israeli reporting suggests weeks away."
-  },
-  {
-    "id": "n003",
-    "kind": "news",
-    "language": "he",
-    "topicTags": ["israel", "markets"],
-    "headline": "בנק ישראל השאיר את הריבית ללא שינוי על 4.5%",
-    "bullets": [
-      "ההחלטה תואמת את תחזיות רוב הכלכלנים.",
-      "הוועדה ציינה עלייה מתונה בציפיות האינפלציה.",
-      "הפרוטוקול המלא יפורסם בעוד שבועיים."
-    ],
-    "whyItMatters": "השארת הריבית מרמזת שהבנק בוחן עוד את השפעות ההוצאה הביטחונית לפני הורדה.",
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-11T13:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T19:58:08Z",
     "sources": [
-      {"publisher": "בנק ישראל", "url": "https://www.boi.org.il/", "tier": 0, "publishedAt": "2026-09-11T13:00:00Z"},
-      {"publisher": "כלכליסט", "url": "https://www.calcalist.co.il/", "tier": 1, "publishedAt": "2026-09-11T13:20:00Z"}
-    ]
-  },
-  {
-    "id": "n004",
-    "kind": "video",
-    "language": "en",
-    "topicTags": ["ai", "tech"],
-    "headline": "How Mixture-of-Experts models actually route tokens",
-    "bullets": [
-      "5-minute walkthrough by a well-known ML educator.",
-      "Covers gating networks, load-balancing losses, and inference cost."
+      {
+        "publisher": "Pypi.org",
+        "url": "https://pypi.org/project/netron/9.2.8/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:58:08Z"
+      }
     ],
-    "whyItMatters": "MoE is now the default architecture for frontier-scale models; understanding routing explains the cost structure of the current LLM market.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 55,
-    "publishedAt": "2026-09-08T10:00:00Z",
-    "youtubeId": "8Y0qQEh7dJg",
-    "channel": "AI Coffee Break",
-    "sources": [
-      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=8Y0qQEh7dJg", "tier": 2, "publishedAt": "2026-09-08T10:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
   },
   {
-    "id": "n005",
+    "id": "na_1aa9955c12",
     "kind": "news",
     "language": "en",
-    "topicTags": ["markets", "energy"],
-    "headline": "OPEC+ pauses planned output hikes as demand outlook softens",
-    "bullets": [
-      "Group cites weaker Chinese import data and higher US shale supply.",
-      "Brent traded roughly $2 higher on the announcement.",
-      "Next review scheduled for early October."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "A pause suggests OPEC+ is prioritizing price defense over market share into Q4.",
+    "headline": "Roblox to launch wallet to pay creators faster and will allow off-platform gaming",
+    "bullets": [
+      "Roblox is a highly customizable gaming platform where users can create their own games and related content, and then share them for others to play and even purchase.\nThe post Roblox to launch wallet to pay creators faster and will allow off-platform gaming ap…",
+      "The American company behind the wildly popular gaming platform Roblox announced on Friday that it is launching a new digital wallet to make it easier for creators to get paid quickly."
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-09T15:00:00Z",
+    "estimatedSeconds": 25,
+    "publishedAt": "2026-09-11T19:55:10Z",
     "sources": [
-      {"publisher": "Reuters", "url": "https://www.reuters.com/business/energy/", "tier": 1, "publishedAt": "2026-09-09T14:45:00Z"},
-      {"publisher": "FT", "url": "https://www.ft.com/energy", "tier": 1, "publishedAt": "2026-09-09T15:10:00Z"}
-    ]
-  },
-  {
-    "id": "n006",
-    "kind": "explainer",
-    "language": "en",
-    "topicTags": ["tech", "ai"],
-    "headline": "What ‘context window’ actually means, in one screen",
-    "bullets": [
-      "A model’s context window is how many tokens it can attend to at once.",
-      "Bigger windows raise inference cost roughly quadratically without sparse attention.",
-      "Common numbers today: 128k, 200k, 1M tokens (very few models).",
-      "Practical implication: longer chats and larger docs, at higher latency."
+      {
+        "publisher": "Digital Journal",
+        "url": "https://www.digitaljournal.com/article/roblox-to-launch-wallet-to-pay-creators-faster-and-will-allow-off-platform-gaming/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:55:10Z"
+      }
     ],
-    "whyItMatters": "Explains why some tools handle whole codebases and others force you to chunk.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 60,
-    "publishedAt": "2026-09-05T12:00:00Z",
-    "sources": [
-      {"publisher": "Anthropic docs", "url": "https://docs.anthropic.com/", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"},
-      {"publisher": "OpenAI docs", "url": "https://platform.openai.com/docs", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.digitaljournal.com/wp-content/uploads/2026/09/1bc17b358ff83181ca98eb4f3a9e6bde22875d0e.jpg"
   },
   {
-    "id": "n007",
-    "kind": "news",
-    "language": "he",
-    "topicTags": ["israel", "world", "geopolitics"],
-    "headline": "משלחת ישראלית יוצאת לוושינגטון להמשך שיחות ביטחוניות",
-    "bullets": [
-      "בראש המשלחת: ראש המל\"ל וראש אמ\"ן.",
-      "בסדר היום: תיאום מול איראן והמצב בגבול הצפוני.",
-      "מזכיר המדינה האמריקאי צפוי להצטרף לחלק מהשיחות."
-    ],
-    "whyItMatters": "השיחות מגיעות רקע לעלייה במתיחות באזור וימשיכו להשפיע על הכיוונים המדיניים של השבועות הקרובים.",
-    "confidence": "confirmed",
-    "risk": "sensitive",
-    "estimatedSeconds": 50,
-    "publishedAt": "2026-09-12T07:30:00Z",
-    "sources": [
-      {"publisher": "כאן חדשות", "url": "https://www.kan.org.il/", "tier": 1, "publishedAt": "2026-09-12T07:00:00Z"},
-      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-12T07:20:00Z"}
-    ]
-  },
-  {
-    "id": "n008",
+    "id": "na_2978f30bd8",
     "kind": "news",
     "language": "en",
-    "topicTags": ["tech", "ai"],
-    "headline": "Anthropic ships Claude Opus 4.7 with faster tool-use loops",
-    "bullets": [
-      "New model targets long-horizon agentic tasks with lower latency.",
-      "Available via API and inside Claude Code.",
-      "Price positioning unchanged from Opus 4.5."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "Faster tool-use tightens the loop for AI coding agents; expect immediate uptake in the developer-tools segment.",
+    "headline": "At the Venice Film Festival, grappling with the state of the world and crying with Oasis",
+    "bullets": [
+      "The Venice Film Festival this year focused more on global issues than Hollywood",
+      "VENICE, Italy -- The Venice Film Festival was lighter on blockbuster Hollywood fare this year, but that might have been a good thing in the end: There were more important things to talk about."
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 35,
-    "publishedAt": "2026-09-11T17:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T19:53:53Z",
     "sources": [
-      {"publisher": "Anthropic", "url": "https://www.anthropic.com/news", "tier": 0, "publishedAt": "2026-09-11T16:30:00Z"},
-      {"publisher": "The Verge", "url": "https://www.theverge.com/", "tier": 2, "publishedAt": "2026-09-11T17:15:00Z"}
-    ]
-  },
-  {
-    "id": "n009",
-    "kind": "whyItMatters",
-    "language": "en",
-    "topicTags": ["markets", "geopolitics"],
-    "headline": "Yen weakens past ¥160 — why global funds are watching",
-    "bullets": [
-      "First break past ¥160 since a coordinated MOF/BOJ intervention two years ago.",
-      "Rate-differential vs the US remains the dominant driver.",
-      "History: past interventions bought weeks, not quarters."
+      {
+        "publisher": "Abcnews.com",
+        "url": "https://abcnews.com/Business/wireStory/venice-film-festival-grappling-state-world-crying-oasis-136375267",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:53:53Z"
+      }
     ],
-    "whyItMatters": "A prolonged weak yen shifts carry-trade flows and creates a subtle tailwind for Japanese exporters — but pressure on import-heavy sectors and household inflation.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 55,
-    "publishedAt": "2026-09-10T22:00:00Z",
-    "sources": [
-      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/markets/currencies", "tier": 1, "publishedAt": "2026-09-10T21:40:00Z"},
-      {"publisher": "Nikkei", "url": "https://asia.nikkei.com/", "tier": 1, "publishedAt": "2026-09-10T22:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://i.abcnewsfe.com/a/b4683a70-b6a3-4682-a81e-dfd15b53a28d/wirestory_c55e73f1d0569a42669e35c23139491f_16x9.jpg?w=1600"
   },
   {
-    "id": "n010",
+    "id": "na_bac47c7583",
     "kind": "news",
     "language": "en",
-    "topicTags": ["science", "energy"],
-    "headline": "Fusion startup reports second net-energy shot, awaits peer review",
-    "bullets": [
-      "Company claims Q ≈ 1.5 in a repeat run of last month’s experiment.",
-      "Details limited pending publication.",
-      "Independent verification not yet complete."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "Repeatability is what matters for fusion; a single shot is a demo, a pattern is progress. Reserve judgement until peer review.",
-    "confidence": "unverified",
-    "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-11T19:00:00Z",
-    "sources": [
-      {"publisher": "Company press release", "url": "https://example.com/press", "tier": 3, "publishedAt": "2026-09-11T18:30:00Z"}
-    ]
-  },
-  {
-    "id": "n011",
-    "kind": "news",
-    "language": "en",
-    "topicTags": ["tech", "world"],
-    "headline": "EU DSA fines two major platforms over algorithmic ad transparency",
+    "headline": "Silicon Valley parents think NYC is crazy to ban AI in schools: ‘Can’t make children live in the past’",
     "bullets": [
-      "Combined fines exceed €900M.",
-      "Focus: missing labels for personalized ads and insufficient researcher access.",
-      "Both companies plan appeals."
+      "Silicon Valley parents are puzzled by New York City’s landmark ban on schoolkids using Artificial Intelligence, because they are all-in on the tech. Most bay area parents have no problem with their kids using AI from a young age — as long as they’re using it …",
+      "Silicon Valley parents are puzzled by New York Citys landmark ban on schoolkids using Artificial Intelligence, because they are all-in on the tech.",
+      "Most bay area parents have no problem with their k…"
     ],
-    "whyItMatters": "Signals the EU is willing to escalate DSA enforcement quickly; expect knock-on rule tightening for smaller platforms next year.",
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-09T09:00:00Z",
+    "estimatedSeconds": 27,
+    "publishedAt": "2026-09-11T19:52:08Z",
     "sources": [
-      {"publisher": "European Commission", "url": "https://ec.europa.eu/", "tier": 0, "publishedAt": "2026-09-09T08:00:00Z"},
-      {"publisher": "Reuters", "url": "https://www.reuters.com/technology/", "tier": 1, "publishedAt": "2026-09-09T08:45:00Z"}
-    ]
+      {
+        "publisher": "New York Post",
+        "url": "https://nypost.com/2026/09/11/tech/silicon-valley-parents-think-nyc-is-crazy-to-ban-ai-in-schools-cant-make-children-live-in-the-past/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:52:08Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/newspress-collage-dxsrx8ezo-1789156186024.jpg?quality=75&strip=all&1789141813&w=1200"
   },
   {
-    "id": "n012",
+    "id": "na_9b8fff84e4",
     "kind": "news",
-    "language": "he",
-    "topicTags": ["israel", "tech", "markets"],
-    "headline": "חברת סייבר ישראלית סגרה סבב B של 120 מיליון דולר",
-    "bullets": [
-      "הסבב הובל על ידי קרן אמריקאית מובילה.",
-      "השווי נאמד בכ־1.1 מיליארד דולר.",
-      "החברה מעסיקה כ־180 עובדים, רובם בישראל."
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "סבב יוניקורן נוסף מחזק את הסימנים שהמימון הישראלי מתאושש לאט אך בבירור מהשפל של 2024.",
+    "headline": "chokkhu 1.5.8",
+    "bullets": [
+      "Sovereign, zero-heavy-dependency Machine Learning, Deep Learning, Computer Vision, NLP, Audio, Generative AI, GNN, Time Series, XAI, and AutoML toolkit built from first principles in pure NumPy and SciPy.",
+      "A required part of this site couldnt load.",
+      "This may be due to a browser\r\n extension, network issues, or browser settings."
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 35,
-    "publishedAt": "2026-09-11T10:30:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T19:51:21Z",
     "sources": [
-      {"publisher": "TechCrunch", "url": "https://techcrunch.com/", "tier": 1, "publishedAt": "2026-09-11T10:00:00Z"},
-      {"publisher": "Calcalist", "url": "https://www.calcalist.co.il/", "tier": 1, "publishedAt": "2026-09-11T10:45:00Z"}
-    ]
-  },
-  {
-    "id": "n013",
-    "kind": "video",
-    "language": "en",
-    "topicTags": ["markets", "tech"],
-    "headline": "The 3 things to actually watch this earnings season",
-    "bullets": [
-      "Short analyst walkthrough of guidance, margins, and capex.",
-      "No stock picks; framework only."
+      {
+        "publisher": "Pypi.org",
+        "url": "https://pypi.org/project/chokkhu/1.5.8/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:51:21Z"
+      }
     ],
-    "whyItMatters": "Practical lens for reading tech earnings without getting lost in the numbers.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-07T09:00:00Z",
-    "youtubeId": "cO0a0QYclaI",
-    "channel": "Bloomberg Originals",
-    "sources": [
-      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=cO0a0QYclaI", "tier": 2, "publishedAt": "2026-09-07T09:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
   },
   {
-    "id": "n014",
+    "id": "na_c3dd386295",
     "kind": "news",
     "language": "en",
-    "topicTags": ["science"],
-    "headline": "JWST detects atmospheric water on a mid-sized exoplanet",
-    "bullets": [
-      "Object is roughly Neptune-scale, orbits an M-dwarf.",
-      "Spectrum shows clear H₂O features; team stops short of ‘habitable’.",
-      "Data published in Nature; independent replication in progress."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "Water detection at this mass class expands the range of planets worth targeting for follow-up chemistry.",
+    "headline": "Weapons, spyware and AI scams: Anthropic exposes Claude misuse",
+    "bullets": [
+      "A tech consultant in Bamako, working with junta-led Mali's state intelligence service (ANSE), used Claude Code to build \"Lakana 360\" -- a surveillance system capable of monitoring roughly 25 million SIM cards across the country's mobile network.\nThe post Weap…",
+      "Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and more.",
+      "Here’s a look at some of the cases, whi…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-08T11:00:00Z",
+    "estimatedSeconds": 24,
+    "publishedAt": "2026-09-11T19:50:09Z",
     "sources": [
-      {"publisher": "Nature", "url": "https://www.nature.com/", "tier": 0, "publishedAt": "2026-09-08T10:00:00Z"},
-      {"publisher": "NASA", "url": "https://www.nasa.gov/", "tier": 0, "publishedAt": "2026-09-08T11:00:00Z"}
-    ]
+      {
+        "publisher": "Digital Journal",
+        "url": "https://www.digitaljournal.com/article/weapons-spyware-and-ai-scams-anthropic-exposes-claude-misuse/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:50:09Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.digitaljournal.com/wp-content/uploads/2026/09/1f6948382e78b51ff49509fbc14b020311f155d6-1.jpg"
   },
   {
-    "id": "n015",
+    "id": "na_0bdcb938ea",
     "kind": "news",
     "language": "en",
-    "topicTags": ["markets", "world"],
-    "headline": "US CPI comes in at 2.6%, cooler than forecast",
-    "bullets": [
-      "Core CPI 3.0%, in line with expectations.",
-      "Services inflation continues its slow descent.",
-      "Rates markets nudged odds of a December cut higher."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "One cooler print is not a trend, but it keeps the disinflation narrative intact and slightly firms the case for a year-end cut.",
+    "headline": "Youth sides have five matches in Cotia this weekend",
+    "bullets": [
+      "The Under-20, Under-17, and Under-15 teams will play this Saturday at CFA Laudo Natel, in Cotia, in the Paulista Championship. On Sunday, it will be the turn of the Under-13 and Under-14 sides to play...",
+      "The Under-20, Under-17, and Under-15 teams will play this Saturday at CFA Laudo Natel, in Cotia, in the Paulista Championship.",
+      "On Sunday, it will be the turn of the Under-13 and Under-14 sides to pla…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-11T12:30:00Z",
+    "estimatedSeconds": 23,
+    "publishedAt": "2026-09-11T19:50:00Z",
     "sources": [
-      {"publisher": "BLS", "url": "https://www.bls.gov/cpi/", "tier": 0, "publishedAt": "2026-09-11T12:30:00Z"},
-      {"publisher": "WSJ", "url": "https://www.wsj.com/", "tier": 1, "publishedAt": "2026-09-11T12:45:00Z"}
-    ]
+      {
+        "publisher": "Onefootball.com",
+        "url": "https://onefootball.com/en/news/youth-sides-have-five-matches-in-cotia-this-weekend-43443425",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:50:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://s.yimg.com/lo/mysterio/api/722b8028f64548353b7ee286c1dbb824023625ea17d04aa0317fed988f66814d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fs_o_paulo_486%2F2f5dd55ef47a6546176373cb4c44d4d6.jpg"
   },
   {
-    "id": "n016",
+    "id": "na_0d444d4e75",
     "kind": "news",
-    "language": "he",
-    "topicTags": ["israel", "markets"],
-    "headline": "מדד המחירים לצרכן ירד ב־0.1% באוגוסט",
-    "bullets": [
-      "אינפלציה שנתית עומדת על 2.9%.",
-      "עיקר הירידה מיוחס להוזלה במחירי הנסיעות לחו\"ל.",
-      "האוצר הגיב שהמגמה חיובית אך שברירית."
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "מדד שלילי מפחית מעט מהלחץ על בנק ישראל להותיר את הריבית גבוהה, אך המצב הפיסקלי עדיין מכביד.",
+    "headline": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "bullets": [
+      "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, to help missions like Euclid and NASA’s …",
+      "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real?",
+      "A new NASA project, Artifact InSPECtor, invites you to find out…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 35,
-    "publishedAt": "2026-09-11T14:00:00Z",
+    "estimatedSeconds": 28,
+    "publishedAt": "2026-09-11T19:48:09Z",
     "sources": [
-      {"publisher": "הלמ\"ס", "url": "https://www.cbs.gov.il/", "tier": 0, "publishedAt": "2026-09-11T14:00:00Z"}
-    ]
+      {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:48:09Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aimee_Schechter.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
   },
   {
-    "id": "n017",
+    "id": "na_5f36d62976",
     "kind": "news",
     "language": "en",
-    "topicTags": ["tech", "ai", "world"],
-    "headline": "UK AI Safety Institute publishes new evaluation results",
-    "bullets": [
-      "Report focuses on autonomous agent capabilities across four frontier models.",
-      "Finds ‘non-trivial improvements’ over the previous evaluation round.",
-      "No models triggered pre-defined high-risk thresholds."
+    "topicTags": [
+      "ai",
+      "tech"
     ],
-    "whyItMatters": "AISI’s methodology is becoming the de-facto template for national-level AI evaluations; today’s report will shape upcoming regulator conversations.",
+    "headline": "chokkhu 1.5.7",
+    "bullets": [
+      "Sovereign, zero-heavy-dependency Machine Learning, Deep Learning, Computer Vision, NLP, Audio, Generative AI, GNN, Time Series, XAI, and AutoML toolkit built from first principles in pure NumPy and SciPy.",
+      "A required part of this site couldnt load.",
+      "This may be due to a browser\r\n extension, network issues, or browser settings."
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 50,
-    "publishedAt": "2026-09-10T09:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T19:47:19Z",
     "sources": [
-      {"publisher": "UK AISI", "url": "https://www.aisi.gov.uk/", "tier": 0, "publishedAt": "2026-09-10T09:00:00Z"},
-      {"publisher": "FT", "url": "https://www.ft.com/technology", "tier": 1, "publishedAt": "2026-09-10T09:30:00Z"}
-    ]
+      {
+        "publisher": "Pypi.org",
+        "url": "https://pypi.org/project/chokkhu/1.5.7/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T19:47:19Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
   },
   {
-    "id": "n018",
+    "id": "na_5744af84e7",
     "kind": "news",
     "language": "en",
-    "topicTags": ["world", "energy"],
-    "headline": "Germany greenlights three new offshore wind auctions",
-    "bullets": [
-      "Combined capacity: 7 GW.",
-      "Award structure reintroduces a fixed-price component after industry pushback.",
-      "First turbines expected offline late 2029."
+    "topicTags": [
+      "world",
+      "geopolitics"
     ],
-    "whyItMatters": "The fixed-price return signals the sector still can’t clear at market prices; expect similar recalibration across Europe.",
+    "headline": "Rebels used Anthropic’s AI bot to develop guided weapons, report says",
+    "bullets": [
+      "Militants in Yemen sought to use a coding tool to produce guided rockets and missiles, the firm found, noting it was able to block some but not all the requests.",
+      "Militants in Yemen used an artificial-intelligence tool to try to develop location-guidance software for weapons, according to a threat report released by Anthropic, an incident that comes amid risin…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-10T11:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T18:41:34Z",
     "sources": [
-      {"publisher": "BNA", "url": "https://www.bundesnetzagentur.de/", "tier": 0, "publishedAt": "2026-09-10T10:00:00Z"},
-      {"publisher": "Reuters", "url": "https://www.reuters.com/", "tier": 1, "publishedAt": "2026-09-10T11:00:00Z"}
-    ]
-  },
-  {
-    "id": "n019",
-    "kind": "explainer",
-    "language": "he",
-    "topicTags": ["tech", "ai"],
-    "headline": "מה זה RAG — הסבר קצר במסך אחד",
-    "bullets": [
-      "RAG משמע ‘Retrieval-Augmented Generation’.",
-      "המודל שולף מסמכים רלוונטיים לפני שהוא עונה.",
-      "מקטין הזיות, אבל תלוי באיכות מסד הידע.",
-      "משמש היום כמעט בכל צ׳אטבוט תאגידי."
+      {
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T18:41:34Z"
+      }
     ],
-    "whyItMatters": "מסביר למה כלים ‘עם המסמכים שלך’ עוצמתיים אך שבירים — הרוב הוא איכות אחזור, לא איכות מודל.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-06T10:00:00Z",
-    "sources": [
-      {"publisher": "Anthropic docs", "url": "https://docs.anthropic.com/", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NC6SB65TH6PW4GP3P5TQ7WJCFQ.jpg&w=1440"
   },
   {
-    "id": "n020",
+    "id": "na_8f8c724564",
     "kind": "news",
     "language": "en",
-    "topicTags": ["tech"],
-    "headline": "Apple opens core NFC APIs to third-party wallets in the US",
-    "bullets": [
-      "Follows regulatory pressure across multiple jurisdictions.",
-      "Third parties can now issue payment credentials via Wallet or their own apps.",
-      "Rollout gated to iOS 19.2+."
+    "topicTags": [
+      "markets",
+      "world"
     ],
-    "whyItMatters": "Ends Apple Pay’s exclusive rail on iOS; expect banks and neobanks to reintroduce their own tap-to-pay apps within months.",
+    "headline": "Diesel prices in U.S. top $6 a gallon for first time ever",
+    "bullets": [
+      "The price of diesel has soared more than 60% over the last year, a surge energy experts say is likely to continue. Here's why.",
+      "Diesel prices in the U.S.",
+      "have passed a painful new milestone for the transportation industry: $6 a gallon, a surge experts say is likely to have ripple effects for consumers as businesses pass on th…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-11T18:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T18:15:35Z",
     "sources": [
-      {"publisher": "Apple", "url": "https://www.apple.com/newsroom/", "tier": 0, "publishedAt": "2026-09-11T17:30:00Z"},
-      {"publisher": "The Verge", "url": "https://www.theverge.com/", "tier": 2, "publishedAt": "2026-09-11T18:15:00Z"}
-    ]
+      {
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/rising-diesel-prices-consumer-impact/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T18:15:35Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/10/3e90ada3-ad94-4496-9075-189ceedfb4cc/thumbnail/1200x630/15bb64b17d40e3a6457d64c5bd2df388/gettyimages-2291635482.jpg"
   },
   {
-    "id": "n021",
+    "id": "na_2b85fa353c",
     "kind": "news",
     "language": "en",
-    "topicTags": ["world", "geopolitics"],
-    "headline": "EU-Mercosur trade agreement enters ratification, France signals opposition",
-    "bullets": [
-      "Deal covers 700M+ people across two blocs.",
-      "France cites agricultural concerns.",
-      "Requires qualified majority in Council plus European Parliament assent."
+    "topicTags": [
+      "tech",
+      "ai"
     ],
-    "whyItMatters": "Ratification path is genuinely uncertain; the outcome will set a precedent for future EU trade deals with the Global South.",
-    "confidence": "developing",
-    "risk": "sensitive",
-    "estimatedSeconds": 55,
-    "publishedAt": "2026-09-10T14:00:00Z",
-    "sources": [
-      {"publisher": "European Commission", "url": "https://ec.europa.eu/", "tier": 0, "publishedAt": "2026-09-10T13:00:00Z"},
-      {"publisher": "Le Monde", "url": "https://www.lemonde.fr/", "tier": 1, "publishedAt": "2026-09-10T14:00:00Z"}
-    ]
-  },
-  {
-    "id": "n022",
-    "kind": "video",
-    "language": "he",
-    "topicTags": ["israel", "markets"],
-    "headline": "מה מסתתר מאחורי עליית שוק המניות בת\"א",
+    "headline": "iOS 27.1 release date: Here’s when to expect the new iPhone update",
     "bullets": [
-      "סקירה קצרה של אנליסטית שוק על הענפים המובילים.",
-      "התייחסות למניות פיננסים, נדל\"ן וטכנולוגיה."
+      "iOS 27 launches for all users next week, and will be followed not long after by the first iOS 27.1...",
+      "iOS 27 launches for all users next week, and will be followed not long after by the first iOS 27.1 beta and public launch.",
+      "Heres when to expect iOS 27.1s arrival."
     ],
-    "whyItMatters": "כלי מהיר להבנת הרכב מדד ת\"א 125 לפני שמתחילים לעקוב אחר מניה בודדת.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 60,
-    "publishedAt": "2026-09-09T11:00:00Z",
-    "youtubeId": "dQw4w9WgXcQ",
-    "channel": "Calcalist TV",
-    "sources": [
-      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "tier": 2, "publishedAt": "2026-09-09T11:00:00Z"}
-    ]
-  },
-  {
-    "id": "n023",
-    "kind": "news",
-    "language": "en",
-    "topicTags": ["science", "world"],
-    "headline": "WHO reports slight rise in mpox cases across three regions",
-    "bullets": [
-      "Case counts remain far below the 2022 peak.",
-      "Two-dose vaccine campaigns continue in affected areas.",
-      "WHO stops short of declaring a new emergency phase."
-    ],
-    "whyItMatters": "Modest rises are worth tracking without alarm; the vaccination infrastructure built after 2022 appears to be doing its job.",
-    "confidence": "confirmed",
-    "risk": "sensitive",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-08T15:00:00Z",
-    "sources": [
-      {"publisher": "WHO", "url": "https://www.who.int/", "tier": 0, "publishedAt": "2026-09-08T15:00:00Z"}
-    ]
-  },
-  {
-    "id": "n024",
-    "kind": "explainer",
-    "language": "en",
-    "topicTags": ["markets"],
-    "headline": "‘Yield curve’ — the one thing to know",
-    "bullets": [
-      "Plot of government bond yields against their maturities.",
-      "Normally slopes upward; inversion (short > long) has preceded most recessions.",
-      "Currently mildly positive after two years of inversion."
-    ],
-    "whyItMatters": "The single most-quoted recession indicator; understanding what it says (and doesn’t) cuts through most macro commentary.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-04T10:00:00Z",
-    "sources": [
-      {"publisher": "FRED", "url": "https://fred.stlouisfed.org/", "tier": 0, "publishedAt": "2026-09-04T09:00:00Z"}
-    ]
-  },
-  {
-    "id": "n025",
-    "kind": "news",
-    "language": "en",
-    "topicTags": ["tech", "ai"],
-    "headline": "GitHub launches deeper Claude Code integration",
-    "bullets": [
-      "New PR-review agent runs directly on GitHub Actions.",
-      "Enterprise plan includes usage caps and audit trails.",
-      "Public preview live today."
-    ],
-    "whyItMatters": "Continues the pattern of AI coding features moving from IDEs into repo infrastructure — where the persistent record lives.",
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 35,
-    "publishedAt": "2026-09-12T16:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T17:28:00Z",
     "sources": [
-      {"publisher": "GitHub Blog", "url": "https://github.blog/", "tier": 0, "publishedAt": "2026-09-12T15:30:00Z"},
-      {"publisher": "Anthropic", "url": "https://www.anthropic.com/news", "tier": 0, "publishedAt": "2026-09-12T15:45:00Z"}
-    ]
-  },
-  {
-    "id": "n026",
-    "kind": "news",
-    "language": "he",
-    "topicTags": ["israel", "science"],
-    "headline": "הטכניון מדווח על פריצת דרך במחקר סוללות מוצקות",
-    "bullets": [
-      "המחקר מציג אלקטרוליט חדש עם יציבות גבוהה יותר בטמפרטורת חדר.",
-      "המאמר פורסם ב־Nature Energy.",
-      "המסחור עדיין רחוק שנים."
+      {
+        "publisher": "9to5Mac",
+        "url": "https://9to5mac.com/2026/09/11/ios-27-1-release-date-heres-when-to-expect-the-new-iphone-update/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T17:28:00Z"
+      }
     ],
-    "whyItMatters": "התקדמות בסוללות מוצקות היא צוואר הבקבוק המרכזי של הרכב החשמלי; כל שלב עוזר גם אם עדיין רחוק ממסחור.",
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-10T08:00:00Z",
-    "sources": [
-      {"publisher": "Nature Energy", "url": "https://www.nature.com/nenergy/", "tier": 0, "publishedAt": "2026-09-10T08:00:00Z"},
-      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-10T09:00:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/ios-27.1-02.jpg?quality=82&strip=all&resize=1200,628"
   },
   {
-    "id": "n027",
+    "id": "na_6b9f9017dd",
     "kind": "news",
     "language": "en",
-    "topicTags": ["world", "markets"],
-    "headline": "China Q3 GDP prints at 4.6%, below consensus",
-    "bullets": [
-      "Property sector remains the main drag.",
-      "Retail sales beat modestly; industrial production disappointed.",
-      "Policymakers hint at additional targeted stimulus."
+    "topicTags": [
+      "markets",
+      "world"
     ],
-    "whyItMatters": "A softer print keeps commodity prices under pressure and reinforces expectations of more fiscal support from Beijing before year-end.",
+    "headline": "Court deals first blow to Trump’s coal rescue campaign",
+    "bullets": [
+      "The ruling casts a pall on the administration's orders requiring six coal plants across the country to stay online past their retirement dates.",
+      "The Departments position would empower it to pick its preferred power sources in Michigan or, presumably, any other state and order them to operate without regard to the multiple procedural and subst…"
+    ],
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-09T04:00:00Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T17:27:00Z",
     "sources": [
-      {"publisher": "NBS China", "url": "http://www.stats.gov.cn/", "tier": 0, "publishedAt": "2026-09-09T02:00:00Z"},
-      {"publisher": "Reuters", "url": "https://www.reuters.com/world/china/", "tier": 1, "publishedAt": "2026-09-09T04:00:00Z"}
-    ]
-  },
-  {
-    "id": "n028",
-    "kind": "whyItMatters",
-    "language": "en",
-    "topicTags": ["tech", "markets"],
-    "headline": "Why the datacenter power crunch is now a Wall Street topic",
-    "bullets": [
-      "AI capex is now driven as much by MW available as chips ordered.",
-      "US utilities are re-rating gas turbines they had planned to retire.",
-      "Hyperscalers are signing 10–20 year PPAs to lock in supply."
+      {
+        "publisher": "Politico",
+        "url": "https://www.politico.com/news/2026/09/11/court-deals-first-blow-to-trumps-coal-rescue-campaign-01072134",
+        "tier": 1,
+        "publishedAt": "2026-09-11T17:27:00Z"
+      }
     ],
-    "whyItMatters": "Power is becoming the binding constraint on AI growth; watching utility policy is now as material to tech valuations as GPU roadmaps.",
-    "confidence": "analysis",
-    "risk": "standard",
-    "estimatedSeconds": 60,
-    "publishedAt": "2026-09-07T12:00:00Z",
-    "sources": [
-      {"publisher": "FT", "url": "https://www.ft.com/energy", "tier": 1, "publishedAt": "2026-09-07T11:00:00Z"},
-      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/energy", "tier": 1, "publishedAt": "2026-09-07T11:30:00Z"}
-    ]
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fde%2F14%2F36855a9a480884d23eb37c671f2d%2Fu-s-congress-49624.jpg"
   },
   {
-    "id": "n029",
+    "id": "na_566b573c38",
     "kind": "news",
     "language": "en",
-    "topicTags": ["world", "science"],
-    "headline": "Global sea-surface temperatures set another monthly record",
-    "bullets": [
-      "August 2026 surpasses the previous record set in 2024.",
-      "Anomaly concentrated in the North Atlantic and equatorial Pacific.",
-      "Attribution studies point to ENSO plus long-term warming trend."
+    "topicTags": [
+      "world",
+      "geopolitics"
     ],
-    "whyItMatters": "Sea-surface temps drive both storm intensity and marine ecosystem stress; repeat records raise expected damage from the next active season.",
-    "confidence": "confirmed",
-    "risk": "sensitive",
-    "estimatedSeconds": 45,
-    "publishedAt": "2026-09-06T14:00:00Z",
-    "sources": [
-      {"publisher": "NOAA", "url": "https://www.noaa.gov/", "tier": 0, "publishedAt": "2026-09-06T14:00:00Z"},
-      {"publisher": "Copernicus", "url": "https://climate.copernicus.eu/", "tier": 0, "publishedAt": "2026-09-06T14:30:00Z"}
-    ]
-  },
-  {
-    "id": "n030",
-    "kind": "news",
-    "language": "en",
-    "topicTags": ["tech", "world"],
-    "headline": "SpaceX Starship completes first full orbital return-to-launch-site",
+    "headline": "Trump commemorates the 25th anniversary of the 9/11 attacks at the Pentagon",
     "bullets": [
-      "Both booster and second stage recovered.",
-      "Cargo bay carried 24 next-gen Starlink satellites.",
-      "Turnaround target for the vehicle: under 30 days."
+      "President Donald Trump has observed the 25th anniversary of the Sept. 11 attacks by attending a ceremony at the Pentagon. In remarks Friday, he recalled the sense of American unity following the attacks, saying “We were all New Yorkers that day.\" The attacks …",
+      "WASHINGTON (AP) President Donald Trump observed Fridays 25th anniversary of the Sept.",
+      "11 attacks at a ceremony at the Pentagon by commemorating the lives lost when al-Qaida militants hijacked planes …"
     ],
-    "whyItMatters": "Full RTLS is what unlocks the economics of the vehicle; a repeatable cycle changes the economics of large-payload orbit access.",
+    "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 40,
-    "publishedAt": "2026-09-10T20:00:00Z",
+    "estimatedSeconds": 25,
+    "publishedAt": "2026-09-11T17:27:00Z",
     "sources": [
-      {"publisher": "SpaceX", "url": "https://www.spacex.com/", "tier": 0, "publishedAt": "2026-09-10T19:30:00Z"},
-      {"publisher": "Ars Technica", "url": "https://arstechnica.com/", "tier": 2, "publishedAt": "2026-09-10T20:15:00Z"}
-    ]
+      {
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/trump-sept-11-pentagon-2366fe3bb4948c068eaceb392ddbd948",
+        "tier": 1,
+        "publishedAt": "2026-09-11T17:27:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://dims.apnews.com/dims4/default/c65d4f2/2147483647/strip/true/crop/4033x2687+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd7%2F29%2Fc0327b45d0da6ec21e27a3e30d70%2Fc34e626b6e5b42898980365e40cbad2b"
+  },
+  {
+    "id": "na_18d731124f",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Apple sets cutoff time for getting faster iPhone 18 Pro pre-order",
+    "bullets": [
+      "Here’s the deadline for when iPhone 18 Pro purchase decisions need to be locked in with Apple for a faster pre-order experience.",
+      "iPhone 18 Pro pre-orders start tomorrow, and you can Get Ready by making your selections in advance via the online Apple Store.",
+      "Heres the deadline for when those decisions need to be locked in ahead …"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T17:05:00Z",
+    "sources": [
+      {
+        "publisher": "9to5Mac",
+        "url": "https://9to5mac.com/2026/09/11/apple-sets-cutoff-time-for-getting-faster-iphone-18-pro-pre-order/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T17:05:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-pro-max-hand.jpg?quality=82&strip=all&resize=1200,628"
+  },
+  {
+    "id": "na_4675de1245",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Lutnick says Trump’s $5,000 checks for Americans wouldn’t rely on taxpayer funds",
+    "bullets": [
+      "President Donald Trump’s promised $5,000 “dividend” for all U.S. adults would not be paid for with taxpayer dollars, Commerce Secretary Howard Lutnick said.",
+      "President Donald Trumps promised $5,000 dividend for all U.S.",
+      "adults would not be paid for with taxpayer dollars, Commerce Secretary Howard Lutnick said Thursday."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:31:41Z",
+    "sources": [
+      {
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/business/economy/lutnick-trump-5000-check-taxpayer-funds-rcna597092",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:31:41Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260911-howard-lutnick-ew-1211p-af5174.jpg"
+  },
+  {
+    "id": "na_8882cc1e55",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "PlayStation’s Future Has Never Looked Bleaker",
+    "bullets": [
+      "Cutting ties with Kojima and poor Wolverine reviews are just the latest issues in a difficult generation for PlayStation. The platform's future has never looked bleaker.",
+      "This is an IGN opinion piece from Matt Purslow, who has been there from day one for every PlayStation generation since the PS2.",
+      "He loves the style of narrative single-player adventures that Sony's st…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:30:00Z",
+    "sources": [
+      {
+        "publisher": "IGN",
+        "url": "https://www.ign.com/articles/playstations-future-has-never-looked-bleaker",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:30:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets-prd.ignimgs.com/2026/09/11/ps-op-ed-blogroll-1789142526895.webp?width=1280&format=jpg&auto=webp&quality=80"
+  },
+  {
+    "id": "na_fedae46378",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "The Moon is airless, radiation-drenched and can swing from about minus 173 to plus 127 degrees Celsius, yet NASA-led modelling found that some common Earth fungi and bacteria—from human skin, soil and damp bathrooms—could survive dormant for we",
+    "bullets": [
+      "A NASA-led model identifies cold lunar south-pole shadows where terrestrial fungi and bacteria may remain dormant for days and, in especially protected conditions, longer.",
+      "The Moon appears to offer Earth microbes nowhere to hide.",
+      "It has almost no atmosphere, no stable liquid water on its surface and no shield against ultraviolet light or energetic radiation."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:30:00Z",
+    "sources": [
+      {
+        "publisher": "Space Daily",
+        "url": "https://spacedaily.com/t-moon-polar-shadows-earth-microbes-survive/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:30:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://spacedaily.com/wp-content/uploads/2026/09/pexels-moon-polar-microbes-10299269-upload.jpg"
+  },
+  {
+    "id": "na_0a6d760fb2",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Saudi Arabian oil pipeline system hit by projectiles triggering fires",
+    "bullets": [
+      "A key oil pipeline system in Saudi Arabia was struck by projectiles on Thursday, according to two US officials familiar with the matter.",
+      "A key oil pipeline system in Saudi Arabia was struck by projectiles on Thursday, according to two US officials familiar with the matter.",
+      "An early analysis found that pump stations, which are located…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:28:45Z",
+    "sources": [
+      {
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/11/politics/saudi-arabian-oil-pipeline-hit-by-projectiles-triggering-fires",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:28:45Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/pumpstation9-eastwestpipeline-saudiarabia-planet-2026-september-10.jpg?c=16x9&q=w_800,c_fill"
+  },
+  {
+    "id": "na_f4e4e5ecc7",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "\"The more aroused the fly is the harder it tries to shoot\" - Google's fully mapped fly brain is now playing Doom, Beat Saber, and more",
+    "bullets": [
+      "What do you do with a simulated fly brain? Make it play Doom and Beat Saber, of course.",
+      "It's science-fiction Friday as Google's fully mapped fly brain, which was revealed last week, has been engineered to play Doom and rhythm-action game Beat Saber.",
+      "Google's brain-mapping is a historic…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:14:51Z",
+    "sources": [
+      {
+        "publisher": "Eurogamer.net",
+        "url": "https://www.eurogamer.net/google-fly-brain-doom-beat-saber",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:14:51Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assetsio.gnwcdn.com/doom-fly.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+  },
+  {
+    "id": "na_8ec55f474c",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "F1 Spanish GP: Antonelli leads tricky second practice as Lindblad crashes",
+    "bullets": [
+      "Championship leader Kimi Antonelli tops the Friday running on Formula 1's return to Madrid, as Arvid Lindblad is the first driver to hit the barriers on the series' inaugural visit to the Madring",
+      "Kimi Antonelli has topped second practice at Formula 1's Spanish Grand Prix, pipping Ferrari's Charles Leclerc on Friday afternoon at the new Madring circuit, while Arvid Lindblad crashed."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:14:44Z",
+    "sources": [
+      {
+        "publisher": "autosport.com",
+        "url": "https://www.autosport.com/f1/news/f1-spanish-gp-fp2-report-10854602/10854602/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:14:44Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn-3.motorsport.com/images/amp/01QNkoe0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+  },
+  {
+    "id": "na_699bceac51",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "4 takeaways from the GOP midterm convention",
+    "bullets": [
+      "Trump got his big show. Vance took the baton. “Common sense” was the refrain. No bad vibes allowed.",
+      "Republicans held their first-ever midterm convention because President Donald Trump wanted to.",
+      "The two-day rally/telethon put his personality and policies at the center of the partys campaign pitch, …"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:00:00Z",
+    "sources": [
+      {
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/09/11/4-takeaways-gop-midterm-convention/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NKMM2T4GH6LM7M2ZIR6VCUHJV4.JPG&w=1440"
+  },
+  {
+    "id": "na_3513a79dc9",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "As immigration status for Salvadorans remains in limbo, businesses begin layoffs",
+    "bullets": [
+      "Some restaurants, hospitals and construction firms pushed forward with layoffs as the end of temporary protected status for 232,000 Salvadorans loomed.",
+      "Salvadoran workers who clean and maintain federal buildings and grounds in the D.C.",
+      "region, including the Pentagon and military bases, received notices not to show up for work on Thursday."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T16:00:00Z",
+    "sources": [
+      {
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/business/2026/09/11/with-tps-doubt-salvadorans-businesses-brace-turmoil/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T16:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GGBZSIEFNN74AAHPVKTG7IJXXY_size-normalized.jpg&w=1440"
+  },
+  {
+    "id": "na_08e3d8df45",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Sacked Grand Theft Auto worker claims Rockstar staff placed on 'watch list'",
+    "bullets": [
+      "The makers of Grand Theft Auto deny staff were sacked for union organising and were instead dismissed for sharing confidential information online.",
+      "Thomas Cordrey, representing Rockstar, asked Oram how there could be a connection between the company having the list of names in February 2023 and the dismissals in October 2025 when there was a gap…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:52:19Z",
+    "sources": [
+      {
+        "publisher": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cjrx5xlz83jo",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:52:19Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ed64/live/10265130-adf7-11f1-ad53-0d91a06f3150.jpg"
+  },
+  {
+    "id": "na_49ed75047e",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Here’s why I left T-Mobile for an MVNO",
+    "bullets": [
+      "I left T-Mobile for an MVNO to save money. Here’s how US Mobile, Mint Mobile, and Visible compare and what you should know before switching.",
+      "I had been a loyal T-Mobile customer since 2016, when the company introduced its T-Mobile ONE plan.",
+      "I had a military discount the entire time I was with them, but even with that discount my bill even…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 21,
+    "publishedAt": "2026-09-11T15:44:00Z",
+    "sources": [
+      {
+        "publisher": "9to5Mac",
+        "url": "https://9to5mac.com/2026/09/11/heres-why-i-left-t-mobile-for-an-mvno/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:44:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/t-mobile-trash.jpg?quality=82&strip=all&resize=1200,628"
+  },
+  {
+    "id": "na_419def7cea",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Meta may have leaked the first look at its slim ‘Project Phoenix’ headset",
+    "bullets": [
+      "Ahead of Meta Connect images leaked online seemingly revealing the design for the company’s “Project Phoenix” headset with a slimmer frame than its Quest 3.",
+      "<ul><li></li><li></li><li></li></ul>\r\nProject Phoenix doesnt quite look like smart glasses, but its much smaller than Metas other headsets.",
+      "Project Phoenix doesnt quite look like smart glasses, but …"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:38:31Z",
+    "sources": [
+      {
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:38:31Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/rx_attach_thumb.jpg?quality=90&strip=all&crop=5.4765628342629%2C2.4549586366983%2C94.523437165737%2C79.181932059882&w=1200"
+  },
+  {
+    "id": "na_976243940a",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Kim Zolciak & Kroy Biermann Have Icy Encounter During Son KJ’s Court Hearing",
+    "bullets": [
+      "Kim Zolciak and Kroy Biermann kept their distance while supporting son KJ Biermann during his bond hearing in Georgia.",
+      "Kim Zolciak and Kroy Biermann were both in court Friday to support their 15-year-old son, Kroy KJ Biermann Jr.",
+      "However, the estranged couple reportedly made little effort to interact during the appea…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:35:05Z",
+    "sources": [
+      {
+        "publisher": "Reality Tea",
+        "url": "https://www.realitytea.com/2026/09/11/kim-zolciak-kroy-biermann-kj-court-reunion/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:35:05Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.realitytea.com/wp-content/uploads/sites/6/2026/09/EVOLVE-IMAGESD-2026-09-11T210353.426.png?resize=1200,630"
+  },
+  {
+    "id": "na_117688ee29",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "As diseases loom, CDC's response to measles deaths stirs fears about agency's reliability",
+    "bullets": [
+      "The worst U.S. measles outbreak in decades is growing and flu season is imminent. Experts are fretting about federal health data reliability after the CDC questioned two Pennsylvania measles deaths.",
+      "The worst measles resurgence in the U.S.",
+      "in decades keeps growing."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:34:51Z",
+    "sources": [
+      {
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:34:51Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2121x1193+0+110/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1b%2Fc0%2Fb7f0eecf4341827759d2a40ec4ca%2Fgettyimages-1412593493.jpg"
+  },
+  {
+    "id": "na_5b7e146bf3",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Fans Are Reportedly Getting $20 Off Ocarina of Time Preorders With a Hidden Coupon at Walmart",
+    "bullets": [
+      "Walmart shoppers are supposedly using a hidden promo code to knock $20 off The Legend of Zelda: Ocarina of Time preorders, bringing it down from $70 to $50, but it might not work for everyone.",
+      "The game is already $10 off at Walmart and Amazon, but we've now seen multiple reports of shoppers getting another $10 knocked off at Walmart by using a specific promo code.That code is SAVE3X, and w…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 24,
+    "publishedAt": "2026-09-11T15:32:38Z",
+    "sources": [
+      {
+        "publisher": "IGN",
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-walmart-coupon-deal",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:32:38Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets-prd.ignimgs.com/2026/09/09/the-legend-of-zelda-ocarina-of-time-preorders-uk-1788952093648.png?width=1280&format=jpg&auto=webp&quality=80"
+  },
+  {
+    "id": "na_599eb447cb",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Here's the projected Social Security COLA for 2027, according to AARP",
+    "bullets": [
+      "The official 2027 COLA will be announced on Oct. 14, but some senior citizens' groups are already forecasting the benefits bump retirees can expect.",
+      "Stubbornly hot inflation in August could push up the 2027 cost-of-living adjustment for Social Security recipients, according to a new estimate from AARP.",
+      "The 2027 COLA is now projected at 3.6%, ba…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:24:41Z",
+    "sources": [
+      {
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/2027-social-security-cola-cpi-report/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:24:41Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/06/10/168f2081-94fb-4662-ba66-27093da8379b/thumbnail/1200x630/9b016eac466229d8e524cb19055b960e/gettyimages-2177065780.jpg"
+  },
+  {
+    "id": "na_33b4628310",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Federal budget deficit reaches $2T in first 11 months of fiscal year 2026, CBO reports",
+    "bullets": [
+      "The CBO reports the federal budget deficit hit $2 trillion as Social Security, Medicare and Medicaid spending surged alongside rising debt costs.",
+      "The federal government's annual budget deficit reached $2 trillion after the first 11 months of fiscal year 2026, the nonpartisan Congressional Budget Office (CBO) reported.",
+      "The CBO's monthly budget…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:23:00Z",
+    "sources": [
+      {
+        "publisher": "Fox Business",
+        "url": "https://www.foxbusiness.com/politics/federal-budget-deficit-reaches-2-trillion-first-11-months-fiscal-year-2026-cbo-reports",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:23:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2025/06/0/0/us-capitol-dc.jpg?ve=1&tl=1"
+  },
+  {
+    "id": "na_2ceb6affcc",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Afghan woman in Texas dubbed an \"alien terrorist\" is deported in DOJ's first case using obscure court",
+    "bullets": [
+      "An Afghan permanent resident living in Texas has been deported after the Justice Department accused her of being an \"alien terrorist,\" in the first such case of its kind.",
+      "Washington — An Afghan permanent resident living in Texas has been deported after the Justice Department accused her of being an \"alien terrorist,\" in the first such case of its kind, the department …"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 21,
+    "publishedAt": "2026-09-11T15:16:00Z",
+    "sources": [
+      {
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/afghan-woman-deported-doj-alien-terrorist-removal-court/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:16:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/11/feaa22bc-1a81-4261-9856-6ec2a306c5a0/thumbnail/1200x630/1f4a9bec93ae8e66acdfbe93beaa92c2/gettyimages-2293699460.jpg"
+  },
+  {
+    "id": "na_8bc22ac1c6",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "NYC's 'Baklava Guy' started selling Turkish pastries as 'a joke,' now it brings in $20K/month: 'It's my whole life'",
+    "bullets": [
+      "The 30-year-old entrepreneur behind Good Baklava went viral for handing out free pastries after New York Knicks games and selling to strangers in local parks.",
+      "Jacob Komarow is a 30-year-old entrepreneur, high school dropout and former drug addict.",
+      "He's also known as the \"Baklava Guy\" around New York City, and he truly believes he's found his own American D…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:10:02Z",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/nycs-baklava-guy-brings-in-20k/month-selling-turkish-pastries.html",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:10:02Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108361428-1789068418534-tom7.jpg?v=1789138515&w=1920&h=1080"
+  },
+  {
+    "id": "na_200339ef60",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "‘Lenovo Googlebook 15’ specs leak in full with ‘Google facial authentication’",
+    "bullets": [
+      "Following some past leaks, another new report reveals basically everything about the upcoming “Lenovo Googlebook 15” including its full specs,...",
+      "Following some past leaks, another new report reveals basically everything about the upcoming “Lenovo Googlebook 15” including its full specs, but without a price tag.",
+      "Google said that the first wav…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:10:00Z",
+    "sources": [
+      {
+        "publisher": "9to5google.com",
+        "url": "http://9to5google.com/2026/09/11/lenovo-googlebook-15-specs-leak/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:10:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/lenovo-googlebook-mo-leak-6.jpg?quality=82&strip=all&resize=1200,628"
+  },
+  {
+    "id": "na_e23f59bfae",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Oracle stock trims gains as AI cloud demand outpaces supply",
+    "bullets": [
+      "Oracle stock jumped after cloud revenue sales grew by 121% last quarter",
+      "What happened: Oracle (ORCL) trimmed gains after popping more than 2% on Friday.",
+      "What's behind the move: The database software company posted strong revenue and earnings for its first quarter of fis…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:05:40Z",
+    "sources": [
+      {
+        "publisher": "Yahoo Entertainment",
+        "url": "https://finance.yahoo.com/markets/article/oracle-stock-trims-gains-as-ai-cloud-demand-outpaces-supply-122103986.html",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:05:40Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://s.yimg.com/lo/mysterio/api/69fb394505a931e81ea0db3d559c488367cdb1f045bf5ac303a61bdf93cc8df4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fd16be1d8-6e61-4d09-a369-374397ebb46e"
+  },
+  {
+    "id": "na_be4d689a47",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Real-life nudist resort forced to speak out after appearing in GTA VI leak",
+    "bullets": [
+      "A real-life nudist resort has spoken out after a similar-looking business appeared in Cyberleek's GTA VI development leak as set pulses racing."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T15:00:03Z",
+    "sources": [
+      {
+        "publisher": "Gamingbible.com",
+        "url": "https://www.gamingbible.com/news/gta-6-cypress-creek-nudist-resort-respond-fake-reviews-301101-20260911",
+        "tier": 1,
+        "publishedAt": "2026-09-11T15:00:03Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt847a65a594bd97f3/6aa3e6b933d092ef9325a76a/GTA_6_woman_sunbathing_in_bikini.jpg"
+  },
+  {
+    "id": "na_43f452c406",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Record U.S. cyclosporiasis outbreak is over, CDC says",
+    "bullets": [
+      "The largest outbreak, linked to shredded iceberg lettuce from Taylor Farms, sickened more than 12,000 people.",
+      "The largest-ever outbreak of cyclosporiasis in the U.S.",
+      "has ended, the Centers for Disease Control and Prevention said Friday."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:56:44Z",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:56:44Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108349417-1786654410849-gettyimages-2290352194-anotherday262796208_zp906r61.jpeg?v=1786654447&w=1920&h=1080"
+  },
+  {
+    "id": "na_3fcb61a998",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Congress gripped by AI panic after doomsday warnings",
+    "bullets": [
+      "\"We should absolutely act, and act with urgency,\" said one House Democrat.",
+      "<ul><li>Some rank-and-file members in both parties say something must be done: \"We should absolutely act, and act with urgency,\" Rep.",
+      "Johnny Olszewski (D-Md.) told Axios.</li><li>Rep."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:55:46Z",
+    "sources": [
+      {
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/09/11/congress-ai-anthropic-coxon-researcher-democrats",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:55:46Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.axios.com/dUmpCZArwv6PZRi8_ZNTBQWWnT0=/0x219:4000x2469/1366x768/2026/09/11/1789092478307.jpg"
+  },
+  {
+    "id": "na_b340698465",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Cantor heir recalls family’s 9/11 losses — and the kindergarten dropoff that spared Howard Lutnick",
+    "bullets": [
+      "The twist of fate spared the elder Lutnick while 658 of Cantor’s 960 New York employees were killed when a hijacked plane struck the North Tower.",
+      "Brandon Lutnick recalled the family losses that shaped his childhood after the Sept.",
+      "11 attacks — including the deaths of his uncle and godfather — as Cantor Fitzgerald marked 25 years since 658 of i…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:37:00Z",
+    "sources": [
+      {
+        "publisher": "New York Post",
+        "url": "https://nypost.com/2026/09/11/business/cantor-heir-recalls-familys-9-11-losses-and-the-kindergarten-run-that-spared-howard-lutnick/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:37:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/140629131.jpg?quality=75&strip=all&w=1200"
+  },
+  {
+    "id": "na_62d35db41d",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+    "bullets": [
+      "Meta says its AI assistant will no longer suggest prompts related to personal topics after a viral video showed the chatbot digging up information about a user’s children.",
+      "<ul><li></li><li></li><li></li></ul>\r\nThe change comes after a viral video showed Meta AI prompting a user to identify the child in one of her videos.",
+      "The change comes after a viral video showed Met…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:25:21Z",
+    "sources": [
+      {
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:25:21Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/insta-invasive-qs.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
+  },
+  {
+    "id": "na_db3d4b8a3c",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "The Samsung Galaxy Buds On clip-on earphones have appeared in renders",
+    "bullets": [],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:23:00Z",
+    "sources": [
+      {
+        "publisher": "Mezha.ua",
+        "url": "https://mezha.ua/en/news/samsung-galaxy-buds-on-first-render-315121/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:23:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "na_f5f2b21c2c",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+    "bullets": [
+      "The mystery of the flipping foraminifera may conceal a rarely observed evolutionary process playing out across the planet.",
+      "Its probably one of the first times that people who usually do more biostratigraphy basically, deep-time research on foraminifera are approaching such a question, said Julie Meilland, a researcher at…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:17:18Z",
+    "sources": [
+      {
+        "publisher": "Quanta Magazine",
+        "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:17:18Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/FlippingForams-cr-Ada-Zejun-Shen-Social.jpg"
+  },
+  {
+    "id": "na_4d159238ed",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Is Patagonia the new data center hub? + Harley-Davidson's role in the trade war",
+    "bullets": [
+      "Why Patagonia might become a new data center hub",
+      "You're reading a newsletter from The Indicator from Planet Money.",
+      "Once a week, we curate our favorite stories and insights on business, finance, economics and why they matter."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T14:16:35Z",
+    "sources": [
+      {
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/09/11/nx-s1-5966498/is-patagonia-the-new-data-center-hub-harley-davidsons-role-in-the-trade-war",
+        "tier": 1,
+        "publishedAt": "2026-09-11T14:16:35Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3b%2F88%2Fddc60a9046738da45d0f7df2eb78%2Fgettyimages-2254465628-1.jpg"
+  },
+  {
+    "id": "na_df050649e0",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Here’s PS5’s First ‘Fairgames’ Trailer In 3 Years, Which Still Seems Doomed",
+    "bullets": [],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T13:45:26Z",
+    "sources": [
+      {
+        "publisher": "Forbes",
+        "url": "https://www.forbes.com/sites/paultassi/2026/09/11/heres-ps5s-first-fairgames-trailer-in-3-years-which-still-seems-doomed/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T13:45:26Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "na_62dd4b8328",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "PlayStation Ditched Hideo Kojima’s ‘Physint’ on Budget Concerns, Missed Deadlines",
+    "bullets": [
+      "The legendary Japanese creator of ‘Death Stranding’ will take his new game to Xbox",
+      "Sony Group Corp.s PlayStation pulled out of an upcoming game by the well-known designer Hideo Kojima because of concerns over budget, potential profitability and exclusivity, according to people fami…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T13:32:20Z",
+    "sources": [
+      {
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-11/hideo-kojima-s-physint-video-game-dropped-by-playstation-goes-to-xbox",
+        "tier": 1,
+        "publishedAt": "2026-09-11T13:32:20Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irVCazdsMeMM/v1/1200x800.jpg"
+  },
+  {
+    "id": "na_f6159c5d4d",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Nintendo Secures Legal Victory Against Sale of Switch Game Piracy Devices",
+    "bullets": [
+      "Nintendo has won a major legal victory aimed at blocking the sale of devices that enable Switch game piracy.",
+      "Nintendo has won a major legal victory aimed at blocking the sale of devices that enable Switch game piracy.",
+      "The Mario maker has been waging war on the makers of these devices and those who use them…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T12:37:12Z",
+    "sources": [
+      {
+        "publisher": "IGN",
+        "url": "https://www.ign.com/articles/nintendo-secures-legal-victory-against-sale-of-switch-game-piracy-devices",
+        "tier": 1,
+        "publishedAt": "2026-09-11T12:37:12Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://assets-prd.ignimgs.com/2026/08/25/nintendoswitch2-1787683275285.jpg?width=1280&format=jpg&auto=webp&quality=80"
+  },
+  {
+    "id": "na_9588e746dc",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "5 movements physical therapists say every adult over 50 should do daily",
+    "bullets": [
+      "These simple moves can help you maintain mobility and independence as you age.",
+      "Its the bane of busy folks everywhere: You know you should set aside time for regular exercise, but your packed schedule makes it tough.",
+      "And as you reach your 50s and beyond, your body might start fe…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T12:36:34Z",
+    "sources": [
+      {
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/wellness/2026/09/11/5-movements-physical-therapists-say-every-adult-over-50-should-do-daily/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T12:36:34Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SDTN6DQ4NHYDMA6SDA7F7ZVJYE_size-normalized.jpg&w=1440"
+  },
+  {
+    "id": "na_adc6888365",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "ClickFix attacks infecting PCs and Macs are going viral",
+    "bullets": [
+      "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T11:30:58Z",
+    "sources": [
+      {
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T11:30:58Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/malware-infected-laptop-1152x648.jpg"
+  },
+  {
+    "id": "na_e399e87723",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "What happens when quantum mechanics and relativity meet?",
+    "bullets": [
+      "Experiment put atoms in a superposition of trajectories to find out."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T11:20:02Z",
+    "sources": [
+      {
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T11:20:02Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2255830341-1152x648.jpg"
+  },
+  {
+    "id": "na_addc4f94e0",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Scientists discover mysterious new X-ray objects 'unlike any they have seen before'",
+    "bullets": [
+      "Faint in X-rays but bright in ultraviolet light, new objects found by NASA's Chandra space telescope could help solve two great astrophysical mysteries."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T10:00:00Z",
+    "sources": [
+      {
+        "publisher": "Space.com",
+        "url": "https://www.space.com/astronomy/galaxies/scientists-discover-mysterious-new-x-ray-objects-unlike-any-they-have-seen-before",
+        "tier": 1,
+        "publishedAt": "2026-09-11T10:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/CHcDrTMBN6CGYUNk3Z2Qni-2000-80.jpg"
+  },
+  {
+    "id": "na_952f04b701",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Modern humans interbred with Neanderthals before they disappeared, and most people of non-African ancestry still carry roughly 1 to 4 percent Neanderthal DNA today — meaning part of the human population we once thought we simply replaced never actu",
+    "bullets": [
+      "The fossil record suggested modern humans simply wiped out their evolutionary cousins, but genetic evidence now reveals a messier, more intimate history of coexistence and interbreeding.",
+      "A man who died in a Romanian cave about 40,000 years ago carried more Neanderthal DNA than any other human ever sequenced, ancient or modern.",
+      "His jawbone turned up in Petera cu Oase, and when genetic…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 21,
+    "publishedAt": "2026-09-11T09:30:22Z",
+    "sources": [
+      {
+        "publisher": "Space Daily",
+        "url": "https://spacedaily.com/d-modern-humans-interbred-with-neanderthals-before-they-disappeared-and-most-people-of-non-african-ancestry-still-carry-roughly-1-to-4-percent-neanderthal-dna-today-meaning-part-of-the-human/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T09:30:22Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://spacedaily.com/wp-content/uploads/2026/09/Posts-1600840-2026-09-11T125452.185.png"
+  },
+  {
+    "id": "na_b215d2c99b",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "The 'American Cheetah' Was Actually a Different Animal All Along",
+    "bullets": [
+      "The Ice Age movies get one major thing right: Climate shifts and glaciation caused profound animal migrations and evolutionary adaptations – though it's uncertain if any of them resulted from an acorn-burying saber-toothed squirrel splitting a continent.  Dur…",
+      "The Ice Age movies get one major thing right: Climate shifts and glaciation caused profound animal migrations and evolutionary adaptations though it's uncertain if any of them resulted from an acorn-…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 23,
+    "publishedAt": "2026-09-11T08:55:29Z",
+    "sources": [
+      {
+        "publisher": "ScienceAlert",
+        "url": "https://www.sciencealert.com/ancient-dna-reveals-the-american-cheetah-wasnt-a-cheetah-at-all",
+        "tier": 1,
+        "publishedAt": "2026-09-11T08:55:29Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.sciencealert.com/images/2026/09/Illustration-by-Julius-Csotonyi-Of-An-American-cheetah-Miracinonyx-trumani.jpg"
+  },
+  {
+    "id": "na_08683ecf7a",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Dinosaur fossil found deep underground in drill core in northern China",
+    "bullets": [
+      "BEIJING: Scientists have discovered a dinosaur fossil buried hundreds of metres underground, not at a traditional excavation site but inside a drill core from a copper mineral resources survey in north China's Inner Mongolia Autonomous Region.",
+      "BEIJING: Scientists have discovered a dinosaur fossil buried hundreds of metres underground, not at a traditional excavation site but inside a drill core from a copper mineral resources survey in nor…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 22,
+    "publishedAt": "2026-09-11T07:21:00Z",
+    "sources": [
+      {
+        "publisher": "The Star Online",
+        "url": "https://www.thestar.com.my/aseanplus/2026/09/11/dinosaur-fossil-found-deep-underground-in-drill-core-in-northern-china",
+        "tier": 1,
+        "publishedAt": "2026-09-11T07:21:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/09/11/4105428.jpeg"
   }
 ]
