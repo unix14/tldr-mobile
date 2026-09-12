@@ -4,6 +4,7 @@ import '../../../models/card.dart';
 import '../../../theme/colors.dart';
 import '../../../widgets/confidence_chip.dart';
 import '../../../widgets/publisher_favicon.dart';
+import '../../../widgets/relative_date.dart';
 import '../../../widgets/topic_chip.dart';
 import 'card_actions.dart';
 import 'read_more_link.dart';
@@ -141,6 +142,10 @@ class VideoCard extends StatelessWidget {
             ),
           _dot(),
           Text(_isHe ? 'וידאו' : 'Video'),
+          if (formatRelative(card.publishedAt, isHe: _isHe).isNotEmpty) ...[
+            _dot(),
+            Text(formatRelative(card.publishedAt, isHe: _isHe)),
+          ],
           _dot(),
           Text('~${card.estimatedSeconds}s'),
           if (card.confidence != Confidence.confirmed) ...[

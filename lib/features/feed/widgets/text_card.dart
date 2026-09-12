@@ -4,6 +4,7 @@ import '../../../models/card.dart';
 import '../../../theme/colors.dart';
 import '../../../widgets/confidence_chip.dart';
 import '../../../widgets/publisher_favicon.dart';
+import '../../../widgets/relative_date.dart';
 import '../../../widgets/topic_chip.dart';
 import 'card_actions.dart';
 import 'read_more_link.dart';
@@ -118,6 +119,13 @@ class TextCard extends StatelessWidget {
             ),
             _dot(),
           ],
+          // "Published X ago" comes before the read-time so the freshness
+          // signal reads first (bigger deal on a news feed than reading
+          // duration).
+          if (_publishedRelative().isNotEmpty) ...[
+            Text(_publishedRelative()),
+            _dot(),
+          ],
           Text('~${card.estimatedSeconds}s'),
           if (card.confidence != Confidence.confirmed) ...[
             _dot(),
@@ -128,6 +136,9 @@ class TextCard extends StatelessWidget {
       ),
     );
   }
+
+  String _publishedRelative() =>
+      formatRelative(card.publishedAt, isHe: _isHe);
 
   Widget _dot() => const Padding(
         padding: EdgeInsets.symmetric(horizontal: 8),
