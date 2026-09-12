@@ -1,6 +1,973 @@
 [
   {
-    "id": "na_780cfe9f46",
+    "id": "c_c1889c0623",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "כרם פרימו זכתה במדליית הארד בגראנד סלאם בודפשט",
+    "bullets": [
+      "הג'ודוקא בת ה-21 זכתה במדליית גראנד סלאם ראשונה בקריירה עם ניצחון בקרב על המדליה בבית הניחומים, שהעניק לה את הארד.",
+      "\"אני שמחה מאוד על ההישג, אבל יודעת שיש לי עוד הרבה לאן להתקדם\", אמרה פרימו"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T20:00:38.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/other/2026-09-12/ty-article/000001a0-9729-da24-a3f7-b77b89ec0000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T20:00:38.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9734-de76-a1f7-bf7c46cc0000/f0/a8/8ed905994857a2165315e760917c/403375.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_24fa429958",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "שריפה פרצה סמוך ל\"ביג פאשן\" בירכא - ומאיימת להתפשט למבני מגורים",
+    "bullets": [
+      "שריפה פרצה הערב (שבת) בשטח פתוח סמוך לירכא, מאחורי מתחם ביג פאשן.",
+      "לפי כבאות והצלה, במוקד 102 התקבלו דיווחים על עשן שחור כבד וסמיך העולה מהמקום.",
+      "עם הגעת הצוותים הראשונים לזירה זוהתה שריפה בעלת מטען חום ועשן גבוה."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T19:21:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867357",
+        "tier": 1,
+        "publishedAt": "2026-09-12T19:21:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/1/0/0/4100269-46.jpeg"
+  },
+  {
+    "id": "c_071c9dbd02",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"לקחנו רק את הבגדים שלבשנו\": הנטישה ההמונית מהמחוזות שכבשו החות'ים",
+    "bullets": [
+      "יותר מ-45 אלף עקורים עזבו את האזורים שנכבשו בימים האחרונים בידי המורדים בתימן - שטוענים ל\"שחרור מהשליטה הסעודית\".",
+      "\"השארנו את כל הרכוש.",
+      "מים אפשר להשיג רק במכלים\", סיפר עומר ל\"ניו יורק טיימס\"."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T19:18:36.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hk00qrgmymx",
+        "tier": 1,
+        "publishedAt": "2026-09-12T19:18:36.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_c74fe7832f",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "דבש: הרבה יותר מסוכר, אבל האם הוא מזון על?",
+    "bullets": [
+      "רגע לפני טבילת התפוח - מה מבדיל בין סוגי הדבש, מה החימום עושה לרכיבים הפעילים, למה לא כדאי לבזבז דבש יקר על אפייה, ומדוע אסור לתת אותו לתינוקות מתחת לגיל שנה?"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T19:06:21.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/food/2026-09-12/ty-article-magazine/000001a0-8018-d5e7-a7a0-a21c206d0000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T19:06:21.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gif.haarets.co.il/bs/000001a0-8071-d4e3-ada1-e6fd67b20001/47/81/b8cab5fe48bc999e3c0dc319de41/honey-promotion.gif?width=108&height=81"
+  },
+  {
+    "id": "c_64af6c80bb",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "נס ראש השנה: נידל, צ'אפה ועוד שלושה צבי ים - שוקמו וחזרו לטבע",
+    "bullets": [
+      "כ-50 אלף מטיילים ומטיילות פקדו את שמורות הטבע והגנים הלאומיים במהלך חג ראש השנה.",
+      "חלקם זכו לצפות במחזה המרגש של חמשת צבי הים, השבו בחזרה לים לאחר ששהו בחודשים האחרונים במרכז ההצלה לטובת טיפול וטרינרי.",
+      "הרשות מדגישה את חובת הדיווח במקרה של מציאת צב ים פצוע"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T19:04:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867358",
+        "tier": 1,
+        "publishedAt": "2026-09-12T19:04:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/1/0/0/4100276-46.jpeg"
+  },
+  {
+    "id": "c_7cad85bc54",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הסרט \"נז\"א\" זכה בפרס המיוחד של חבר השופטים בפסטיבל ונציה 2026",
+    "bullets": [
+      "סרטם של יובל אברהם ורחל שור \"חושף את המערכות שמאחורי ההרג ההמוני המחושב של פלסטינים בעזה בידי ישראל\", ובהקרנה ביום חמישי זכה ל-25 דקות של מחיאות כפיים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T18:57:21.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/gallery/cinema/2026-09-12/ty-article/000001a0-96ed-dfa9-ada3-deeff30d0000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T18:57:21.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9719-d9a4-a3a7-9f7b71190001/be/a2/c102bd6748109c65449130d945a3/407982.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_24f42f5514",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ההתאחדות הדנית: \"פיפ\"א לא יכולה לשקם את אמינותה. צריך להחליף את הנשיא\"",
+    "bullets": [
+      "נשיא התאחדות הכדורגל של דנמרק, יספר מולר, אמר כי פיפ\"א סירבה להשיב לשאלות בנוגע לתכנית להפרטת הטורנירים של הארגון, וקרא לנשיא הארגון ג'אני אינפנטינו להתפטר.",
+      "\"אין אמון באינפנטינו ובהנהגת פיפ\"א\", אמר מולר"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T18:29:07.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-09-12/ty-article/000001a0-96d4-d219-a3ed-bfde0ae20000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T18:29:07.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-96dd-dfa9-ada3-dedffca60000/0a/94/5d15ffb047e7a6de43048aa04c70/401704.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_35c5b8ebb7",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הונגריה תבטל חוק מתקופת אורבן שמנע מזוגות להט\"ב לאמץ ילדים",
+    "bullets": [
+      "ראש הממשלה פיטר מדיאר הודיע שיבטל את החוק שנכנס לתוקף ב־2020 ואילץ זוגות חד מיניים במדינה לקבל אישור לאימוץ ילדים מהשר לענייני משפחה.",
+      "שינוי שיטת האימוץ יהיה צעד משמעותי להשבת זכויות הלהט\"ב במדינה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T17:51:11.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/world/europe/2026-09-12/ty-article/.premium/000001a0-967c-da24-a3f7-b77fbb160000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T17:51:11.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9692-d9a4-a3a7-9ff26b460000/75/44/61abe1c64e30b24e4426e5051d26/886208-2.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_fe799d0245",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "צעירים יותר, מוזנחים יותר, אלימים יותר: תלמידי ז'-ח' נושרים למאחזי נוער הגבעות",
+    "bullets": [
+      "באופן פרדוקסלי, מי שמתריע בפני הרווחה על קטינים בסיכון שמגיעים אל המאחזים הבלתי חוקיים ומטילים את אימתם על פלסטינים, הם ארגוני שמאל שהם כל כך מתעבים.",
+      "פרויקט מיוחד של שומרים בעקבות שטח ההפקר של \"נוער הגבעות\": הגילאים שצנחו, הרסן שהוסר, ומה נדרשים בני ה-14 לעשות בלילות: \"הקב\"ה ציווה אותנו לכבוש את הארץ\" | פרק ראשון בסדרה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T17:44:01.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hk11exnozl",
+        "tier": 1,
+        "publishedAt": "2026-09-12T17:44:01.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_30ee360600",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "גורם ביטחוני על הירי בפלסטיני באזור ג'נין: \"בוחנים אם החייל חרג מהנהלים\"",
+    "bullets": [
+      "הגורם אמר שהאירוע מתוחקר בשל החשד שירי החייל בכפר פקועה \"חרג מהוראות הפתיחה באש\".",
+      "הפלסטיני נורה ללא סיבה נראית לעין - ומבדיקה ראשונית עלה כי החיכוך החל כאשר כמה פלסטינים התקהלו סביב רועה צאן במרחב"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T17:34:31.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/by115fbxfgg",
+        "tier": 1,
+        "publishedAt": "2026-09-12T17:34:31.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_e292ebe2c3",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "צ'לסי סיימה ב-2:2 עם האל, ענאן חלאילי כבש שער בכורה בהפסד של קריסטל פאלאס",
+    "bullets": [
+      "הבלוז עלו ליתרון מהיר מרגלי מורגן רוג'רס, אבל ספגו מהפך מול העולה החדשה וז'ואאו פדרו הציל נקודה עבור צ'אבי אלונסו.",
+      "חלאילי כבש שער נהדר אבל גם טעה בהגנה, והקבוצה שלו הפסידה 3:2 לאיפסוויץ' משער בתוספת הזמן.",
+      "ליברפול המשיכה להיראות רע וסיימה ב-0:0 ביתי מול פולהאם"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T16:22:25.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-09-12/ty-article/000001a0-9649-dfa9-ada3-de4b81740000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T16:22:25.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9655-d9a4-a3a7-9f77764e0000/f6/02/2d516c29483eaf0dd72f2bc17f8e/402618.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_7a003bebaf",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ענן שחור עצום: מתחם הקניות בירכא פונה בעקבות שריפה | צפו",
+    "bullets": [
+      "שריפת ענק פרצה סמוך למתחם \"ביג פאשן OUTLET\", ולוחמי האש דיווחו שהיא מתפשטת לכיוון מבני מגורים.",
+      "צוותים רבים הוקפצו, המשטרה פינתה את מרכז הקניות, ולאחר מכן עדכנו בכבאות: השתלטנו על האירוע"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T16:14:45.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/syjeflmtge",
+        "tier": 1,
+        "publishedAt": "2026-09-12T16:14:45.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_7184980829",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "סוף עצוב לחיפושים: רס\"ר איתי פרסון הוא הצעיר שאותר ללא רוח חיים",
+    "bullets": [
+      "החיפושים אחר הצעיר שנעדר בחוף הסטודנטים בחיפה הסתיימו היום (שבת) עם איתור גופתו של הצעיר בן ה-23 איתי פרסון.",
+      "במשטרה אמרו שהוא נכנס לצלילה חופשית ללא מכשירים ולא יצא מן המים.",
+      "לאחר שלושה ימים של חיפושים נרחבים, גופתו אותרה."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T16:10:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867331",
+        "tier": 1,
+        "publishedAt": "2026-09-12T16:10:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/1/0/0/4100218-46.png"
+  },
+  {
+    "id": "c_d5d4762d8d",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "וולקאם טו יהוד: 56 קולות הפרידו בין קואליציה לאופוזיציה, האם משהו השתנה?",
+    "bullets": [
+      "בבחירות האחרונות הצביעות תושבי יהוד חצי-חצי; גם 4 שנים אחרי, בעידן שאחרי 7/10, רבים נשארו באותו מקום: \"המחדל?",
+      "הזמן עשה את שלו\".",
+      "\"יש להם זיכרון של דג\", אמרה מיכל על אלה שתומכים בנתניהו."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T16:06:03.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/b1ilcdaozl",
+        "tier": 1,
+        "publishedAt": "2026-09-12T16:06:03.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_c36b009460",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "יוצרי \"נז\"א\" עושים מעשה שכמעט בלתי אפשרי לצלוח. מדובר באומץ נדיר",
+    "bullets": [
+      "סרטם של יובל אברהם ורחל שור זוכה לתגובות חריפות מהצד הישראלי וגם מזה הפלסטיני.",
+      "יש לקוות שהם ישרדו את המתקפה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T16:04:47.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/gallery/opinion/2026-09-12/ty-article/.premium/000001a0-9645-d9ce-abe2-be7fc7a70000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T16:04:47.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9656-dfa9-ada3-de568e6c0001/a6/69/4541500947e982587a5bdeb15797/372882.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_0cb8ea9a4b",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "תמר שטיינברג אחרי הזכייה באליפות העולם: \"רדפתי אחרי זה הרבה זמן. זו זכות\"",
+    "bullets": [
+      "גולשת הרוח בת ה-20, שזכתה היום במדליית הזהב באליפות העולם, אמרה כי \"כיף שיש לי את ההזדמנות לייצג את המדינה.",
+      "אני ספורטאית מצטיינת וזו זכות להביא הישגים, בשביל זה אני פה\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T15:57:50.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/other/2026-09-12/ty-article/000001a0-963f-dfa9-ada3-de7f124e0000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T15:57:50.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-9652-d9a4-a3a7-9f72779e0001/a9/a3/f64bb4c746d9bdde3a8ad53e1e54/whatsapp-image-2026-09-12-at-16-40-57-1.jpeg?width=108&height=81"
+  },
+  {
+    "id": "c_6566238c34",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ביער הגשם של אוגנדה, גורילה פעוט הביט בי. ברגע אחד שכחתי לנשום",
+    "bullets": [
+      "המסע אל גורילות ההרים בשמורת בווינדי מתחיל בלחות, בוץ ושורשים שמכשילים את הרגליים.",
+      "הוא מסתיים בשעה אחת מול משפחת גורילות, שמזכירה עד כמה דק הגבול בינינו לבינן"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T15:56:17.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/travel/2026-09-12/ty-article-magazine/.premium/000001a0-75dd-dee1-afea-75df0a220000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T15:56:17.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-7726-db00-afb5-f7b7f3360000/4f/af/05a0f8de4f0ba69c09987207996d/323788.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_6d6a52dbd0",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "מילפיי תפוחים עם רוטב וניל וללא גלוטן",
+    "bullets": [
+      "בלי קמח, בלי דבש ובלי מאמץ.",
+      "קינוח חגיגי שמבוסס על תפוח עץ וסוכר, עם רוטב לשדרוג בצד, עשוי להיות הקינוח המושלם לראש השנה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T15:54:48.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/food/rosh-hashana-recipes/2026-09-12/ty-article-recipe/000001a0-8598-d148-afbd-f7b9721c0000",
+        "tier": 1,
+        "publishedAt": "2026-09-12T15:54:48.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a0-859a-d290-a9e3-dfbfbcba0000/cb/43/3bb7790d4a85b1f06531d195461a/355418.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_b9acdc94c7",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ר\"מ הונגריה הצהיר: נשנה את החוק שמונע מזוגות חד-מיניים לאמץ ילדים",
+    "bullets": [
+      "פטר מדיאר נשאל על החקיקה שהעבירה ממשלת אורבן - והשיב: \"נשנה את זה, חד-משמעית\".",
+      "מאז 2020 נדרש אישור לאימוץ ילדים ע\"י יחידים מהשר לענייני משפחה, מה שהוביל בפועל לאיסור מוחלט.",
+      "\"לא פוליטיקאי צריך לקבל החלטה במקרים מסוג זה, אלא אנשי מקצוע\", הצהיר ראש הממשלה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T15:51:46.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/r1arlxqtzg",
+        "tier": 1,
+        "publishedAt": "2026-09-12T15:51:46.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_474f4b2deb",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"חודש לפני טבח נתניהו\": אימו של החלל החטוף פרסמה את ברכתו האחרונה",
+    "bullets": [
+      "\"מרסק את הלב\" ו\"פספוס של ילד\" - כך הגיבו בשלל תגובות על הפוסט האחרון של ד\"ר מעיין שרמן בו היא פרסמה צילום מסך של ברכת היום הולדת האחרונה שבנה, רון שרמן, שלח לה כחודש לפני חטיפתו.",
+      "\"את תמיד שם בשבילי והשנה יותר משנים אחרות\" כתב רון קצת לפני האסון הנורא"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T15:50:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867339",
+        "tier": 1,
+        "publishedAt": "2026-09-12T15:50:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/9/8/6/3986664-46.jpg"
+  },
+  {
+    "id": "c_ba164fac1a",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "תוך פחות מיממה, בכפר כנא ובג'לג'וליה: שני נערים נפצעו קשה מירי",
+    "bullets": [
+      "בן 14 נורה בכפר כנא, הובא למרפאה מקומית ופונה לבית החולים האנגלי בנצרת.",
+      "המשטרה פתחה בחקירה והזניקה מסוק לאוויר בניסיון לאתר את החשוד.",
+      "אמש: בן 16 נפצע קשה מירי בג'לג'וליה."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T14:46:53.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/sj00nmj7ffl",
+        "tier": 1,
+        "publishedAt": "2026-09-12T14:46:53.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_063bb5d8c7",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"למה לעזאזל הוא צוחק?!\": התיעוד של ממדאני מטקס הזיכרון מעורר סערה",
+    "bullets": [
+      "תיעוד בן 4 שניות מטקס הזיכרון לפיגועי 11 בספטמבר הצליח לגנוב את ההצגה - כשעל המוקד זוהראן ממדאני.",
+      "במהלך הקראת שמות הנרצחים צולם ראש העיר לצד חברת הקונגרס הפרוגרסיבית AOC, כשהשניים משוחחים ומחייכים.",
+      "לצד ביקורת, יש מי שיוצא להגנתו: \"נשאר עד שהוקרא השם האחרון, הטענות מגוחכות\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T14:17:56.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hyzzsamffe",
+        "tier": 1,
+        "publishedAt": "2026-09-12T14:17:56.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_13c2d49aab",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"המסיבה בשבדיה נגמרה\": קלידן המטאל האנטי-מוסלמי בדרך לשלטון?",
+    "bullets": [
+      "אחרי ההישג ההיסטורי של AfD בגרמניה, גם שטקוהולם תבחן עד כמה רחוק הגיע גל הימין הלאומני: ג'ימי אוקסון, \"רוקיסט ויקינגי\" שהפך את מפלגת \"השבדים הדמוקרטים\" בעלת השורשים הניאו-נאציים לכוח השני בפוליטיקה המקומית - דורש כעת להכניס אותה לראשונה לממשלה.",
+      "המרכז-שמאל עדיין מוביל בסקרים, אך הפער הצטמק לקראת הבחירות מחר: \"נצמצם את ההגירה, נחזור להיות שבדיה\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T14:07:12.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/ryvlzdgkzg",
+        "tier": 1,
+        "publishedAt": "2026-09-12T14:07:12.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_48dbbf09e2",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "אותר ללא רוח חיים לוחם הימ\"מ איתי פרסון, שנכנס לצלול בים בחיפה ונעלם",
+    "bullets": [
+      "פרסון בן ה-23 אותר שלושה ימים לאחר שנכנס לצלילה בחוף הסטודנטים בחיפה.",
+      "בתום החיפושים הנרחבים באזור, המשטרה עדכנה: \"הופעלו כלל האמצעים, סרקנו לאורך רצועת החוף ובמים\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T13:10:58.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hjwrkagygx",
+        "tier": 1,
+        "publishedAt": "2026-09-12T13:10:58.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_6c2d8cf550",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הסיפורים מרגשים, המספרים מדאיגים: מאחורי גל העלייה מצפון אמריקה",
+    "bullets": [
+      "הם עוזבים חיים נוחים, קריירות וביטחון אישי לטובת מציאות של מלחמה, יוקר ואי-ודאות, אך למרות האנטישמיות הגואה - רק קומץ מיהודי ארה\"ב וקנדה בוחר לעלות.",
+      "כתב וואלה הצטרף לטיסה מניו יורק לתל אביב ופגש את אלה שמסרבים להישאר על הגדר"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T11:20:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3866172",
+        "tier": 1,
+        "publishedAt": "2026-09-12T11:20:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/0/9/4/4094461-46.jpeg"
+  },
+  {
+    "id": "c_269eee8c78",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בייבי בום של שנה חדשה: ארבעה תינוקות נולדו בתוך שעה ברמב\"ם",
+    "bullets": [
+      "ארבעה תינוקות נולדו הערב (שישי) בתוך פחות משעה בבית החולים רמב\"ם, עם כניסתה של שנת תשפ\"ז.",
+      "הלידה הראשונה התרחשה בשעה 20:21, כעבור כ-20 דקות התרחשה הלידה השנייה, ובתוך כ-20 דקות נוספות נולדו שני תינוקות נוספים.",
+      "בין ההורים שפתחו את השנה החדשה עם תוספת למשפחה היו מריה קצובסקי ונמרוד מיטב, בני 35 מעתלית."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-12T03:23:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867282",
+        "tier": 1,
+        "publishedAt": "2026-09-12T03:23:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/1/0/0/4100157-46.png"
+  },
+  {
+    "id": "c_1bd7dea3aa",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Clarinha on choosing Brazil and topping Group B at U20 World Cup",
+    "bullets": [
+      "The Brazil Women’s U-20 National Team finished the World Cup group stage with a perfect record. This Friday (11), Brazil came from behind to beat England 2-1 and secured first place in Group B. In a...",
+      "The Brazil Women's U-20 National Team finished the World Cup group stage with a perfect record.",
+      "This Friday (11), Brazil came from behind to beat England 2-1 and secured first place in Group B."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 23,
+    "publishedAt": "2026-09-11T20:06:00Z",
+    "sources": [
+      {
+        "publisher": "Onefootball.com",
+        "url": "https://onefootball.com/en/news/clarinha-on-choosing-brazil-and-topping-group-b-at-u20-world-cup-43443503",
+        "tier": 1,
+        "publishedAt": "2026-09-11T20:06:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://s.yimg.com/lo/mysterio/api/6009fdee78f5523651bb598ae67cef7ec3b215d87b149397bd53f8e08def5255/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbf_articles_956%2F2417cb9ea44ab0fba145793d52f8c20a.jpg"
+  },
+  {
+    "id": "c_982f575997",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Self-learning AI releases NFL picks, score predictions every Week 1 game",
+    "bullets": [
+      "SportsLine AI evaluated the Week 1 NFL odds and revealed its NFL score predictions and best NFL picks",
+      "The 2026 NFL schedule is underway with the Seahawks knocking off the Patriots in the kickoff game on Wednesday and then the Niners upsetting the Rams in Australia on Thursday.",
+      "Thirteen games follow o…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T20:03:31Z",
+    "sources": [
+      {
+        "publisher": "CBS Sports",
+        "url": "https://www.cbssports.com/betting/news/nfl-picks-ai-score-predictions-bets-for-every-week-1-game-2026/",
+        "tier": 1,
+        "publishedAt": "2026-09-11T20:03:31Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://sportshub.cbsistatic.com/i/r/2025/12/16/f90abe96-aeab-4db3-a091-f3233cb6272c/thumbnail/1200x675/ad4206dd31a0bb2d501b1c2592819f30/lamar-jackson-baltimore-ravens-imagn-images.jpg"
+  },
+  {
+    "id": "c_0a089e878c",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Apostolic nuncio calls for ‘moral voice’ in AI development",
+    "bullets": [
+      "Speakers at a Georgetown University event said Magnifica Humanitas offers moral guidance without policy steps, and the nuncio noted rising concern that debates over AI need a moral voice.",
+      "Archbishop Gabriele Giordano Caccia, apostolic nuncio to the United States, discussed the need for a moral voice in artificial intelligence (AI) development during a panel discussion hosted by George…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T20:02:08Z",
+    "sources": [
+      {
+        "publisher": "Ewtnnews.com",
+        "url": "https://www.ewtnnews.com/world/us/apostolic-nuncio-calls-for-moral-voice-in-ai-development",
+        "tier": 1,
+        "publishedAt": "2026-09-11T20:02:08Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://res.cloudinary.com/ewtn/image/upload/c_fill,g_auto,w_1200,h_630/v1789153679/ewtn-news/en/Image_62_jblbca.jpg"
+  },
+  {
+    "id": "c_eefa64c82f",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "In 1955, a British engineer while trying to prove a game changing theory about a revolutionary invention used a cat food tin, a coffee can, and a reversed vacuum cleaner. Later, the patent changed the landscape of modern transportation forever",
+    "bullets": [
+      "In 1955, a British engineer while trying to prove a game changing theory about a revolutionary invention used a cat food tin, a coffee can, and a reversed vacuum cleaner. Sir Christopher Cockerell's experiments led to the hovercraft, which used an air cushion…",
+      "In 1955, a British engineer while trying to prove a game changing theory about a revolutionary invention used a cat food tin, a coffee can, and a reversed vacuum cleaner.",
+      "The engineer was Sir Christo…"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 26,
+    "publishedAt": "2026-09-11T20:00:54Z",
+    "sources": [
+      {
+        "publisher": "The Times of India",
+        "url": "https://economictimes.indiatimes.com/news/international/us/in-1955-a-british-engineer-while-trying-to-prove-a-game-changing-theory-about-a-revolutionary-invention-used-a-cat-food-tin-a-coffee-can-and-a-reversed-vacuum-cleaner-later-the-patent-changed-the-landscape-of-modern-transportation-forever/articleshow/134088005.cms",
+        "tier": 1,
+        "publishedAt": "2026-09-11T20:00:54Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.etimg.com/thumb/msid-134088679,width-1200,height-630,imgsize-228608,overlay-economictimes/articleshow.jpg"
+  },
+  {
+    "id": "c_780cfe9f46",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -31,7 +998,7 @@
     "imageUrl": "https://www.cmswire.com/-/media/e3be6b2154284b7fa2d3df7cea88171e.ashx"
   },
   {
-    "id": "na_1120153de8",
+    "id": "c_1120153de8",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -63,7 +1030,7 @@
     "imageUrl": null
   },
   {
-    "id": "na_1aa9955c12",
+    "id": "c_1aa9955c12",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -94,7 +1061,7 @@
     "imageUrl": "https://www.digitaljournal.com/wp-content/uploads/2026/09/1bc17b358ff83181ca98eb4f3a9e6bde22875d0e.jpg"
   },
   {
-    "id": "na_2978f30bd8",
+    "id": "c_2978f30bd8",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -125,7 +1092,7 @@
     "imageUrl": "https://i.abcnewsfe.com/a/b4683a70-b6a3-4682-a81e-dfd15b53a28d/wirestory_c55e73f1d0569a42669e35c23139491f_16x9.jpg?w=1600"
   },
   {
-    "id": "na_bac47c7583",
+    "id": "c_bac47c7583",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -157,7 +1124,7 @@
     "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/newspress-collage-dxsrx8ezo-1789156186024.jpg?quality=75&strip=all&1789141813&w=1200"
   },
   {
-    "id": "na_9b8fff84e4",
+    "id": "c_9b8fff84e4",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -189,135 +1156,7 @@
     "imageUrl": null
   },
   {
-    "id": "na_c3dd386295",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Weapons, spyware and AI scams: Anthropic exposes Claude misuse",
-    "bullets": [
-      "A tech consultant in Bamako, working with junta-led Mali's state intelligence service (ANSE), used Claude Code to build \"Lakana 360\" -- a surveillance system capable of monitoring roughly 25 million SIM cards across the country's mobile network.\nThe post Weap…",
-      "Anthropic has released a 154-page report describing how bad actors used its Claude AI system for state-sponsored surveillance, propaganda operations and more.",
-      "Here’s a look at some of the cases, whi…"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 24,
-    "publishedAt": "2026-09-11T19:50:09Z",
-    "sources": [
-      {
-        "publisher": "Digital Journal",
-        "url": "https://www.digitaljournal.com/article/weapons-spyware-and-ai-scams-anthropic-exposes-claude-misuse/",
-        "tier": 1,
-        "publishedAt": "2026-09-11T19:50:09Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.digitaljournal.com/wp-content/uploads/2026/09/1f6948382e78b51ff49509fbc14b020311f155d6-1.jpg"
-  },
-  {
-    "id": "na_0bdcb938ea",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Youth sides have five matches in Cotia this weekend",
-    "bullets": [
-      "The Under-20, Under-17, and Under-15 teams will play this Saturday at CFA Laudo Natel, in Cotia, in the Paulista Championship. On Sunday, it will be the turn of the Under-13 and Under-14 sides to play...",
-      "The Under-20, Under-17, and Under-15 teams will play this Saturday at CFA Laudo Natel, in Cotia, in the Paulista Championship.",
-      "On Sunday, it will be the turn of the Under-13 and Under-14 sides to pla…"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 23,
-    "publishedAt": "2026-09-11T19:50:00Z",
-    "sources": [
-      {
-        "publisher": "Onefootball.com",
-        "url": "https://onefootball.com/en/news/youth-sides-have-five-matches-in-cotia-this-weekend-43443425",
-        "tier": 1,
-        "publishedAt": "2026-09-11T19:50:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://s.yimg.com/lo/mysterio/api/722b8028f64548353b7ee286c1dbb824023625ea17d04aa0317fed988f66814d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fs_o_paulo_486%2F2f5dd55ef47a6546176373cb4c44d4d6.jpg"
-  },
-  {
-    "id": "na_0d444d4e75",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
-    "bullets": [
-      "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? A new NASA project, Artifact InSPECtor, invites you to find out – and by doing so, to help missions like Euclid and NASA’s …",
-      "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real?",
-      "A new NASA project, Artifact InSPECtor, invites you to find out…"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 28,
-    "publishedAt": "2026-09-11T19:48:09Z",
-    "sources": [
-      {
-        "publisher": "NASA",
-        "url": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
-        "tier": 1,
-        "publishedAt": "2026-09-11T19:48:09Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aimee_Schechter.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
-  },
-  {
-    "id": "na_5f36d62976",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "chokkhu 1.5.7",
-    "bullets": [
-      "Sovereign, zero-heavy-dependency Machine Learning, Deep Learning, Computer Vision, NLP, Audio, Generative AI, GNN, Time Series, XAI, and AutoML toolkit built from first principles in pure NumPy and SciPy.",
-      "A required part of this site couldnt load.",
-      "This may be due to a browser\r\n extension, network issues, or browser settings."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-09-11T19:47:19Z",
-    "sources": [
-      {
-        "publisher": "Pypi.org",
-        "url": "https://pypi.org/project/chokkhu/1.5.7/",
-        "tier": 1,
-        "publishedAt": "2026-09-11T19:47:19Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "na_5744af84e7",
+    "id": "c_5744af84e7",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -348,7 +1187,72 @@
     "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NC6SB65TH6PW4GP3P5TQ7WJCFQ.jpg&w=1440"
   },
   {
-    "id": "na_8f8c724564",
+    "id": "c_c6aaca6473",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הכוננים שהוסתרו בארון חשפו: עשרות תיעודים מיניים של קטינים",
+    "bullets": [
+      "קציני יחידת \"צור\" ערכו חיפוש בביתו של מפוקח מין ברמת מסוכנות גבוהה בדרום ואיתרו שני כוננים שהוסלקו בארון הבגדים.",
+      "בבדיקתם נמצאו עשרות תמונות וסרטונים ובהם תיעוד מיני של קטינים, בניגוד למגבלות צו הפיקוח."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T18:30:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867153",
+        "tier": 1,
+        "publishedAt": "2026-09-11T18:30:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/4/0/4/3/4043103-46.jpg"
+  },
+  {
+    "id": "c_069a46205f",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"רופאים ערבים רוצחים יותר מחמאס\": כתב אישום נגד הרב והפעילה שהפיצה את דבריו",
+    "bullets": [
+      "לפי כתב האישום, הרב מאיר דוד שמואלי טען בשיעור תורה כי רופאים ערבים כורתים בכוונה את גפיהם של חיילים והורגים יהודים בבתי החולים.",
+      "גלית דורית קאשי ערכה את הדברים לסרטון שכותרתו \"לא מעסיקים אויבים - נקודה!\", שהופץ לאלפי צופים.",
+      "השניים מואשמים בהסתה לגזענות"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-09-11T18:30:00.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://news.walla.co.il/item/3867152",
+        "tier": 1,
+        "publishedAt": "2026-09-11T18:30:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.wcdn.co.il/f_auto,q_auto,w_300/3/6/4/4/3644100-46.png"
+  },
+  {
+    "id": "c_8f8c724564",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -380,7 +1284,7 @@
     "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/10/3e90ada3-ad94-4496-9075-189ceedfb4cc/thumbnail/1200x630/15bb64b17d40e3a6457d64c5bd2df388/gettyimages-2291635482.jpg"
   },
   {
-    "id": "na_2b85fa353c",
+    "id": "c_2b85fa353c",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -412,7 +1316,7 @@
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/ios-27.1-02.jpg?quality=82&strip=all&resize=1200,628"
   },
   {
-    "id": "na_6b9f9017dd",
+    "id": "c_6b9f9017dd",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -443,7 +1347,7 @@
     "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fde%2F14%2F36855a9a480884d23eb37c671f2d%2Fu-s-congress-49624.jpg"
   },
   {
-    "id": "na_566b573c38",
+    "id": "c_566b573c38",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -475,7 +1379,7 @@
     "imageUrl": "https://dims.apnews.com/dims4/default/c65d4f2/2147483647/strip/true/crop/4033x2687+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd7%2F29%2Fc0327b45d0da6ec21e27a3e30d70%2Fc34e626b6e5b42898980365e40cbad2b"
   },
   {
-    "id": "na_18d731124f",
+    "id": "c_18d731124f",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -507,7 +1411,7 @@
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/iphone-18-pro-pro-max-hand.jpg?quality=82&strip=all&resize=1200,628"
   },
   {
-    "id": "na_4675de1245",
+    "id": "c_4675de1245",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -539,7 +1443,7 @@
     "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260911-howard-lutnick-ew-1211p-af5174.jpg"
   },
   {
-    "id": "na_8882cc1e55",
+    "id": "c_8882cc1e55",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -571,7 +1475,7 @@
     "imageUrl": "https://assets-prd.ignimgs.com/2026/09/11/ps-op-ed-blogroll-1789142526895.webp?width=1280&format=jpg&auto=webp&quality=80"
   },
   {
-    "id": "na_fedae46378",
+    "id": "c_fedae46378",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -602,7 +1506,7 @@
     "imageUrl": "https://spacedaily.com/wp-content/uploads/2026/09/pexels-moon-polar-microbes-10299269-upload.jpg"
   },
   {
-    "id": "na_0a6d760fb2",
+    "id": "c_0a6d760fb2",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -634,7 +1538,7 @@
     "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/pumpstation9-eastwestpipeline-saudiarabia-planet-2026-september-10.jpg?c=16x9&q=w_800,c_fill"
   },
   {
-    "id": "na_f4e4e5ecc7",
+    "id": "c_f4e4e5ecc7",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -665,7 +1569,7 @@
     "imageUrl": "https://assetsio.gnwcdn.com/doom-fly.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
   },
   {
-    "id": "na_8ec55f474c",
+    "id": "c_8ec55f474c",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -696,7 +1600,7 @@
     "imageUrl": "https://cdn-3.motorsport.com/images/amp/01QNkoe0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
   },
   {
-    "id": "na_699bceac51",
+    "id": "c_699bceac51",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -728,7 +1632,7 @@
     "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NKMM2T4GH6LM7M2ZIR6VCUHJV4.JPG&w=1440"
   },
   {
-    "id": "na_3513a79dc9",
+    "id": "c_3513a79dc9",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -760,7 +1664,7 @@
     "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GGBZSIEFNN74AAHPVKTG7IJXXY_size-normalized.jpg&w=1440"
   },
   {
-    "id": "na_08e3d8df45",
+    "id": "c_08e3d8df45",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -791,7 +1695,7 @@
     "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ed64/live/10265130-adf7-11f1-ad53-0d91a06f3150.jpg"
   },
   {
-    "id": "na_49ed75047e",
+    "id": "c_49ed75047e",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -823,7 +1727,7 @@
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/t-mobile-trash.jpg?quality=82&strip=all&resize=1200,628"
   },
   {
-    "id": "na_419def7cea",
+    "id": "c_419def7cea",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -855,7 +1759,7 @@
     "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/rx_attach_thumb.jpg?quality=90&strip=all&crop=5.4765628342629%2C2.4549586366983%2C94.523437165737%2C79.181932059882&w=1200"
   },
   {
-    "id": "na_976243940a",
+    "id": "c_976243940a",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -887,7 +1791,7 @@
     "imageUrl": "https://www.realitytea.com/wp-content/uploads/sites/6/2026/09/EVOLVE-IMAGESD-2026-09-11T210353.426.png?resize=1200,630"
   },
   {
-    "id": "na_117688ee29",
+    "id": "c_117688ee29",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -919,7 +1823,7 @@
     "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2121x1193+0+110/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1b%2Fc0%2Fb7f0eecf4341827759d2a40ec4ca%2Fgettyimages-1412593493.jpg"
   },
   {
-    "id": "na_5b7e146bf3",
+    "id": "c_5b7e146bf3",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -950,7 +1854,7 @@
     "imageUrl": "https://assets-prd.ignimgs.com/2026/09/09/the-legend-of-zelda-ocarina-of-time-preorders-uk-1788952093648.png?width=1280&format=jpg&auto=webp&quality=80"
   },
   {
-    "id": "na_599eb447cb",
+    "id": "c_599eb447cb",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -982,7 +1886,7 @@
     "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/06/10/168f2081-94fb-4662-ba66-27093da8379b/thumbnail/1200x630/9b016eac466229d8e524cb19055b960e/gettyimages-2177065780.jpg"
   },
   {
-    "id": "na_33b4628310",
+    "id": "c_33b4628310",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1014,7 +1918,7 @@
     "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2025/06/0/0/us-capitol-dc.jpg?ve=1&tl=1"
   },
   {
-    "id": "na_2ceb6affcc",
+    "id": "c_2ceb6affcc",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1045,7 +1949,7 @@
     "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/11/feaa22bc-1a81-4261-9856-6ec2a306c5a0/thumbnail/1200x630/1f4a9bec93ae8e66acdfbe93beaa92c2/gettyimages-2293699460.jpg"
   },
   {
-    "id": "na_8bc22ac1c6",
+    "id": "c_8bc22ac1c6",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1077,7 +1981,7 @@
     "imageUrl": "https://image.cnbcfm.com/api/v1/image/108361428-1789068418534-tom7.jpg?v=1789138515&w=1920&h=1080"
   },
   {
-    "id": "na_200339ef60",
+    "id": "c_200339ef60",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1109,7 +2013,7 @@
     "imageUrl": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/lenovo-googlebook-mo-leak-6.jpg?quality=82&strip=all&resize=1200,628"
   },
   {
-    "id": "na_e23f59bfae",
+    "id": "c_e23f59bfae",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1141,7 +2045,7 @@
     "imageUrl": "https://s.yimg.com/lo/mysterio/api/69fb394505a931e81ea0db3d559c488367cdb1f045bf5ac303a61bdf93cc8df4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2Fd16be1d8-6e61-4d09-a369-374397ebb46e"
   },
   {
-    "id": "na_be4d689a47",
+    "id": "c_be4d689a47",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1171,7 +2075,7 @@
     "imageUrl": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt847a65a594bd97f3/6aa3e6b933d092ef9325a76a/GTA_6_woman_sunbathing_in_bikini.jpg"
   },
   {
-    "id": "na_43f452c406",
+    "id": "c_43f452c406",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1203,7 +2107,7 @@
     "imageUrl": "https://image.cnbcfm.com/api/v1/image/108349417-1786654410849-gettyimages-2290352194-anotherday262796208_zp906r61.jpeg?v=1786654447&w=1920&h=1080"
   },
   {
-    "id": "na_3fcb61a998",
+    "id": "c_3fcb61a998",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1235,7 +2139,7 @@
     "imageUrl": "https://images.axios.com/dUmpCZArwv6PZRi8_ZNTBQWWnT0=/0x219:4000x2469/1366x768/2026/09/11/1789092478307.jpg"
   },
   {
-    "id": "na_b340698465",
+    "id": "c_b340698465",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1267,7 +2171,7 @@
     "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/140629131.jpg?quality=75&strip=all&w=1200"
   },
   {
-    "id": "na_62d35db41d",
+    "id": "c_62d35db41d",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1299,7 +2203,7 @@
     "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/insta-invasive-qs.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
   },
   {
-    "id": "na_db3d4b8a3c",
+    "id": "c_db3d4b8a3c",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1327,7 +2231,7 @@
     "imageUrl": null
   },
   {
-    "id": "na_f5f2b21c2c",
+    "id": "c_f5f2b21c2c",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1357,7 +2261,7 @@
     "imageUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/FlippingForams-cr-Ada-Zejun-Shen-Social.jpg"
   },
   {
-    "id": "na_4d159238ed",
+    "id": "c_4d159238ed",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1389,7 +2293,7 @@
     "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3375+0+313/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3b%2F88%2Fddc60a9046738da45d0f7df2eb78%2Fgettyimages-2254465628-1.jpg"
   },
   {
-    "id": "na_df050649e0",
+    "id": "c_df050649e0",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1417,7 +2321,7 @@
     "imageUrl": null
   },
   {
-    "id": "na_62dd4b8328",
+    "id": "c_62dd4b8328",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1448,7 +2352,7 @@
     "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irVCazdsMeMM/v1/1200x800.jpg"
   },
   {
-    "id": "na_f6159c5d4d",
+    "id": "c_f6159c5d4d",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1480,7 +2384,7 @@
     "imageUrl": "https://assets-prd.ignimgs.com/2026/08/25/nintendoswitch2-1787683275285.jpg?width=1280&format=jpg&auto=webp&quality=80"
   },
   {
-    "id": "na_9588e746dc",
+    "id": "c_9588e746dc",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1511,7 +2415,7 @@
     "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SDTN6DQ4NHYDMA6SDA7F7ZVJYE_size-normalized.jpg&w=1440"
   },
   {
-    "id": "na_adc6888365",
+    "id": "c_adc6888365",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1541,7 +2445,7 @@
     "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/malware-infected-laptop-1152x648.jpg"
   },
   {
-    "id": "na_e399e87723",
+    "id": "c_e399e87723",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1570,7 +2474,7 @@
     "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2255830341-1152x648.jpg"
   },
   {
-    "id": "na_addc4f94e0",
+    "id": "c_addc4f94e0",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1599,7 +2503,7 @@
     "imageUrl": "https://cdn.mos.cms.futurecdn.net/CHcDrTMBN6CGYUNk3Z2Qni-2000-80.jpg"
   },
   {
-    "id": "na_952f04b701",
+    "id": "c_952f04b701",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1630,7 +2534,7 @@
     "imageUrl": "https://spacedaily.com/wp-content/uploads/2026/09/Posts-1600840-2026-09-11T125452.185.png"
   },
   {
-    "id": "na_b215d2c99b",
+    "id": "c_b215d2c99b",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1660,7 +2564,7 @@
     "imageUrl": "https://www.sciencealert.com/images/2026/09/Illustration-by-Julius-Csotonyi-Of-An-American-cheetah-Miracinonyx-trumani.jpg"
   },
   {
-    "id": "na_08683ecf7a",
+    "id": "c_08683ecf7a",
     "kind": "news",
     "language": "en",
     "topicTags": [
@@ -1688,5 +2592,316 @@
     "youtubeId": null,
     "channel": null,
     "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/09/11/4105428.jpeg"
+  },
+  {
+    "id": "c_8128d7a82d",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "עסקת סוגת כמשל: \"דאטה זו בוננזה שיכולה לדחוף מתחרים החוצה\"",
+    "bullets": [
+      "בשנים האחרונות נכנסה סוגייה נוספת לתמונה כשבאים לבחון עסקת מיזוג: מי מחזיק במידע על הלקוחות • דוגמה בולטת היא המיזוג בין סוגת לספקית המידע סטורנקסט שנפלה בגלל החשש שהגישה למידע תפגע בתחרות • טובי האריס, ראש מחלקת השווקים ברשות התחרות, מסבירה בראיון לגלובס, מדוע דאטה הפך למרכיב קריטי כשבאים לאשר עסקת מיזוג: \"זה הנפט והזהב של הכלכלה החדשה\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:55:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553710#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:55:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_33155df095",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "שוק המניות המטורף בעולם הפך למסע אימים",
+    "bullets": [
+      "קריסה הדרגתית במדד קוספי של דרום קוריאה מחקה 2.5 טריליון דולר משווי השוק והותירה משקיעים שהימרו על תנופת הבינה המלאכותית עם הפסדים כבדים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:54:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553770#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:54:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_c16ae78bfa",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "השכנים ביקשו לחסום את שביל הגישה. בית המשפט מצא פתרון ביניים",
+    "bullets": [
+      "הסכם ממון שהותיר את הבעל ללא זכויות בשתי דירות בוטל לאחר שבית המשפט קבע כי נחתם תוך ניצול מצוקתו • רשות התעופה האזרחית חויבה לפצות טייס שפוטר ללא שימוע • ובסכסוך על שביל גישה משותף בצפת נקבע כי השכנים רשאים לבטל את זכות המעבר, אך יידרשו להשתתף בעלות הרחבת השביל • 3 פסקי דין בשבוע"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:53:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553708#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:53:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_8e6f24fc55",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "הרחק מעיני הציבור: כך העיריות מעצבות את מערכת החינוך בישראל",
+    "bullets": [
+      "אף שלעתים קרובות הוא חומק מתחת לרדאר, השלטון המקומי הוא אחד השחקנים החשובים ביותר במערכת החינוך • העיריות מוציאות אלפי שקלים על כל תלמיד, אבל הן פחות אקטיביות כשהן צריכות להבין לאן בדיוק הכסף הולך • וגם: איך קרה שדווקא עיר קטנה ומפתיעה תפסה את המקום הראשון בדירוג ההשקעה בחינוך?"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:53:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553714#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:53:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_1ed4051c89",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "כמה התקדמנו בגזרת הביטחון הלאומי תחת איתמר בן גביר?",
+    "bullets": [
+      "חלוקת כלי נשק, הוספת כיתות כוננות והקמת משמר לאומי: בדקנו את תוצאות המדיניות של השר לביטחון לאומי איתמר בן גביר • מצבת כוח האדם במשטרה מתחזקת - ועדיין שיעורי הרצח גואים ותחושת הביטחון האישי מידרדרת • רמזור הביצועים, מדור מיוחד"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:52:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553718#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:52:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_7314043ce1",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "רמת השרון: דופלקס ותיק נמכר ביותר מ־5 מיליון שקל",
+    "bullets": [
+      "העסקה הגבוהה ביותר בעיר בדירת יד שנייה מתחילת השנה: דופלקס 4 חדרים ברחוב נעמי ברמת השרון נמכר במחיר המשקף כ־35–36 אלף שקל למ\"ר • השכונה מתאפיינת בפער בין דירות ישנות לחדשות"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:51:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553369#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:51:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_3f6cf5817e",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "היזם שמעדיף לבנות מחוץ לת\"א: \"מתמקדים בדירות של עד 3 מיליון שקל\"",
+    "bullets": [
+      "ישי רוט, מנכ\"ל קבוצת שובל הנדסה, מסביר מדוע החברה מעדיפה פרויקטים ביוקנעם, בעכו ובחיפה ומתרחקת מתל אביב, למה רכשה חברת ביצוע ומה קרה למניה מאז ההנפקה בבורסה המקומית"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-30T02:50:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553375#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-30T02:50:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_f72c2d3f90",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "גורם ביטחוני על הפרעות בקוסרה: זה אירוע מאורגן עם תשתית מאחוריו",
+    "bullets": [
+      "רה\"מ כינה את האלימות \"נפשעת\" ואמר כי היא פוגעת במעמד ישראל בעולם, גם הרצוג תקף: \"חציית קו אדום\" • דיווחים בלבנון על לפחות שתי תקיפות שביצעה ישראל הבוקר בדרום המדינה • צה\"ל מתגבר כוחות לקראת החגים על רקע העלייה בפשיעה הלאומנית • אוגדה נוספת הועמדה ב\"כוננות הקפצה\" מחשש להסלמה • דיווחים בלבנון על לפחות שתי תקיפות שביצעה ישראל הבוקר באזור עייתא אל-ג'בל שבדרום המדינה • עדכונים שוטפים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 22,
+    "publishedAt": "2026-08-29T18:22:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553784#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-29T18:22:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_d817cc08fb",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "ישראל וארדואן במסלול התנגשות. לא רק בסוריה",
+    "bullets": [
+      "המתיחות מול אנקרה גוברת על רקע חזונו של הנשיא ארדואן להפוך אותה לאימפריה השולטת באזור • התקיפות של ישראל בסוריה נועדו למנוע התבססות טורקית בה, אלא שהרוחות מתלהטות בשתי זירות נוספות • גלובס צולל לחזיתות שבהן צה\"ל עלול למצוא עצמו מול הצבא השני בגודלו בברית נאט\"ו"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-29T18:00:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553440#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-29T18:00:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_5bc08e217d",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "השבוע המוזר של הסקרים: איך ייתכן שגם הקואליציה וגם האופוזיציה נחלשות?",
+    "bullets": [
+      "מדינת ישראל הולכת לבחירות, והמשרוקית של גלובס מביאה את הסקרים העדכניים ביותר מכל כלי התקשורת • מי מתחזק, מי נחלש ואיך זה משפיע על יחסי הכוחות בין המחנות?",
+      "• והפעם: וינטר משיק מפלגה, ואלה לא בהכרח חדשות טובות לגוש שלו"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-08-29T13:50:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001553786#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-08-29T13:50:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
   }
 ]
