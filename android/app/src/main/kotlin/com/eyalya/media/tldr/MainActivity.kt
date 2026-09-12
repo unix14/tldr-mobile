@@ -1,4 +1,4 @@
-package com.tldr.tldr
+package com.eyalya.media.tldr
 
 import io.flutter.embedding.android.FlutterActivity
 
