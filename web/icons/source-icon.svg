@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full-bleed background: near-pure black to match OLED theme. -->
+  <rect width="512" height="512" fill="#000000"/>
+
+  <!-- Serif lowercase 't'. Charter renders across rsvg-convert on macOS
+       without needing a font file. -->
+  <text x="256"
+        y="400"
+        font-family="Charter, Georgia, 'Times New Roman', serif"
+        font-size="520"
+        font-weight="500"
+        fill="#E7E7EA"
+        text-anchor="middle">t</text>
+
+  <!-- Small accent underline anchored below the letter. -->
+  <rect x="196" y="452" width="120" height="12" rx="2" fill="#CFA574"/>
+</svg>

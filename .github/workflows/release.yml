@@ -1,0 +1,165 @@
+# .github/workflows/release.yml
+#
+# tldr — AppSync release pipeline.
+# Adapted from appSync/ci-template/release.yml. Two deltas for this app:
+#
+#   1. Builds a DEBUG APK (self-signed with the Android debug key). This is
+#      the interim signing choice — every device still installs it, but the
+#      OS labels it as debug and it isn't Play-Store-eligible. Switch to
+#      release signing (`flutter build apk --release` + `signingConfigs`)
+#      when a keystore is wired into repo secrets.
+#
+#   2. The Tailscale + Hub webhook steps only run when the required
+#      secrets/variables are present, so a fresh clone builds and releases
+#      cleanly even before the Hub is wired up. Set the three inputs (see
+#      the SECRETS/VARIABLES block below) to enable end-to-end delivery.
+#
+# Trigger:  git tag v0.1.0 && git push origin v0.1.0
+#
+# Does, in order:
+#   1. Build a debug APK from the EXACT tagged commit
+#   2. Rename to app-release.apk so the manifest asset name matches
+#   3. Publish a GitHub Release and attach the APK
+#   4. Update app-manifest.json (latest_version / apk_asset_name / release_notes)
+#      on the default branch and commit it back
+#   5. (Optional) Fire an HMAC-signed webhook to the AppSync Hub over Tailscale
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# >>> SECRETS  (repo → Settings → Secrets and variables → Actions → "Secrets")
+#   APPSYNC_WEBHOOK_SECRET  Shared HMAC secret. MUST equal the Hub's WEBHOOK_SECRET.
+#   TS_AUTHKEY              Tailscale ephemeral auth key.
+#
+# >>> VARIABLES  (same screen → "Variables" tab)
+#   APPSYNC_HUB_URL         Hub's tailnet URL, no trailing slash.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: AppSync Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: appsync-release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  ASSET_NAME: app-release.apk
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the tagged commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Derive version + release notes from the tag
+        id: ver
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          NOTES="$(git tag -l --format='%(contents)' "$GITHUB_REF_NAME")"
+          [ -z "$NOTES" ] && NOTES="Release $VERSION"
+          {
+            echo "notes<<__EOF__"
+            echo "$NOTES"
+            echo "__EOF__"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Build debug APK
+        run: |
+          flutter pub get
+          flutter build apk --debug
+          mkdir -p dist
+          # Debug APK is still install-friendly for sideload; rename it so
+          # the AppSync manifest asset name lines up.
+          cp build/app/outputs/flutter-apk/app-debug.apk "dist/${ASSET_NAME}"
+
+      - name: Publish GitHub Release and attach the APK
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: ${{ steps.ver.outputs.notes }}
+          files: dist/${{ env.ASSET_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update app-manifest.json on the default branch and commit back
+        run: |
+          BR="${{ github.event.repository.default_branch }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$BR"
+          git checkout "$BR"
+          tmp="$(mktemp)"
+          jq \
+            --arg v  "${{ steps.ver.outputs.version }}" \
+            --arg a  "${ASSET_NAME}" \
+            --arg rn "${{ steps.ver.outputs.notes }}" \
+            '.latest_version = $v | .apk_asset_name = $a | .release_notes = $rn' \
+            app-manifest.json > "$tmp" && mv "$tmp" app-manifest.json
+          git add app-manifest.json
+          if git diff --cached --quiet; then
+            echo "Manifest already current — nothing to commit."
+          else
+            git commit -m "chore(release): app-manifest.json -> ${{ steps.ver.outputs.version }} [skip ci]"
+            git push origin "$BR"
+          fi
+
+      - name: Check if AppSync Hub is wired up
+        id: hub
+        env:
+          HUB_URL: ${{ vars.APPSYNC_HUB_URL }}
+          WEBHOOK_SECRET: ${{ secrets.APPSYNC_WEBHOOK_SECRET }}
+          TS_KEY: ${{ secrets.TS_AUTHKEY }}
+        run: |
+          if [ -n "$HUB_URL" ] && [ -n "$WEBHOOK_SECRET" ] && [ -n "$TS_KEY" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Hub webhook skipped — set APPSYNC_HUB_URL var and APPSYNC_WEBHOOK_SECRET + TS_AUTHKEY secrets to enable."
+          fi
+
+      - name: Connect to Tailscale
+        if: steps.hub.outputs.enabled == 'true'
+        uses: tailscale/github-action@v3
+        with:
+          authkey: ${{ secrets.TS_AUTHKEY }}
+
+      - name: Fire HMAC-signed webhook to the AppSync Hub
+        if: steps.hub.outputs.enabled == 'true'
+        env:
+          HUB_URL:        ${{ vars.APPSYNC_HUB_URL }}
+          WEBHOOK_SECRET: ${{ secrets.APPSYNC_WEBHOOK_SECRET }}
+        run: |
+          BODY="$(jq -nc \
+            --arg repo    "$GITHUB_REPOSITORY" \
+            --arg version "${{ steps.ver.outputs.version }}" \
+            --arg asset   "${ASSET_NAME}" \
+            '{repository:$repo, version:$version, apk_asset_name:$asset}')"
+          SIG="$(printf '%s' "$BODY" \
+            | openssl dgst -sha256 -hmac "$WEBHOOK_SECRET" -hex | awk '{print $NF}')"
+          curl -fsS --retry 3 --retry-delay 2 -X POST "${HUB_URL}/webhook/release" \
+            -H "Content-Type: application/json" \
+            -H "X-AppSync-Signature: sha256=${SIG}" \
+            --data "$BODY"

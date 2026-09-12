@@ -1,0 +1,634 @@
+[
+  {
+    "id": "n001",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "ai", "markets"],
+    "headline": "Nvidia posts $35B in Q3 revenue, beats expectations",
+    "bullets": [
+      "Data-center revenue up 112% year-over-year.",
+      "China exposure now under 10% of total sales.",
+      "Guidance for Q4 raised to $37B ± 2%.",
+      "Analyst reaction is mixed on forward margins."
+    ],
+    "whyItMatters": "Signals AI capex is still expanding into 2026 despite export controls and rising supply-chain costs.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-10T12:00:00Z",
+    "sources": [
+      {"publisher": "Reuters", "url": "https://www.reuters.com/technology/", "tier": 1, "publishedAt": "2026-09-10T11:22:00Z"},
+      {"publisher": "Nvidia IR", "url": "https://investor.nvidia.com/", "tier": 0, "publishedAt": "2026-09-10T10:00:00Z"},
+      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/", "tier": 1, "publishedAt": "2026-09-10T11:45:00Z"}
+    ],
+    "disagreement": "Bloomberg flags margin concerns that Reuters characterizes as routine."
+  },
+  {
+    "id": "n002",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["world", "geopolitics"],
+    "headline": "Hostage-release framework reportedly near, key details disputed",
+    "bullets": [
+      "Reuters and AP cite named US officials saying a deal is close.",
+      "Ynet reports Israeli side sees ‘significant gaps’ remaining.",
+      "Timing and exchange counts remain unresolved."
+    ],
+    "whyItMatters": "A confirmed deal would shift regional posture and briefly affect oil markets, but prior ‘near-deal’ moments have not resulted in agreements.",
+    "confidence": "developing",
+    "risk": "sensitive",
+    "estimatedSeconds": 55,
+    "publishedAt": "2026-09-12T09:15:00Z",
+    "sources": [
+      {"publisher": "Reuters", "url": "https://www.reuters.com/world/", "tier": 1, "publishedAt": "2026-09-12T08:30:00Z"},
+      {"publisher": "AP", "url": "https://apnews.com/", "tier": 1, "publishedAt": "2026-09-12T08:45:00Z"},
+      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-12T09:00:00Z"}
+    ],
+    "disagreement": "US-side reports characterize the deal as imminent; Israeli reporting suggests weeks away."
+  },
+  {
+    "id": "n003",
+    "kind": "news",
+    "language": "he",
+    "topicTags": ["israel", "markets"],
+    "headline": "בנק ישראל השאיר את הריבית ללא שינוי על 4.5%",
+    "bullets": [
+      "ההחלטה תואמת את תחזיות רוב הכלכלנים.",
+      "הוועדה ציינה עלייה מתונה בציפיות האינפלציה.",
+      "הפרוטוקול המלא יפורסם בעוד שבועיים."
+    ],
+    "whyItMatters": "השארת הריבית מרמזת שהבנק בוחן עוד את השפעות ההוצאה הביטחונית לפני הורדה.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-11T13:00:00Z",
+    "sources": [
+      {"publisher": "בנק ישראל", "url": "https://www.boi.org.il/", "tier": 0, "publishedAt": "2026-09-11T13:00:00Z"},
+      {"publisher": "כלכליסט", "url": "https://www.calcalist.co.il/", "tier": 1, "publishedAt": "2026-09-11T13:20:00Z"}
+    ]
+  },
+  {
+    "id": "n004",
+    "kind": "video",
+    "language": "en",
+    "topicTags": ["ai", "tech"],
+    "headline": "How Mixture-of-Experts models actually route tokens",
+    "bullets": [
+      "5-minute walkthrough by a well-known ML educator.",
+      "Covers gating networks, load-balancing losses, and inference cost."
+    ],
+    "whyItMatters": "MoE is now the default architecture for frontier-scale models; understanding routing explains the cost structure of the current LLM market.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 55,
+    "publishedAt": "2026-09-08T10:00:00Z",
+    "youtubeId": "8Y0qQEh7dJg",
+    "channel": "AI Coffee Break",
+    "sources": [
+      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=8Y0qQEh7dJg", "tier": 2, "publishedAt": "2026-09-08T10:00:00Z"}
+    ]
+  },
+  {
+    "id": "n005",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["markets", "energy"],
+    "headline": "OPEC+ pauses planned output hikes as demand outlook softens",
+    "bullets": [
+      "Group cites weaker Chinese import data and higher US shale supply.",
+      "Brent traded roughly $2 higher on the announcement.",
+      "Next review scheduled for early October."
+    ],
+    "whyItMatters": "A pause suggests OPEC+ is prioritizing price defense over market share into Q4.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-09T15:00:00Z",
+    "sources": [
+      {"publisher": "Reuters", "url": "https://www.reuters.com/business/energy/", "tier": 1, "publishedAt": "2026-09-09T14:45:00Z"},
+      {"publisher": "FT", "url": "https://www.ft.com/energy", "tier": 1, "publishedAt": "2026-09-09T15:10:00Z"}
+    ]
+  },
+  {
+    "id": "n006",
+    "kind": "explainer",
+    "language": "en",
+    "topicTags": ["tech", "ai"],
+    "headline": "What ‘context window’ actually means, in one screen",
+    "bullets": [
+      "A model’s context window is how many tokens it can attend to at once.",
+      "Bigger windows raise inference cost roughly quadratically without sparse attention.",
+      "Common numbers today: 128k, 200k, 1M tokens (very few models).",
+      "Practical implication: longer chats and larger docs, at higher latency."
+    ],
+    "whyItMatters": "Explains why some tools handle whole codebases and others force you to chunk.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 60,
+    "publishedAt": "2026-09-05T12:00:00Z",
+    "sources": [
+      {"publisher": "Anthropic docs", "url": "https://docs.anthropic.com/", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"},
+      {"publisher": "OpenAI docs", "url": "https://platform.openai.com/docs", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"}
+    ]
+  },
+  {
+    "id": "n007",
+    "kind": "news",
+    "language": "he",
+    "topicTags": ["israel", "world", "geopolitics"],
+    "headline": "משלחת ישראלית יוצאת לוושינגטון להמשך שיחות ביטחוניות",
+    "bullets": [
+      "בראש המשלחת: ראש המל\"ל וראש אמ\"ן.",
+      "בסדר היום: תיאום מול איראן והמצב בגבול הצפוני.",
+      "מזכיר המדינה האמריקאי צפוי להצטרף לחלק מהשיחות."
+    ],
+    "whyItMatters": "השיחות מגיעות רקע לעלייה במתיחות באזור וימשיכו להשפיע על הכיוונים המדיניים של השבועות הקרובים.",
+    "confidence": "confirmed",
+    "risk": "sensitive",
+    "estimatedSeconds": 50,
+    "publishedAt": "2026-09-12T07:30:00Z",
+    "sources": [
+      {"publisher": "כאן חדשות", "url": "https://www.kan.org.il/", "tier": 1, "publishedAt": "2026-09-12T07:00:00Z"},
+      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-12T07:20:00Z"}
+    ]
+  },
+  {
+    "id": "n008",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "ai"],
+    "headline": "Anthropic ships Claude Opus 4.7 with faster tool-use loops",
+    "bullets": [
+      "New model targets long-horizon agentic tasks with lower latency.",
+      "Available via API and inside Claude Code.",
+      "Price positioning unchanged from Opus 4.5."
+    ],
+    "whyItMatters": "Faster tool-use tightens the loop for AI coding agents; expect immediate uptake in the developer-tools segment.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 35,
+    "publishedAt": "2026-09-11T17:00:00Z",
+    "sources": [
+      {"publisher": "Anthropic", "url": "https://www.anthropic.com/news", "tier": 0, "publishedAt": "2026-09-11T16:30:00Z"},
+      {"publisher": "The Verge", "url": "https://www.theverge.com/", "tier": 2, "publishedAt": "2026-09-11T17:15:00Z"}
+    ]
+  },
+  {
+    "id": "n009",
+    "kind": "whyItMatters",
+    "language": "en",
+    "topicTags": ["markets", "geopolitics"],
+    "headline": "Yen weakens past ¥160 — why global funds are watching",
+    "bullets": [
+      "First break past ¥160 since a coordinated MOF/BOJ intervention two years ago.",
+      "Rate-differential vs the US remains the dominant driver.",
+      "History: past interventions bought weeks, not quarters."
+    ],
+    "whyItMatters": "A prolonged weak yen shifts carry-trade flows and creates a subtle tailwind for Japanese exporters — but pressure on import-heavy sectors and household inflation.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 55,
+    "publishedAt": "2026-09-10T22:00:00Z",
+    "sources": [
+      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/markets/currencies", "tier": 1, "publishedAt": "2026-09-10T21:40:00Z"},
+      {"publisher": "Nikkei", "url": "https://asia.nikkei.com/", "tier": 1, "publishedAt": "2026-09-10T22:00:00Z"}
+    ]
+  },
+  {
+    "id": "n010",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["science", "energy"],
+    "headline": "Fusion startup reports second net-energy shot, awaits peer review",
+    "bullets": [
+      "Company claims Q ≈ 1.5 in a repeat run of last month’s experiment.",
+      "Details limited pending publication.",
+      "Independent verification not yet complete."
+    ],
+    "whyItMatters": "Repeatability is what matters for fusion; a single shot is a demo, a pattern is progress. Reserve judgement until peer review.",
+    "confidence": "unverified",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-11T19:00:00Z",
+    "sources": [
+      {"publisher": "Company press release", "url": "https://example.com/press", "tier": 3, "publishedAt": "2026-09-11T18:30:00Z"}
+    ]
+  },
+  {
+    "id": "n011",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "world"],
+    "headline": "EU DSA fines two major platforms over algorithmic ad transparency",
+    "bullets": [
+      "Combined fines exceed €900M.",
+      "Focus: missing labels for personalized ads and insufficient researcher access.",
+      "Both companies plan appeals."
+    ],
+    "whyItMatters": "Signals the EU is willing to escalate DSA enforcement quickly; expect knock-on rule tightening for smaller platforms next year.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-09T09:00:00Z",
+    "sources": [
+      {"publisher": "European Commission", "url": "https://ec.europa.eu/", "tier": 0, "publishedAt": "2026-09-09T08:00:00Z"},
+      {"publisher": "Reuters", "url": "https://www.reuters.com/technology/", "tier": 1, "publishedAt": "2026-09-09T08:45:00Z"}
+    ]
+  },
+  {
+    "id": "n012",
+    "kind": "news",
+    "language": "he",
+    "topicTags": ["israel", "tech", "markets"],
+    "headline": "חברת סייבר ישראלית סגרה סבב B של 120 מיליון דולר",
+    "bullets": [
+      "הסבב הובל על ידי קרן אמריקאית מובילה.",
+      "השווי נאמד בכ־1.1 מיליארד דולר.",
+      "החברה מעסיקה כ־180 עובדים, רובם בישראל."
+    ],
+    "whyItMatters": "סבב יוניקורן נוסף מחזק את הסימנים שהמימון הישראלי מתאושש לאט אך בבירור מהשפל של 2024.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 35,
+    "publishedAt": "2026-09-11T10:30:00Z",
+    "sources": [
+      {"publisher": "TechCrunch", "url": "https://techcrunch.com/", "tier": 1, "publishedAt": "2026-09-11T10:00:00Z"},
+      {"publisher": "Calcalist", "url": "https://www.calcalist.co.il/", "tier": 1, "publishedAt": "2026-09-11T10:45:00Z"}
+    ]
+  },
+  {
+    "id": "n013",
+    "kind": "video",
+    "language": "en",
+    "topicTags": ["markets", "tech"],
+    "headline": "The 3 things to actually watch this earnings season",
+    "bullets": [
+      "Short analyst walkthrough of guidance, margins, and capex.",
+      "No stock picks; framework only."
+    ],
+    "whyItMatters": "Practical lens for reading tech earnings without getting lost in the numbers.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-07T09:00:00Z",
+    "youtubeId": "cO0a0QYclaI",
+    "channel": "Bloomberg Originals",
+    "sources": [
+      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=cO0a0QYclaI", "tier": 2, "publishedAt": "2026-09-07T09:00:00Z"}
+    ]
+  },
+  {
+    "id": "n014",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["science"],
+    "headline": "JWST detects atmospheric water on a mid-sized exoplanet",
+    "bullets": [
+      "Object is roughly Neptune-scale, orbits an M-dwarf.",
+      "Spectrum shows clear H₂O features; team stops short of ‘habitable’.",
+      "Data published in Nature; independent replication in progress."
+    ],
+    "whyItMatters": "Water detection at this mass class expands the range of planets worth targeting for follow-up chemistry.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-08T11:00:00Z",
+    "sources": [
+      {"publisher": "Nature", "url": "https://www.nature.com/", "tier": 0, "publishedAt": "2026-09-08T10:00:00Z"},
+      {"publisher": "NASA", "url": "https://www.nasa.gov/", "tier": 0, "publishedAt": "2026-09-08T11:00:00Z"}
+    ]
+  },
+  {
+    "id": "n015",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["markets", "world"],
+    "headline": "US CPI comes in at 2.6%, cooler than forecast",
+    "bullets": [
+      "Core CPI 3.0%, in line with expectations.",
+      "Services inflation continues its slow descent.",
+      "Rates markets nudged odds of a December cut higher."
+    ],
+    "whyItMatters": "One cooler print is not a trend, but it keeps the disinflation narrative intact and slightly firms the case for a year-end cut.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-11T12:30:00Z",
+    "sources": [
+      {"publisher": "BLS", "url": "https://www.bls.gov/cpi/", "tier": 0, "publishedAt": "2026-09-11T12:30:00Z"},
+      {"publisher": "WSJ", "url": "https://www.wsj.com/", "tier": 1, "publishedAt": "2026-09-11T12:45:00Z"}
+    ]
+  },
+  {
+    "id": "n016",
+    "kind": "news",
+    "language": "he",
+    "topicTags": ["israel", "markets"],
+    "headline": "מדד המחירים לצרכן ירד ב־0.1% באוגוסט",
+    "bullets": [
+      "אינפלציה שנתית עומדת על 2.9%.",
+      "עיקר הירידה מיוחס להוזלה במחירי הנסיעות לחו\"ל.",
+      "האוצר הגיב שהמגמה חיובית אך שברירית."
+    ],
+    "whyItMatters": "מדד שלילי מפחית מעט מהלחץ על בנק ישראל להותיר את הריבית גבוהה, אך המצב הפיסקלי עדיין מכביד.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 35,
+    "publishedAt": "2026-09-11T14:00:00Z",
+    "sources": [
+      {"publisher": "הלמ\"ס", "url": "https://www.cbs.gov.il/", "tier": 0, "publishedAt": "2026-09-11T14:00:00Z"}
+    ]
+  },
+  {
+    "id": "n017",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "ai", "world"],
+    "headline": "UK AI Safety Institute publishes new evaluation results",
+    "bullets": [
+      "Report focuses on autonomous agent capabilities across four frontier models.",
+      "Finds ‘non-trivial improvements’ over the previous evaluation round.",
+      "No models triggered pre-defined high-risk thresholds."
+    ],
+    "whyItMatters": "AISI’s methodology is becoming the de-facto template for national-level AI evaluations; today’s report will shape upcoming regulator conversations.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 50,
+    "publishedAt": "2026-09-10T09:00:00Z",
+    "sources": [
+      {"publisher": "UK AISI", "url": "https://www.aisi.gov.uk/", "tier": 0, "publishedAt": "2026-09-10T09:00:00Z"},
+      {"publisher": "FT", "url": "https://www.ft.com/technology", "tier": 1, "publishedAt": "2026-09-10T09:30:00Z"}
+    ]
+  },
+  {
+    "id": "n018",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["world", "energy"],
+    "headline": "Germany greenlights three new offshore wind auctions",
+    "bullets": [
+      "Combined capacity: 7 GW.",
+      "Award structure reintroduces a fixed-price component after industry pushback.",
+      "First turbines expected offline late 2029."
+    ],
+    "whyItMatters": "The fixed-price return signals the sector still can’t clear at market prices; expect similar recalibration across Europe.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-10T11:00:00Z",
+    "sources": [
+      {"publisher": "BNA", "url": "https://www.bundesnetzagentur.de/", "tier": 0, "publishedAt": "2026-09-10T10:00:00Z"},
+      {"publisher": "Reuters", "url": "https://www.reuters.com/", "tier": 1, "publishedAt": "2026-09-10T11:00:00Z"}
+    ]
+  },
+  {
+    "id": "n019",
+    "kind": "explainer",
+    "language": "he",
+    "topicTags": ["tech", "ai"],
+    "headline": "מה זה RAG — הסבר קצר במסך אחד",
+    "bullets": [
+      "RAG משמע ‘Retrieval-Augmented Generation’.",
+      "המודל שולף מסמכים רלוונטיים לפני שהוא עונה.",
+      "מקטין הזיות, אבל תלוי באיכות מסד הידע.",
+      "משמש היום כמעט בכל צ׳אטבוט תאגידי."
+    ],
+    "whyItMatters": "מסביר למה כלים ‘עם המסמכים שלך’ עוצמתיים אך שבירים — הרוב הוא איכות אחזור, לא איכות מודל.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-06T10:00:00Z",
+    "sources": [
+      {"publisher": "Anthropic docs", "url": "https://docs.anthropic.com/", "tier": 0, "publishedAt": "2026-09-01T00:00:00Z"}
+    ]
+  },
+  {
+    "id": "n020",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech"],
+    "headline": "Apple opens core NFC APIs to third-party wallets in the US",
+    "bullets": [
+      "Follows regulatory pressure across multiple jurisdictions.",
+      "Third parties can now issue payment credentials via Wallet or their own apps.",
+      "Rollout gated to iOS 19.2+."
+    ],
+    "whyItMatters": "Ends Apple Pay’s exclusive rail on iOS; expect banks and neobanks to reintroduce their own tap-to-pay apps within months.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-11T18:00:00Z",
+    "sources": [
+      {"publisher": "Apple", "url": "https://www.apple.com/newsroom/", "tier": 0, "publishedAt": "2026-09-11T17:30:00Z"},
+      {"publisher": "The Verge", "url": "https://www.theverge.com/", "tier": 2, "publishedAt": "2026-09-11T18:15:00Z"}
+    ]
+  },
+  {
+    "id": "n021",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["world", "geopolitics"],
+    "headline": "EU-Mercosur trade agreement enters ratification, France signals opposition",
+    "bullets": [
+      "Deal covers 700M+ people across two blocs.",
+      "France cites agricultural concerns.",
+      "Requires qualified majority in Council plus European Parliament assent."
+    ],
+    "whyItMatters": "Ratification path is genuinely uncertain; the outcome will set a precedent for future EU trade deals with the Global South.",
+    "confidence": "developing",
+    "risk": "sensitive",
+    "estimatedSeconds": 55,
+    "publishedAt": "2026-09-10T14:00:00Z",
+    "sources": [
+      {"publisher": "European Commission", "url": "https://ec.europa.eu/", "tier": 0, "publishedAt": "2026-09-10T13:00:00Z"},
+      {"publisher": "Le Monde", "url": "https://www.lemonde.fr/", "tier": 1, "publishedAt": "2026-09-10T14:00:00Z"}
+    ]
+  },
+  {
+    "id": "n022",
+    "kind": "video",
+    "language": "he",
+    "topicTags": ["israel", "markets"],
+    "headline": "מה מסתתר מאחורי עליית שוק המניות בת\"א",
+    "bullets": [
+      "סקירה קצרה של אנליסטית שוק על הענפים המובילים.",
+      "התייחסות למניות פיננסים, נדל\"ן וטכנולוגיה."
+    ],
+    "whyItMatters": "כלי מהיר להבנת הרכב מדד ת\"א 125 לפני שמתחילים לעקוב אחר מניה בודדת.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 60,
+    "publishedAt": "2026-09-09T11:00:00Z",
+    "youtubeId": "dQw4w9WgXcQ",
+    "channel": "Calcalist TV",
+    "sources": [
+      {"publisher": "YouTube", "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "tier": 2, "publishedAt": "2026-09-09T11:00:00Z"}
+    ]
+  },
+  {
+    "id": "n023",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["science", "world"],
+    "headline": "WHO reports slight rise in mpox cases across three regions",
+    "bullets": [
+      "Case counts remain far below the 2022 peak.",
+      "Two-dose vaccine campaigns continue in affected areas.",
+      "WHO stops short of declaring a new emergency phase."
+    ],
+    "whyItMatters": "Modest rises are worth tracking without alarm; the vaccination infrastructure built after 2022 appears to be doing its job.",
+    "confidence": "confirmed",
+    "risk": "sensitive",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-08T15:00:00Z",
+    "sources": [
+      {"publisher": "WHO", "url": "https://www.who.int/", "tier": 0, "publishedAt": "2026-09-08T15:00:00Z"}
+    ]
+  },
+  {
+    "id": "n024",
+    "kind": "explainer",
+    "language": "en",
+    "topicTags": ["markets"],
+    "headline": "‘Yield curve’ — the one thing to know",
+    "bullets": [
+      "Plot of government bond yields against their maturities.",
+      "Normally slopes upward; inversion (short > long) has preceded most recessions.",
+      "Currently mildly positive after two years of inversion."
+    ],
+    "whyItMatters": "The single most-quoted recession indicator; understanding what it says (and doesn’t) cuts through most macro commentary.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-04T10:00:00Z",
+    "sources": [
+      {"publisher": "FRED", "url": "https://fred.stlouisfed.org/", "tier": 0, "publishedAt": "2026-09-04T09:00:00Z"}
+    ]
+  },
+  {
+    "id": "n025",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "ai"],
+    "headline": "GitHub launches deeper Claude Code integration",
+    "bullets": [
+      "New PR-review agent runs directly on GitHub Actions.",
+      "Enterprise plan includes usage caps and audit trails.",
+      "Public preview live today."
+    ],
+    "whyItMatters": "Continues the pattern of AI coding features moving from IDEs into repo infrastructure — where the persistent record lives.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 35,
+    "publishedAt": "2026-09-12T16:00:00Z",
+    "sources": [
+      {"publisher": "GitHub Blog", "url": "https://github.blog/", "tier": 0, "publishedAt": "2026-09-12T15:30:00Z"},
+      {"publisher": "Anthropic", "url": "https://www.anthropic.com/news", "tier": 0, "publishedAt": "2026-09-12T15:45:00Z"}
+    ]
+  },
+  {
+    "id": "n026",
+    "kind": "news",
+    "language": "he",
+    "topicTags": ["israel", "science"],
+    "headline": "הטכניון מדווח על פריצת דרך במחקר סוללות מוצקות",
+    "bullets": [
+      "המחקר מציג אלקטרוליט חדש עם יציבות גבוהה יותר בטמפרטורת חדר.",
+      "המאמר פורסם ב־Nature Energy.",
+      "המסחור עדיין רחוק שנים."
+    ],
+    "whyItMatters": "התקדמות בסוללות מוצקות היא צוואר הבקבוק המרכזי של הרכב החשמלי; כל שלב עוזר גם אם עדיין רחוק ממסחור.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-10T08:00:00Z",
+    "sources": [
+      {"publisher": "Nature Energy", "url": "https://www.nature.com/nenergy/", "tier": 0, "publishedAt": "2026-09-10T08:00:00Z"},
+      {"publisher": "Ynet", "url": "https://www.ynet.co.il/", "tier": 1, "publishedAt": "2026-09-10T09:00:00Z"}
+    ]
+  },
+  {
+    "id": "n027",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["world", "markets"],
+    "headline": "China Q3 GDP prints at 4.6%, below consensus",
+    "bullets": [
+      "Property sector remains the main drag.",
+      "Retail sales beat modestly; industrial production disappointed.",
+      "Policymakers hint at additional targeted stimulus."
+    ],
+    "whyItMatters": "A softer print keeps commodity prices under pressure and reinforces expectations of more fiscal support from Beijing before year-end.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-09T04:00:00Z",
+    "sources": [
+      {"publisher": "NBS China", "url": "http://www.stats.gov.cn/", "tier": 0, "publishedAt": "2026-09-09T02:00:00Z"},
+      {"publisher": "Reuters", "url": "https://www.reuters.com/world/china/", "tier": 1, "publishedAt": "2026-09-09T04:00:00Z"}
+    ]
+  },
+  {
+    "id": "n028",
+    "kind": "whyItMatters",
+    "language": "en",
+    "topicTags": ["tech", "markets"],
+    "headline": "Why the datacenter power crunch is now a Wall Street topic",
+    "bullets": [
+      "AI capex is now driven as much by MW available as chips ordered.",
+      "US utilities are re-rating gas turbines they had planned to retire.",
+      "Hyperscalers are signing 10–20 year PPAs to lock in supply."
+    ],
+    "whyItMatters": "Power is becoming the binding constraint on AI growth; watching utility policy is now as material to tech valuations as GPU roadmaps.",
+    "confidence": "analysis",
+    "risk": "standard",
+    "estimatedSeconds": 60,
+    "publishedAt": "2026-09-07T12:00:00Z",
+    "sources": [
+      {"publisher": "FT", "url": "https://www.ft.com/energy", "tier": 1, "publishedAt": "2026-09-07T11:00:00Z"},
+      {"publisher": "Bloomberg", "url": "https://www.bloomberg.com/energy", "tier": 1, "publishedAt": "2026-09-07T11:30:00Z"}
+    ]
+  },
+  {
+    "id": "n029",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["world", "science"],
+    "headline": "Global sea-surface temperatures set another monthly record",
+    "bullets": [
+      "August 2026 surpasses the previous record set in 2024.",
+      "Anomaly concentrated in the North Atlantic and equatorial Pacific.",
+      "Attribution studies point to ENSO plus long-term warming trend."
+    ],
+    "whyItMatters": "Sea-surface temps drive both storm intensity and marine ecosystem stress; repeat records raise expected damage from the next active season.",
+    "confidence": "confirmed",
+    "risk": "sensitive",
+    "estimatedSeconds": 45,
+    "publishedAt": "2026-09-06T14:00:00Z",
+    "sources": [
+      {"publisher": "NOAA", "url": "https://www.noaa.gov/", "tier": 0, "publishedAt": "2026-09-06T14:00:00Z"},
+      {"publisher": "Copernicus", "url": "https://climate.copernicus.eu/", "tier": 0, "publishedAt": "2026-09-06T14:30:00Z"}
+    ]
+  },
+  {
+    "id": "n030",
+    "kind": "news",
+    "language": "en",
+    "topicTags": ["tech", "world"],
+    "headline": "SpaceX Starship completes first full orbital return-to-launch-site",
+    "bullets": [
+      "Both booster and second stage recovered.",
+      "Cargo bay carried 24 next-gen Starlink satellites.",
+      "Turnaround target for the vehicle: under 30 days."
+    ],
+    "whyItMatters": "Full RTLS is what unlocks the economics of the vehicle; a repeatable cycle changes the economics of large-payload orbit access.",
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 40,
+    "publishedAt": "2026-09-10T20:00:00Z",
+    "sources": [
+      {"publisher": "SpaceX", "url": "https://www.spacex.com/", "tier": 0, "publishedAt": "2026-09-10T19:30:00Z"},
+      {"publisher": "Ars Technica", "url": "https://arstechnica.com/", "tier": 2, "publishedAt": "2026-09-10T20:15:00Z"}
+    ]
+  }
+]

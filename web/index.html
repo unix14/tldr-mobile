@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="description" content="tldr — a private, calm feed of short news. No account. No streaks. No noise.">
+
+  <!-- Chrome / Android theme -->
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+
+  <!-- iOS: fullscreen standalone install with proper status bar handling -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="tldr">
+  <link rel="apple-touch-icon" href="icons/Icon-apple-touch.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/Icon-apple-touch.png">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <title>tldr</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Boot splash shown until Flutter mounts. Matches the app theme so
+       there's no white flash on cold-start / home-screen launch. */
+    html, body {
+      background: #000;
+      color: #E7E7EA;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      -webkit-tap-highlight-color: transparent;
+      font-family: Charter, Georgia, 'Times New Roman', serif;
+    }
+    #tldr-splash {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: opacity 300ms ease;
+      background: #000;
+    }
+    #tldr-splash .mark {
+      font-size: 84px;
+      font-weight: 500;
+      color: #E7E7EA;
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+    #tldr-splash .rule {
+      width: 44px;
+      height: 3px;
+      background: #CFA574;
+      border-radius: 2px;
+      margin-top: 22px;
+      opacity: 0.85;
+    }
+    #tldr-splash .tag {
+      margin-top: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #64646B;
+    }
+    #tldr-splash.hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="tldr-splash" aria-hidden="true">
+    <div class="mark">t</div>
+    <div class="rule"></div>
+    <div class="tag">short. clean. yours.</div>
+  </div>
+  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Fade the splash once Flutter's first frame paints.
+    window.addEventListener('flutter-first-frame', function () {
+      var s = document.getElementById('tldr-splash');
+      if (!s) return;
+      s.classList.add('hide');
+      setTimeout(function () { s.remove(); }, 400);
+    });
+    // Safety fallback: hide the splash after 6s no matter what so we
+    // never strand a viewer on it.
+    setTimeout(function () {
+      var s = document.getElementById('tldr-splash');
+      if (s) { s.classList.add('hide'); setTimeout(function () { s.remove(); }, 400); }
+    }, 6000);
+  </script>
+</body>
+</html>
