@@ -16,8 +16,10 @@ name: Refresh content
 
 on:
   schedule:
-    # Every 2 hours on the hour. Free tier: 100 req/day, we use ~72.
-    - cron: '0 */2 * * *'
+    # Twice a day. NewsAPI free tier: 100 req/day; we use ~12. The client
+    # also live-fetches RSS on every app open, so this cron is really the
+    # offline / cold-start / PWA fallback rather than the primary path.
+    - cron: '0 0,12 * * *'
   workflow_dispatch:   # Manual trigger from the Actions tab.
 
 permissions:

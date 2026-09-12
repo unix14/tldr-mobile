@@ -7,6 +7,7 @@ import '../../../widgets/publisher_favicon.dart';
 import '../../../widgets/relative_date.dart';
 import '../../../widgets/topic_chip.dart';
 import 'card_actions.dart';
+import 'expanded_card_screen.dart';
 import 'read_more_link.dart';
 
 class VideoCard extends StatelessWidget {
@@ -31,55 +32,48 @@ class VideoCard extends StatelessWidget {
               _topicEyebrow(context),
               const SizedBox(height: 12),
               Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    _thumbnail(context),
-                    const SizedBox(height: 16),
-                    Text(
-                      card.headline,
-                      style:
-                          Theme.of(context).textTheme.headlineMedium!.copyWith(
-                                fontWeight: FontWeight.w600,
-                              ),
-                    ),
-                    const SizedBox(height: 10),
-                    _byline(context),
-                    const SizedBox(height: 16),
-                    for (final b in card.bullets)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: Text(
-                          '• $b',
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodyLarge!
-                              .copyWith(color: AppColors.textPrimary),
-                        ),
-                      ),
-                    if (card.sources.isNotEmpty) ...[
-                      const SizedBox(height: 2),
-                      ReadMoreLink(card: card),
-                    ],
-                    if (card.whyItMatters != null) ...[
+                child: ClipRect(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      _thumbnail(context),
                       const SizedBox(height: 14),
                       Text(
-                        (_isHe ? 'למה זה חשוב' : 'Why it matters').toUpperCase(),
-                        style: Theme.of(context).textTheme.labelSmall!.copyWith(
-                              color: AppColors.accent,
-                              letterSpacing: 1.2,
-                            ),
+                        card.headline,
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineMedium!
+                            .copyWith(fontWeight: FontWeight.w600),
                       ),
-                      const SizedBox(height: 6),
-                      Text(
-                        card.whyItMatters!,
-                        style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                              color: AppColors.textPrimary,
-                            ),
-                      ),
+                      const SizedBox(height: 10),
+                      _byline(context),
+                      const SizedBox(height: 14),
+                      for (final b in card.bullets.take(2))
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 8),
+                          child: Text(
+                            '• $b',
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodyLarge!
+                                .copyWith(color: AppColors.textPrimary),
+                          ),
+                        ),
+                      if (card.bullets.length > 2 ||
+                          card.whyItMatters != null) ...[
+                        const SizedBox(height: 4),
+                        _VideoShowMoreLink(card: card),
+                      ],
+                      if (card.sources.isNotEmpty) ...[
+                        const SizedBox(height: 2),
+                        ReadMoreLink(card: card),
+                      ],
                     ],
-                    const SizedBox(height: 24),
-                  ],
+                  ),
                 ),
               ),
               const Divider(),
@@ -200,6 +194,59 @@ class VideoCard extends StatelessWidget {
                   size: 60, color: Colors.white),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _VideoShowMoreLink extends StatelessWidget {
+  final ContentCard card;
+  const _VideoShowMoreLink({required this.card});
+
+  bool get _isHe => card.language == 'he';
+
+  @override
+  Widget build(BuildContext context) {
+    return Directionality(
+      textDirection: _isHe ? TextDirection.rtl : TextDirection.ltr,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(6),
+        onTap: () {
+          Navigator.of(context).push(
+            PageRouteBuilder(
+              opaque: true,
+              transitionDuration: const Duration(milliseconds: 220),
+              pageBuilder: (_, __, ___) => ExpandedCardScreen(card: card),
+              transitionsBuilder: (_, a, __, child) => FadeTransition(
+                opacity: a,
+                child: child,
+              ),
+            ),
+          );
+        },
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 6),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                _isHe ? 'הרחב את הכתבה' : 'Show more',
+                style: const TextStyle(
+                  color: AppColors.textSecondary,
+                  fontSize: 12.5,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.2,
+                ),
+              ),
+              const SizedBox(width: 6),
+              Icon(
+                _isHe ? Icons.arrow_back : Icons.arrow_forward,
+                size: 14,
+                color: AppColors.textSecondary,
+              ),
+            ],
+          ),
         ),
       ),
     );
