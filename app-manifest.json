@@ -7,8 +7,8 @@
   "supported_platforms": [
     "android_mobile"
   ],
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.2",
   "apk_asset_name": "app-release.apk",
-  "release_notes": "Bump version to 1.0.1",
+  "release_notes": "v1.0.2 — RSS UTF-8 fix + drop read-time from byline\n\n- Hebrew RSS feeds fetched client-side were being decoded as Latin-1\n  because the Dart http package falls back to Latin-1 when the\n  response Content-Type has no charset (Israel Hayom serves\n  'text/xml' without one — Ynet/Globes/Walla/Haaretz all do too on\n  various responses). All 5 feeds declare UTF-8 in their XML\n  preamble, so we now decode res.bodyBytes as UTF-8 explicitly\n  (allowMalformed: true so one bad byte can't sink a whole feed).\n  Fixes gibberish Israel Hayom titles + any other Hebrew mojibake.\n\n- Removed the '~45s' read-time estimate from card bylines (feed +\n  video + expanded views). User feedback: noise on top of the\n  headline; publisher + date + confidence is enough.",
   "icon_url": "web/icons/Icon-512.png"
 }
