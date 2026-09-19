@@ -140,8 +140,6 @@ class VideoCard extends StatelessWidget {
             _dot(),
             Text(formatRelative(card.publishedAt, isHe: _isHe)),
           ],
-          _dot(),
-          Text('~${card.estimatedSeconds}s'),
           if (card.confidence != Confidence.confirmed) ...[
             _dot(),
             ConfidenceChip(confidence: card.confidence, language: card.language),

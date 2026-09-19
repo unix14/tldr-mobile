@@ -141,11 +141,7 @@ class ExpandedCardScreen extends ConsumerWidget {
             ),
             _dot(),
           ],
-          if (relative.isNotEmpty) ...[
-            Text(relative),
-            _dot(),
-          ],
-          Text('~${card.estimatedSeconds}s'),
+          if (relative.isNotEmpty) Text(relative),
           if (card.confidence != Confidence.confirmed) ...[
             _dot(),
             ConfidenceChip(
