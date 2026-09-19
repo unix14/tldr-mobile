@@ -169,8 +169,15 @@ class ContentRepository {
           'Accept': 'application/rss+xml, application/xml, text/xml, */*',
         },
       ).timeout(_rssTimeout);
-      if (res.statusCode != 200 || res.body.isEmpty) return const [];
-      final parsed = RssFeed.parse(res.body);
+      if (res.statusCode != 200 || res.bodyBytes.isEmpty) return const [];
+      // Israel Hayom (and some other feeds) serve `text/xml` without a
+      // charset, so Dart's http package would default to Latin-1 on
+      // `res.body` — every Hebrew glyph would come back as mojibake. All
+      // five feeds we curate declare UTF-8 in their XML preamble, so
+      // decode the raw bytes as UTF-8 (with a permissive replacement on
+      // stray bytes so one bad character can't sink a whole feed).
+      final xml = utf8.decode(res.bodyBytes, allowMalformed: true);
+      final parsed = RssFeed.parse(xml);
       final items = (parsed.items ?? []).take(feed.max).toList();
       return items
           .map((it) => _rssItemToCard(it, feed))
