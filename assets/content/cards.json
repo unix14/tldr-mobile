@@ -1,5 +1,487 @@
 [
   {
+    "id": "c_98d827e8a6",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בוסטון ניצחה את ניו יורק והנחילה לה הפסד שני העונה",
+    "bullets": [
+      "36 נקודות של ג'ייסון טייטום נתנו לבוסטון ניצחון 103:107 והשאירו את האלופה ללא ניצחון העונה.",
+      "קופר פלאג נפצע על ידי שחקן יריב בניצחון באינדיאנה, דטרויט הביסה את יאניס אנטטוקומפו ומיאמי"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T03:53:03.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/nba/2026-10-24/ty-article/000001a1-6bd7-d34e-a1b9-ffdf52fc0000",
+        "tier": 1,
+        "publishedAt": "2026-10-24T03:53:03.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gif.haarets.co.il/bs/000001a1-6c08-db3a-a9fb-fcabf67e0001/fe/7b/0d912cae4958994427ee7676ef8f/b47cww.gif?width=108&height=81"
+  },
+  {
+    "id": "c_d0117291f8",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "עדיין חם מהרגיל, אבל ביום הבחירות צפוי מהפך: גשמים, סופות רעמים וחשש לשיטפונות | התחזית",
+    "bullets": [
+      "מזג האוויר היום (שבת) יוסיף להיות חם מהרגיל לעונה ברוב אזורי הארץ, עם טמפרטורות שיגיעו עד 35 מעלות בעמקים.",
+      "אלא שבהמשך השבוע צפוי שינוי חד: ע״פ השירות המטאורולוגי, ביום שלישי, יום הבחירות, יירדו גשמים ברוב אזורי הארץ, מלווים בסופות רעמים, ובדרום קיים חשש לשיטפונות."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T03:35:48.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958660",
+        "tier": 1,
+        "publishedAt": "2026-10-24T03:35:48.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-proxy-walla.walla.cloud/2026/10/3/videos/1792215773_1278x720/index.m3u8"
+  },
+  {
+    "id": "c_96714cf82c",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "שעון חורף 2026: ביקשנו להחליף ממשלה, בינתיים מחליפים שעה",
+    "bullets": [
+      "הלילה ב־2:00 יזוזו המחוגים שעה אחת לאחור ל־1:00.",
+      "שעון החורף יישאר בתוקף למשך כחמישה חודשים, עד ל־26 במרץ 2027"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T03:00:00.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/local/2026-10-24/ty-article/000001a1-6abf-db3a-a9fb-febfdd7a0000",
+        "tier": 1,
+        "publishedAt": "2026-10-24T03:00:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6aca-d46d-a1fd-eacba5300000/09/fb/242936c9437e914826ea71554125/787972.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_b3fe7bf006",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "החום נחלש, הגשם בדרך - ויגיע ביום הבחירות: התחזית המלאה",
+    "bullets": [
+      "היום תחול ירידה בטמפרטורות, אך ברוב האזורים עדיין יהיה חם מהרגיל.",
+      "מחר תורגש הקלה נוספת בעומסי החום, בשלישי צפוי שינוי משמעותי: גשמים מקומיים ברוב הארץ, סופות רעמים בדרום וחשש לשיטפונות בנחלי הנגב, הערבה וים המלח"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T02:26:33.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/e7qx9cs6e",
+        "tier": 1,
+        "publishedAt": "2026-10-24T02:26:33.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_99a6ec7f3a",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"כולם ידעו שהוא הומו\": 3 גברים טוענים שלינדזי גרהאם המנוח שילם להם על סקס",
+    "bullets": [
+      "בסרט תיעודי שפורסם כ-3 חודשים לאחר מותו של הסנאטור הרפובליקני, מבעלי בריתו הקרובים של טראמפ, טען אחד הגברים כי היה בן 17 בזמן המפגש - ושגרהאם צילם אותו בסתר.",
+      "הסנאטור, שהתנגד לנישואים חד-מיניים, הכחיש לאורך השנים שהוא הומו - ובמפלגה הרפובליקנית תקפו: \"שקרים מבישים נגד אדם שלא יכול להגן על עצמו\".",
+      "ברקע: אחותו נאבקת על מושבו בסנאט לקראת בחירות האמצע"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T02:05:40.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/syvho00k3me",
+        "tier": 1,
+        "publishedAt": "2026-10-24T02:05:40.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_983315b907",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ארה\"ב מפנה בחשאי דיפלומטים מהמזרח התיכון: \"ישראל לוחצת לתקוף באיראן\"",
+    "bullets": [
+      "בצל החשש מהסלמה אזורית, וושינגטון הורתה לפנות עובדים לא חיוניים ומשפחות מסעודיה - ובמקביל מצמצמת בשקט את הנוכחות בשגרירויות בשש מדינות נוספות ובהן ירדן, לבנון, קטאר והאמירויות.",
+      "לפי CNN, ישראל מבקשת להקדים את חידוש התקיפות באיראן, אך בינתיים ללא הצלחה.",
+      "דיווח: המודיעין בארה\"ב מזהיר - טהרן מקדמת תוכניות מתקדמות להתנקש בבכירים אמריקנים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-24T00:12:22.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/ry7xypt2ge",
+        "tier": 1,
+        "publishedAt": "2026-10-24T00:12:22.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_89afcfde66",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "רב מחב\"ד נעצר בחשד לרצח בקליפורניה: דרס למוות צעיר בחניון של קוסטקו",
+    "bullets": [
+      "הרב אבא בריסקי (35), בנו של אחד ממנהיגי חב\"ד הבולטים בדרום קליפורניה, נעצר לאחר שצעיר בן 28 נדרס למוות סמוך לתחנת הדלק של רשת הענק.",
+      "עדי ראייה הצביעו עליו כנהג הפוגע, והוא נעצר במכוניתו.",
+      "החוקרים טרם חשפו מה קדם לדריסה ואם הייתה מכוונת."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T22:56:47.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hywzaut3gx",
+        "tier": 1,
+        "publishedAt": "2026-10-23T22:56:47.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_070eb40f8b",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "היערכות לחידוש המהומות בצרפת: חנויות \"משוריינות\" בפריז, זו ההמלצה של משרד החוץ",
+    "bullets": [
+      "לקראת סוף שבוע מתוח בצרפת, ועם חשש מהתלקחות מחודשת של המהומות האלימות והפרות הסדר, החלו חנויות בבירה הצרפתית למגן את עצמן מפני בוזזים.",
+      "מוסדות תרבות ומוזיאונים ייסגרו מחשש לפגיעה, לא תתאפשר כניסת מבקרים ללובר ולארמון ורסאי.",
+      "משרד החוץ לישראלים: \"לנקוט משנה זהירות ולגלות ערנות\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T22:19:51.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/h1fbxef3fg",
+        "tier": 1,
+        "publishedAt": "2026-10-23T22:19:51.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_d67a8e9a96",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הסקרים האחרונים לפני הבחירות: זו תמונת הגושים - ומי נותר מתחת לאחוז החסימה?",
+    "bullets": [
+      "בכל הסקרים שפורסמו יש יתרון לגוש השינוי, אך אף צד לא משיג 61 מנדטים.",
+      "של איזנקוט היא המפלגה הגדולה בישראל, הליכוד מיד אחריה.",
+      "וינטר לא עובר את אחוז החסימה, הנדל וזליכה גם כן לא משיגים 3.25% מהקולות בשניים משלושת הערוצים - וכמה מקבלות המפלגות הערביות?"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T21:57:59.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/elections2026/article/hy500sxt2mx",
+        "tier": 1,
+        "publishedAt": "2026-10-23T21:57:59.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_be5ae2c20a",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ישראל בדרך לריסוק כלכלי? נתניהו שחרר הצהרה חריגה - עם משמעות מסוכנת מאוד",
+    "bullets": [
+      "אחרי שרה\"מ אמר בריאיון כי הסיוע הביטחוני מארה\"ב עומד להסתיים - אמירה חריפה כשלעצמה - הוא הוסיף כי ישראל צריכה להיערך לכלכלה עוקפת סנקציות בנקאיות, מה ששקול להודעה שהאיראנים פיתחו ראש נפץ גרעיני.",
+      "יש רק שתי אפשרויות: או שנתניהו צייר תרחיש ריאלי לסופה הקרוב של כלכלת ישראל - או שהוא אינו כשיר להוביל את המדינה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T21:41:37.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/hybiewf3me",
+        "tier": 1,
+        "publishedAt": "2026-10-23T21:41:37.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_d433893f0c",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "חדשות היום, 24 באוקטובר",
+    "bullets": [],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T21:08:00.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/dailynews/2026-10-24/ty-article-live/000001a1-6a95-db3a-a9fb-febfe95d0000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T21:08:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/0000018e-aaea-dc42-a3de-aafa2dbb0001/a1/c9/d9b5b0af47e8aed28ac1a9cb1ed5/htz-share.png?width=108&height=81"
+  },
+  {
+    "id": "c_6d11cc9883",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "צה\"ל פתח במבצע בחברון אחרי הפיגוע הקטלני: \"עתיד להימשך מספר ימים\"",
+    "bullets": [
+      "בעקבות הפיגוע בצומת יהודה, שבו נפלו סמ\"ר רון יונתן רויטמן וסמל יובל שי סוילם, פתחו צה\"ל ושב\"כ במבצע נרחב בעיר שממנה יצאו שני המחבלים.",
+      "הכוחות יסרקו עשרות יעדים, יחקרו חשודים ויפעלו לאיתור אמצעי לחימה ותשתיות טרור.",
+      "תנועת התושבים באזור הפעילות תוגבל, בצה\"ל הבהירו: \"המבצע ממוקד ומתוחם\""
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:58:46.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/byumyskhzg",
+        "tier": 1,
+        "publishedAt": "2026-10-23T20:58:46.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_d90dee8a2f",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "אחרי הירי ליד חברון, צה\"ל הודיע שפתח במבצע בעיר",
+    "bullets": [
+      "לפי הודעת הצבא, המבצע נועד לאיתור תשתיות טרור לאחר ששניים מתושבי העיר ירו למוות בשני חיילים.",
+      "תושבים יוכלו לצאת ולהיכנס מהשטח שבו פועלים הכוחות באישור בלבד"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:54:46.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/politics/2026-10-23/ty-article/000001a1-6a86-d29a-a1a5-eaa7e5340000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T20:54:46.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6a87-df14-ada7-efe7f05f0001/5e/5c/816037494d2e8e389b646458cfbf/890857.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_83fc02ac3d",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בגיל 46, ועשור אחרי שפרש, רונאלדיניו חוזר לשחק כדורגל בליגה השלישית באיטליה",
+    "bullets": [
+      "כוכב העבר של ברצלונה ונבחרת ברזיל ישוב לשחק במדי ראבנה מהליגה השלישית באיטליה, במשחק הדרבי מול פורלי ב־15 בנובמבר, יותר מעשר שנים לאחר משחקו המקצועני האחרון"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:47:20.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-10-23/ty-article/000001a1-6a7c-db3a-a9fb-fefffce40000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T20:47:20.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6a7f-db3a-a9fb-feffcf4e0000/ca/e4/c90c13fb49918fbb02446d7bc20b/892882.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_3d199998ab",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "ליאו מסי זכה בפרס נסיכת אסטוריאס לספורט לשנת 2026, והפך לכדורגלן הראשון שזוכה בו לבדו",
+    "bullets": [
+      "ליאו מסי הגיע במיוחד לאוביידו, על מנת לקבל את פרס נסיכת אסטוריאס לספורט, והפך לכדורגלן הראשון שזוכה בו באופן אישי.",
+      "חבר השופטים העניק לו את הכבוד בזכות הקריירה יוצאת הדופן, הענווה והפעילות ההומניטרית שלו למען ילדים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:33:27.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-10-23/ty-article/000001a1-6a69-df14-ada7-efe95d510000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T20:33:27.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6a76-d29a-a1a5-eaf75d230000/e1/d5/c7b7d77b407ba0d6d2b510e2cc70/893558.jpg?width=108&height=81"
+  },
+  {
     "id": "c_3cb9908915",
     "kind": "news",
     "language": "he",
@@ -10,19 +492,243 @@
     ],
     "headline": "שני לוחמי צה\"ל נפלו בפיגוע הירי בצומת יהודה",
     "bullets": [
-      "סמ\"ר רון יונתן רויטמן וסמל יובל שי סוילם נאבקו במחבלים - ונהרגו במהלך חילופי האש • במערכת הביטחון בישראל מזהירים מהצהרות שיובילו לקריאה שגויה של המציאות, בעוד בטהרן מעריכים כי עימות הוא ודאי ועשוי לפרוץ עוד לפני פתיחת הקלפיות • פיגוע ירי סמוך לצומת יהודה • במקביל: המתיחות במזרח התיכון גולשת לזירות נוספות עם שורת יירוטים של טילים וכטב\"מים חות'יים בסעודיה • עדכונים שוטפים"
+      "פיגוע ירי סמוך לצומת יהודה: סמ\"ר רון יונתן רויטמן וסמל יובל שי סוילם נאבקו במחבלים - ונהרגו במהלך חילופי האש • במערכת הביטחון בישראל מזהירים מהצהרות שיובילו לקריאה שגויה של המציאות, בעוד בטהרן מעריכים כי עימות הוא ודאי ועשוי לפרוץ עוד לפני פתיחת הקלפיות בישראל • טראמפ: ארה\"ב עשויה לבצע פעולה צבאית נוספת נגד איראן • עדכונים שוטפים"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-23T16:35:00.000Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:07:00.000Z",
     "sources": [
       {
         "publisher": "Globes",
         "url": "https://www.globes.co.il/news/article.aspx?did=1001560602#utm_source=RSS",
         "tier": 1,
-        "publishedAt": "2026-10-23T16:35:00.000Z"
+        "publishedAt": "2026-10-23T20:07:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_dae102f96b",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "נעילה אדומה בוול סטריט: דאו ג'ונס איבד יותר מאחוז; מחיר הנפט בעלייה",
+    "bullets": [
+      "על רקע הירידה במניות הטכנולוגיה והמתיחות במזרח התיכון: המדדים המרכזיים בוול סטריט ננעלו בירידות • נעילה אדומה גם בבורסות באירופה • אמריקן אקספרסס הודיעה על פיטורים של 5% מכוח האדם • מחיר הנפט בעלייה"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T20:05:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001560609#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-10-23T20:05:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_e3e93200f7",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "הסקרים האחרונים לפני הבחירות: יתרון לגוש איזנקוט, שום צד לא משיג 61 מנדטים",
+    "bullets": [
+      "גוש נתניהו מקבל 50 מנדטים בשלושת הערוצים המרכזיים וגוש איזנקוט נע בין 52 ל־56.",
+      "המילואימניקים עוברת את אחוז החסימה רק בסקר אחד, רשימתו של עופר וינטר נותרת בחוץ בכולם"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:42:08.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-23/ty-article/000001a1-69ad-d29a-a1a5-ebaf49c50000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:42:08.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-69b4-db3a-a9fb-fdbff77b0001/1c/6f/2a67563a4b71b707b9a5d275edd8/881297.jpg?width=108&height=81"
+  },
+  {
+    "id": "c_04929c505f",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "סקר הסקרים: נתניהו או אייזנקוט? למי יש סיכוי גדול יותר להרכיב ממשלה",
+    "bullets": [
+      "מדינת ישראל הולכת לבחירות, והמשרוקית של גלובס מביאה את הסקרים העדכניים ביותר מכל כלי התקשורת • מי מתחזק, מי נחלש ואיך זה משפיע על יחסי הכוחות בין המחנות?",
+      "• והפעם: הנתונים מגלים מי המועמד שיחזיק ביתרון עד פתיחת הקלפיות"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:41:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001560613#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:41:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_0f216e1f01",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "מרכז הסקרים 2026: מפת המנדטים העדכנית מכל סקר בחירות",
+    "bullets": [
+      "איך נראית התפלגות הגושים, אילו מפלגות שומרות על כוחן ומי מתנדנדות סביב אחוז החסימה?",
+      "כל תוצאות סקרי הבחירות במקום אחד"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:40:00.000Z",
+    "sources": [
+      {
+        "publisher": "Haaretz",
+        "url": "https://www.haaretz.co.il/news/elections/2026-10-23/ty-article-static/0000019d-f2ad-db6e-ab9f-f7bd1bda0000",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:40:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gif.haarets.co.il/bs/0000019f-5673-de66-a5bf-5773aa700000/30/77/41de790b49fcaf5e085f5fcccb8c/election-homepage-03.gif?width=108&height=81"
+  },
+  {
+    "id": "c_b87fbd5edb",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בני הזוג היו פרודים - ויאנה נרצחה לעיני בנם המשותף: \"אסון בלתי נתפס\"",
+    "bullets": [
+      "יאנה זיקובה היא האישה שנרצחה בדירתה בצפון חיפה, שבה התגוררה לבדה.",
+      "שכן שמע את זעקתה ודיווח למשטרה.",
+      "שכניה העידו כי חששה מבן הזוג החשוד ברצח שלה, שבוצע בנוכחות בנם - בן 6 בלבד עם צרכים מיוחדים."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:39:20.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/bk7mvmk3mx",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:39:20.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_0ba5d14288",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "markets",
+      "israel",
+      "world"
+    ],
+    "headline": "מאיראן ועד קוריאה הצפונית: הכלכלות שנשענות על שוק הקריפטו",
+    "bullets": [
+      "ההתבטאות של ראש הממשלה נתניהו להתארגן \"לכלכלה עוקפת\" הנשענת על שוק הקריפטו, מפנה את הזרקור למדינות שכבר מימשו את המודל • כך הכלכלה המבוזרת הפכה לתשתית הישרדות שמבוססת על נכסים לא מפוקחים"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:31:00.000Z",
+    "sources": [
+      {
+        "publisher": "Globes",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001560612#utm_source=RSS",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:31:00.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_9a8b8410ea",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "\"מרגיש כמו ניו יורק אחרי הקורונה\": המכה החדשה שמשתלטת על מרכז תל אביב",
+    "bullets": [
+      "משלמים על בנייני יוקרה ומרגישים בהארלם: עם דרי רחוב שעושים צרכים בחדרי המדרגות ונרקומנים שמזריקים סמים מחוץ לבתי קפה, נועה משכונת מונטיפיורי - אם לתינוקת - מרגישה ש\"אי אפשר לגור פה עם ילדים\".",
+      "ולדברי עדי ממתחם נוגה ביפו, \"רק בהליכה של שני מטר לאוטו יש שני חבר'ה עם מזרקים.",
+      "אני כבר לא יוצאת לבד מהבית בערב\"."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T18:03:53.000Z",
+    "sources": [
+      {
+        "publisher": "Ynet",
+        "url": "https://www.ynet.co.il/news/article/r1mwjsl3fl",
+        "tier": 1,
+        "publishedAt": "2026-10-23T18:03:53.000Z"
       }
     ],
     "disagreement": null,
@@ -72,7 +778,7 @@
     ],
     "headline": "אישה נדקרה למוות בבית בחיפה; בן זוגה נעצר בחשד לרצח",
     "bullets": [
-      "האישה, כבת 40, נמצאה בבית בעיר כשהיא פצועה באורח אנוש.",
+      "יאנה זיקובה, בת 43, נמצאה בביתה כשהיא פצועה באורח אנוש, ובהמשך נקבע מותה.",
       "מתחילת השנה נרצחו בישראל 22 נשים, ובסך הכל 220 בני אדם"
     ],
     "whyItMatters": null,
@@ -91,7 +797,7 @@
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6998-db3a-a9fb-fdbb27990001/51/08/71d26ee347b0a6773a663fac4eec/kh.jpeg?width=108&height=81"
+    "imageUrl": "https://img.haarets.co.il/bs/000001a1-69d9-df14-ada7-eff9444f0000/d6/2a/81584ea145d683056f24e2044520/893401.jpg?width=108&height=81"
   },
   {
     "id": "c_040a080a50",
@@ -126,261 +832,6 @@
     "imageUrl": "https://img.haarets.co.il/bs/000001a1-6983-d6e1-abb7-7fcfce520000/16/ac/c5a45fd34f6580937a173fc6a9f5/820855.jpg?width=108&height=81"
   },
   {
-    "id": "c_bad4fba324",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "חשד לרצח: אישה נדקרה למוות בביתה בקריית חיים. בן זוגה נעצר",
-    "bullets": [
-      "האישה נדקרה ככל הנראה על ידי בן זוגה בדירה בצפון חיפה.",
-      "מצבה הוגדר אנוש - וכעבור זמן קצר נאלצו צוותי מד\"א לקבוע את מותה במקום.",
-      "המשטרה איתרה את החשוד בזירה, השתלטה עליו ועצרה אותו: \"נפתחה חקירה\""
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T16:12:57.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/hk4p8zt2me",
-        "tier": 1,
-        "publishedAt": "2026-10-23T16:12:57.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_d9ea423ef8",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הקמפיין הערמומי של הליכוד - והחלטת סולברג: \"תודיעו שזה לא שלט של איזנקוט\"",
-    "bullets": [
-      "הליכוד הציב שלטים עם כיתוב בערבית וצבעים המזוהים עם מפלגת ישר!",
-      "- ועליהם תמונות של ראשי גוש השינוי, ולצדם עבאס וטיבי.",
-      "יו\"ר ועדת הבחירות קבע כי הם נועדו להטעות את הציבור - ודרש להסיר אותם \"בהקדם האפשרי\""
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T16:12:15.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/elections2026/article/hkza5gk3fx",
-        "tier": 1,
-        "publishedAt": "2026-10-23T16:12:15.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_429e514195",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הבית הלבן: מלניה טראמפ סייעה להשיג הפסקת אש בעיר כבושה בדרום אוקראינה",
-    "bullets": [
-      "לפי הבית הלבן, טראמפ תיווכה במגעים בין אוקראינה לרוסיה להפסקת אש בעיר אולשקי, והיא צפויה להתחיל ב־29 באוקטובר.",
-      "העיר נכבשה ביום הראשון לפלישה הרוסית ב־2022, וסובלת מזה חודשים ממחסור במזון ובציוד רפואי"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T16:06:47.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/world/america/2026-10-23/ty-article/000001a1-693f-d46d-a1fd-e93fd0020000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T16:06:47.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-695e-d6e1-abb7-7fde87080001/1e/e3/dabad2cb46038dd4ed97f3db6188/848376.jpg?width=108&height=81"
-  },
-  {
-    "id": "c_dae102f96b",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "markets",
-      "israel",
-      "world"
-    ],
-    "headline": "וול סטריט עברה למגמה מעורבת; נאסד\"ק רושם עלייה קלה",
-    "bullets": [
-      "לאחר נעילה אדומה אתמול, ופתיחת מסחר שלילית היום - המסחר בוול סטריט מתנהל במגמה מעורבת • נעילה אדומה באירופה • אמריקן אקספרסס הודיעה על פיטורים של 5% מכוח האדם • מחיר הנפט בעלייה"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T16:05:00.000Z",
-    "sources": [
-      {
-        "publisher": "Globes",
-        "url": "https://www.globes.co.il/news/article.aspx?did=1001560609#utm_source=RSS",
-        "tier": 1,
-        "publishedAt": "2026-10-23T16:05:00.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_3fbb40d146",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "מאמן באיירן מינכן, וינסנט קומפאני, התמוטט לאחר האימון ופונה לבית החולים",
-    "bullets": [
-      "לפי דיווחים בגרמניה, וינסנט קומפאני בן ה-40 קרס ופונה לבית חולים במינכן במסוק בליווי רופא חירום, כאשר ברקע זיהום ויראלי שממנו סבל בימים האחרונים.",
-      "במועדון טרם פרסמו הודעה רשמית על מצבו"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T16:01:39.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-10-23/ty-article/000001a1-6978-d29a-a1a5-ebfbb9d00000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T16:01:39.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-697d-d34e-a1b9-ff7fa43a0000/67/e4/1e1f676d493682224daaf23828bc/743845.jpg?width=108&height=81"
-  },
-  {
-    "id": "c_066deea84f",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "נתניהו הגיע להסכם עם מנהיג מפלגת אח\"י, החשוד בעבירות מין, והיא פרשה מהמרוץ",
-    "bullets": [
-      "לפי הליכוד, נתניהו הבטיח שימונה סגן שר במשרד רה\"מ מטעם אח\"י, או שימונה אדם \"שיקדם את העקרונות המשותפים\".",
-      "חיים דוד יוסף אברג'ל, שמנהיג את המפלגה, נעצר בשנה שעברה בעקבות עדויות על פגיעה בנשים ובקטינות"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T15:56:08.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/elections/2026-10-23/ty-article/000001a1-6943-db3a-a9fb-fdebb8f20000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T15:56:08.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6963-d46d-a1fd-e963d15d0001/1c/76/054f924c4294b8fc1e2e3123a975/ab.jpg?width=108&height=81"
-  },
-  {
-    "id": "c_b9b2165ee4",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "markets",
-      "israel",
-      "world"
-    ],
-    "headline": "המילואימניקים והכלכלית: לאלץ מכירת מאגרי גז ולהפסיק לפגוע ביבואנים",
-    "bullets": [
-      "במפלגת המילואימניקים-כלכלית מביאים את הגז כדוגמה לתחום שבו יש לפרק מונופולים, וסבורים כי שחרור חסמי יבוא יסיר חלק מהעיוותים בשוק המט\"ח • המצע הכלכלי, פרויקט מיוחד"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T15:55:00.000Z",
-    "sources": [
-      {
-        "publisher": "Globes",
-        "url": "https://www.globes.co.il/news/article.aspx?did=1001560537#utm_source=RSS",
-        "tier": 1,
-        "publishedAt": "2026-10-23T15:55:00.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_f53e1c992c",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "כריסטיאנו רונאלדו כבש את השער ה-982 בקריירה, אל נאסר ניצחה",
-    "bullets": [
-      "כריסטיאנו רונאלדו עשה צעד נוסף לעבר השער ה-1,000 בקריירה, אחרי שכבש בנגיחה בניצחון של קבוצתו 1:3 על אל פייסלי בליגה הסעודית"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T15:27:52.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/sport/world-soccer/2026-10-23/ty-article/000001a1-694b-d6e1-abb7-7fcfe1d00000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T15:27:52.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6952-d46d-a1fd-e9539fc40000/27/38/e3b87dfb456c899f1a44395c8ae7/892322.jpg?width=108&height=81"
-  },
-  {
     "id": "c_889fac26d4",
     "kind": "news",
     "language": "he",
@@ -391,7 +842,7 @@
     ],
     "headline": "להתמודד עם סנקציות באמצעות קריפטו? האמירה של נתניהו שעוררה סערה",
     "bullets": [
-      "ראש הממשלה נתניהו התייחס בראיון לערוץ 10 לאפשרות של סנקציות כלכליות על ישראל, וסיפק אמירה שהעלתה לא מעט תהיות"
+      "ראש הממשלה נתניהו התייחס בראיון לערוץ 10 לאפשרות של סנקציות כלכליות על ישראל, וסיפק אמירה שהעלתה לא מעט תהיות • אבישי עובדיה, מומחה לקריפטו: \"זו הדרך הכי גרועה להזיז כסף כדי לטשטש עקבות\""
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
@@ -404,39 +855,6 @@
         "url": "https://www.globes.co.il/news/article.aspx?did=1001560610#utm_source=RSS",
         "tier": 1,
         "publishedAt": "2026-10-23T15:21:00.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_ad18f9353a",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "רון נלחם לשרת בקרבי, אביו של יובל זועם: \"לקחו את הפרח שלי\" | סיפורי הנופלים",
-    "bullets": [
-      "הרמטכ\"ל הבהיר בזירה כי צה\"ל נערך להסלמה ביו\"ש ותגבר כוחות: \"אנו בכוננות עליונה בכל הזירות\".",
-      "משפחות שני הנופלים מחכות לקבל עוד פרטים - ומתקשות לעכל את האובדן.",
-      "אביו של סמל יובל שי סוילם שלח מסר לדרג המדיני בשיחה עם ynet: \"הבית חרב\"."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T15:06:25.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/bjvnleyngx",
-        "tier": 1,
-        "publishedAt": "2026-10-23T15:06:25.000Z"
       }
     ],
     "disagreement": null,
@@ -476,105 +894,6 @@
     "imageUrl": null
   },
   {
-    "id": "c_7c30ef03a1",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "המפלגה שפרשה מהמרוץ - וההבטחה של נתניהו לרב החשוד בעבירות מין",
-    "bullets": [
-      "אחרי מכבש לחצים שכלל שיחה עם רה\"מ, מפלגת אח\"י של הרב אברג'ל החשוד בעבירות מין חמורות פרשה מהתמודדות בבחירות לכנסת.",
-      "הוא קיבל הבטחה מהליכוד: נקדם חוק שיאפשר מינוי סגן שר מטעמך.",
-      "השר קיש, שנשלח מטעם רה\"מ, התגאה: \"מנענו שריפת עשרות אלפי קולות לימין\""
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T14:16:32.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/elections2026/article/sypa7jfngl",
-        "tier": 1,
-        "publishedAt": "2026-10-23T14:16:32.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_201b44d603",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "דרושים לנו עוד מנהיגים כמו גנץ",
-    "bullets": [
-      "גנץ המחיש פעם אחר פעם כי מנהיגות אמיתית נבחנת בנכונות לשאת בעול, לא בהתחמקות ממנו.",
-      "בתוך שיח ציבורי אלים ומשתלח, כוחו המובהק התגלה דווקא בריסון העצמי.",
-      "החלטתו לעצור בעת הזו אינה משום ויתור או הרמת ידיים, אלא חוליה נוספת בשרשרת האחריות הלאומית והדוגמה האישית שהנחו את דרכו מעולם"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T14:05:04.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/sk5sijthgx",
-        "tier": 1,
-        "publishedAt": "2026-10-23T14:05:04.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_ba18d35494",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הצלם הפלסטיני שתיעד בזמן אמת את הפיגוע הקטלני",
-    "bullets": [
-      "חאזם באדר, צלם AFP, תיעד את המחבלים במהלך חילופי האש הממושכים שבהם נהרגו סמ\"ר רון יונתן רויטמן וסמל יובל שי סוילם.",
-      "בהמשך צילם גם את גופותיהם של המחבלים בזירה.",
-      "אחרי שבצה\"ל אמרו כי יבחנו את גרסתו, סוכנות הידיעות הכחישה בתוקף שהיה לו מידע מקדים על הפיגוע ליד חברון - והוא לא נחקר"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T13:56:39.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/bk00f60ohgl",
-        "tier": 1,
-        "publishedAt": "2026-10-23T13:56:39.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
     "id": "c_f3b947329f",
     "kind": "news",
     "language": "he",
@@ -606,7 +925,7 @@
     "imageUrl": null
   },
   {
-    "id": "c_eacd8cde14",
+    "id": "c_3e1c83b0d9",
     "kind": "news",
     "language": "he",
     "topicTags": [
@@ -614,61 +933,32 @@
       "world",
       "geopolitics"
     ],
-    "headline": "מה שבטוח, צריך שינוי",
+    "headline": "יותר מ-100 כלי שיט במשט לזכר סרן ירדן זכאי: \"הים היה עבורו מרחב של חופש\"",
     "bullets": [
-      "פעם אחר פעם הצליח \"מר ביטחון\" ללחוץ על כפתורי הפחד של הישראלים - ולהיבחר | אבל מאז 7 באוקטובר מתגלה נתניהו שוב ושוב כמצביא וכמדינאי כושל מגיע לנו יותר מזה"
+      "יותר מ-100 כלי שיט השתתפו במשט השני לזכרו של סרן ירדן זכאי, שהתקיים במועדון הימי בחדרה.",
+      "באירוע השתתפו שייטים, חניכים וצוותים ממועדוני שיט ומבתי ספר ימיים ברחבי הארץ, לצד בני משפחתו של זכאי, חבריו לנשק ומפקדיו.",
+      "עבור זכאי, הים היה חלק משמעותי מחייו."
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T13:23:15.000Z",
+    "publishedAt": "2026-10-23T10:52:13.000Z",
     "sources": [
       {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/yokra14933842",
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958617",
         "tier": 1,
-        "publishedAt": "2026-10-23T13:23:15.000Z"
+        "publishedAt": "2026-10-23T10:52:13.000Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": null
+    "imageUrl": "https://armageddon-media-proxy.walla.cloud/walla/destination/3792731/hls/1280x720/index.m3u8"
   },
   {
-    "id": "c_08ac494d7e",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "markets",
-      "israel",
-      "world"
-    ],
-    "headline": "פיירבלוקס הישראלית מפטרת כ-70 עובדים בעולם ובישראל",
-    "bullets": [
-      "חברת הפינטק הישראלית, המפתחת תשתיות לניהול ואבטחת נכסים דיגיטליים, מפטרת כ-7% מכוח האדם שלה במסגרת שינוי מבני • מדובר בסבב הפיטורים השלישי של החברה בשנים האחרונות, לאחר שביצעה צמצומים גם ב-2023 וב-2024 • פיירבלוקס: ״החלטה קשה אך הכרחית״"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T13:23:00.000Z",
-    "sources": [
-      {
-        "publisher": "Globes",
-        "url": "https://www.globes.co.il/news/article.aspx?did=1001560607#utm_source=RSS",
-        "tier": 1,
-        "publishedAt": "2026-10-23T13:23:00.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_bdfcee48ef",
+    "id": "c_8b3d8ff6a6",
     "kind": "news",
     "language": "he",
     "topicTags": [
@@ -676,221 +966,29 @@
       "world",
       "geopolitics"
     ],
-    "headline": "זוהי הצבעה קיומית",
+    "headline": "\"בגלל הריסות הבתים של בן גביר\": הבדואיות נוהרות לקלפיות",
     "bullets": [
-      "המדינה לא תשרוד עוד ממשלת אסון.",
-      "חייבים ניצחון בנוקאאוט"
+      "האם דווקא מדיניות הריסות הבתים בנגב תוביל לשינוי בדפוסי ההצבעה במגזר הבדואי?",
+      "לקראת הבחירות הקרובות, פעילים חברתיים באזור מעריכים כי הפעם נשים בדואיות רבות יותר יגיעו לקלפיות, בין היתר בעקבות הריסות הבתים שמקדם השר לביטחון לאומי איתמר בן גביר.",
+      "לצד זאת, נערכות יוזמות מקומיות לעידוד ההצבעה, הכוללות הסעות, הסברה וגיוס נשים שיסייעו לנשים אחרות לממש את זכותן להצביע."
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T13:21:30.000Z",
+    "publishedAt": "2026-10-23T10:51:22.000Z",
     "sources": [
       {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/yokra14935656",
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958616",
         "tier": 1,
-        "publishedAt": "2026-10-23T13:21:30.000Z"
+        "publishedAt": "2026-10-23T10:51:22.000Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_e6ab962b6f",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "מותר האדם מהקוף",
-    "bullets": [
-      "ינון מגל לא מעניין.",
-      "מעניינת תפיסת העולם של השלטון שכולאת את המזרחיות, ודרכה את המסורתיות, בצד פוליטי מסוים | דגם מזרחי אחד, קורבן לנצח, נאמן אוטומטית | לא כך גידלו אותנו הוריי והורי חבריי, שציידו אותנו בחריצות ובאמונה ביכולת להצליח — למרות הגזענות, למרות ההדרה | החירות של אדם לעצב את גורלו, שבבסיס היהדות והציונות, היא המסורת שצריכה להנחות אותנו גם בקלפי"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-23T13:19:05.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/yokra14934713",
-        "tier": 1,
-        "publishedAt": "2026-10-23T13:19:05.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_7e4bd4e06e",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הגם אתה, מנדלבליט?",
-    "bullets": [
-      "כמו ברוטוס של \"יוליוס קיסר\", גם היועמ\"ש לשעבר נפל קורבן למניפולציות שהולידו את כתב האישום נגד נתניהו | ודווקא עכשיו, כשהתיקים קורסים, ליברמן מעלה מהאוב את חוק הנאשם"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T13:17:15.000Z",
-    "sources": [
-      {
-        "publisher": "Ynet",
-        "url": "https://www.ynet.co.il/news/article/yokra14934995",
-        "tier": 1,
-        "publishedAt": "2026-10-23T13:17:15.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_e91d451514",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "סמ\"ר רון יונתן רויטמן וסמל יובל שי סוילם נהרגו בירי ליד חברון",
-    "bullets": [
-      "רויטמן, בן 23 מאשקלון, וסוילם, בן 20 מהוד השרון, שירתו בגדוד ארי של חטיבת החילוץ.",
-      "מלבדם נפצעו שלושה חיילים נוספים באורח קל.",
-      "מפקד פיקוד המרכז: מנעו בגופם פיגוע קשה נגד אזרחים"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T12:18:16.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/politics/2026-10-23/ty-article/000001a1-689e-d29a-a1a5-eabfdd920000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T12:18:16.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-68b5-d46d-a1fd-e8b567ba0001/4f/d9/93f1b90d42f78294cdb3b6ec79bb/harugim-home-jpg.jpeg?width=108&height=81"
-  },
-  {
-    "id": "c_0acfbb8006",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הרשויות בירדן: שבעה הרוגים ו־34 פצועים מירי לעבר כנסייה",
-    "bullets": [
-      "שלושה חמושים ירו במשך חמש דקות לעבר מסע הלוויה בכפר בדרום ירדן.",
-      "הממשלה הגדירה את הירי \"טרור פלילי\" וכוחות הביטחון מנהלים מרדף אחרי החשודים"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T12:02:28.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/world/middle-east/2026-10-23/ty-article/000001a1-68a1-d46d-a1fd-e8a118770000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T12:02:28.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-691e-d34e-a1b9-ff5f5ef60001/98/d8/c658c24d43b8affbc33b1dc746ed/whatsapp-image-2026-10-23-at-17-15-54.jpeg?width=108&height=81"
-  },
-  {
-    "id": "c_595356b754",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "נתניהו: נפנה את תושבי השכונה ממנה יצאו המחבלים; צה\"ל הורס בתים באזור",
-    "bullets": [
-      "ראש הממשלה אמר שצה\"ל מתכנן פעולה רחבה בגדה המערבית, לאחר ששני חיילים נהרגו מירי באזור חברון.",
-      "הוא הוסיף כי ישקול להרחיב את פינוי התושבים הפלסטינים לערים נוספות"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T11:32:03.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/politics/2026-10-23/ty-article/000001a1-687f-d34e-a1b9-fe7f13060000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T11:32:03.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-6907-d46d-a1fd-e9072bfe0000/fd/e5/82a702c84f0eafa6a12abaa73d6e/891645.jpg?width=108&height=81"
-  },
-  {
-    "id": "c_f8f4ad53e7",
-    "kind": "news",
-    "language": "he",
-    "topicTags": [
-      "israel",
-      "world",
-      "geopolitics"
-    ],
-    "headline": "הרוג ופצועים מירי ליד פריז, בהם שניים ממוצא אפריקאי; שר הפנים הצרפתי: פעולת טרור",
-    "bullets": [
-      "ראש העיר טראפ תיאר כי אדם פתח באש מתוך מכוניתו, ונראה היה כי \"ירה באופן אקראי, מתוך כוונה לבצע טבח\".",
-      "הוא ציין כי אחת הפצועות היא ילדה בת 12.",
-      "לפי עדויות, היורה בעל מראה אירופאי"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-23T10:42:10.000Z",
-    "sources": [
-      {
-        "publisher": "Haaretz",
-        "url": "https://www.haaretz.co.il/news/world/europe/2026-10-23/ty-article/000001a1-6849-db3a-a9fb-fceb54a90000",
-        "tier": 1,
-        "publishedAt": "2026-10-23T10:42:10.000Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://img.haarets.co.il/bs/000001a1-684d-db3a-a9fb-fcef8e440000/7f/d3/15a6f1ee4ce1a4e6f932fbb207c0/767387.jpg?width=108&height=81"
+    "imageUrl": "https://armageddon-media-proxy.walla.cloud/walla/archive/1875107/hls/1280x720/index.m3u8"
   },
   {
     "id": "c_c3c131a02d",
@@ -922,6 +1020,485 @@
     "youtubeId": null,
     "channel": null,
     "imageUrl": null
+  },
+  {
+    "id": "c_9be79ab26b",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בא למחות והותקף: צעיר נחקר ושוחרר בעקבות האלימות נגד מישל אילוז בביקור נתניהו בשוק התקווה | תיעוד",
+    "bullets": [
+      "ביקורו של ראש הממשלה בנימין נתניהו בשוק התקווה הסתיים אמש בתיעוד של אלימות כלפי אב שכול.",
+      "הבוקר (שישי) נחקר בתחנת תל אביב דרום צעיר בשנות ה-20 לחייו, תושב העיר, בחשד למעורבות באירוע.",
+      "בתום חקירתו שוחרר בתנאים מגבילים."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T08:16:36.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958604",
+        "tier": 1,
+        "publishedAt": "2026-10-23T08:16:36.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-proxy-walla.walla.cloud/2026/10/4/videos/1792743232_960x720/index.m3u8"
+  },
+  {
+    "id": "c_f9ec80931e",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "שוב זה קורה: חריגת בנזן חמורה במפרץ חיפה - ימים לאחר חידוש עבודת מפעל בז\"ן",
+    "bullets": [
+      "פיאסקו סביבתי מתמשך במפרץ חיפה: ימים ספורים בלבד לאחר שהמשרד להגנת הסביבה התיר למפעל גדיב (מקבוצת בז\"ן) לחדש את עבודות התחזוקה תחת מה שהוגדר כ\"מנגנוני בקרה מחמירים\", שוב נרשמה אמש (חמישי) חריגה חמורה מהתקן היממתי לחומר המסרטן בנזן בתחנת הניטור בקריית בנימין.",
+      "בעקבות החריגה, הופסקה פעילות התחזוקה במפעל באופן מיידי על פי הוראות הצו המנהלי, ונכון להבוקר ירדו הריכוזים וחזרו לטווח התקן."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 21,
+    "publishedAt": "2026-10-23T08:12:50.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958603",
+        "tier": 1,
+        "publishedAt": "2026-10-23T08:12:50.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://armageddon-media-proxy.walla.cloud/walla/archive/3047744/hls/1280x720/index.m3u8"
+  },
+  {
+    "id": "c_c36dedd50d",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "בנט מתחזק, הקואליציה נחלשת, ווינטר הפעם לא עובר | סקר מעריב",
+    "bullets": [
+      "לפי סקר מעריב שפורסם היום (שישי) אחוז הישראלים שבטוחים שילכו להצביע בבחירות לכנסת ביום שלישי הקרוב ממשיך לעלות ומגיע ל-81%.",
+      "נתון שמלמש על גידול צפוי באחוזי ההצבעה בהשוואה לבחירות 2022.",
+      "בגוש האופוזיציה מפלגת \"ביחד\" בראשות בנט רושמת התחזקות משמעותית עם עליה בשני מנדטים ל-15, גם \"הדמוקרטים\" מתחזקת ועולה ל-10 מנדטים."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T07:27:26.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958572",
+        "tier": 1,
+        "publishedAt": "2026-10-23T07:27:26.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-proxy-walla.walla.cloud/2026/10/2/videos/1791975744_1278x720/index.m3u8"
+  },
+  {
+    "id": "c_3bcfa51522",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "משרב לשיטפונות: גוברים הסיכויים לגשם ביום הבחירות",
+    "bullets": [
+      "השירות המטאורולוגי עדכן הבוקר (שישי) כי גוברים הסיכויים לגשמים ביום שלישי הקרוב, יום הבחירות לכנסת.",
+      "על פי התחזית, משעות הצהריים צפויים גשמים בנגב, בערבה ובאזור ים המלח, וקיים חשש לשיטפונות בנחלי הדרום.",
+      "גשמים צפויים גם באזורים נוספים במרכז הארץ ובצפונה, אך בשלב זה לא קיים צפי להצפות או לשיטפונות באזורים אלה."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T07:05:32.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958597",
+        "tier": 1,
+        "publishedAt": "2026-10-23T07:05:32.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://armageddon-media-proxy.walla.cloud/walla/destination/4009508/hls/1278x720/index.m3u8"
+  },
+  {
+    "id": "c_3818314e45",
+    "kind": "news",
+    "language": "he",
+    "topicTags": [
+      "israel",
+      "world",
+      "geopolitics"
+    ],
+    "headline": "חמישה מהם מעזה: תשעה שוהים בלתי חוקיים נעצרו באום אל-פחם",
+    "bullets": [
+      "תשעה שוהים בלתי חוקיים, בהם חמישה תושבי רצועת עזה וארבעה תושבי יהודה ושומרון, נעצרו שלשום (רביעי) לפנות בוקר בפשיטה של כוחות משטרה ושירות בתי הסוהר על מתחם מגורים באום אל-פחם.",
+      "במהלך חיפוש שערכו הכוחות במתחם אותרה גם תחמושת מסוגים שונים.",
+      "הפעילות בוצעה בשיתוף בלשי היחידה המרכזית של שירות בתי הסוהר ושוטרי תחנות אום אל-פחם וג'סר א-זרקא, לאחר היערכות מבצעית משותפת."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T06:40:29.000Z",
+    "sources": [
+      {
+        "publisher": "Walla",
+        "url": "https://www.walla.co.il/news/israel/383958595",
+        "tier": 1,
+        "publishedAt": "2026-10-23T06:40:29.000Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-proxy-walla.walla.cloud/2026/10/4/videos/1792737446_1292x720/index.m3u8"
+  },
+  {
+    "id": "c_497caf1516",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Infosys shares jump 3% ahead of Q2 earnings announcement. What to expect?",
+    "bullets": [
+      "Infosys shares rose on Friday ahead of the IT major’s Q2 FY27 results, with analysts expecting an 11% year-on-year rise in revenue and an 8% increase in net profit. Investors will track management commentary on client spending, large deal wins and AI-led pric",
+      "Infosys shares jumped 3% on Friday ahead of the IT majors Q2 FY27 results.",
+      "Investors will be closely tracking the earnings print after the so-called anti-AI advantage drove the stock up 16% in a mont"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 26,
+    "publishedAt": "2026-10-23T04:07:46Z",
+    "sources": [
+      {
+        "publisher": "The Times of India",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/infosys-shares-jump-3-ahead-of-q2-earnings-announcement-what-to-expect/articleshow/135133971.cms",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:07:46Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.etimg.com/thumb/msid-135134024,width-1200,height-900,imgsize-2245273,overlay-etmarkets/articleshow.jpg"
+  },
+  {
+    "id": "c_21a573fb7d",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Palestine is already living under the Techno-Fascism that is Coming for us All",
+    "bullets": [
+      "The authoritarianism of the digital age does not require every state to build its own surveillance apparatus. It can purchase one",
+      "By Jalal Abukhater This post is part of Global Voices’ October 2026 Spotlight series, “Big Tech and Authoritarianism.” In this Spotlight, we explore how Big Tech facilitates and hinders authoritaria"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:06:32Z",
+    "sources": [
+      {
+        "publisher": "Juancole.com",
+        "url": "https://www.juancole.com/2026/10/palestine-already-fascism.html",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:06:32Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media.juancole.com/images/2026/10/steve-a-johnson-WhAQMsdRKMI-unsplash.jpg"
+  },
+  {
+    "id": "c_cb5253cac8",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Brazil Argentina! Your guide to the Copa Libertadores-2026 final",
+    "bullets": [
+      "A \"hat-trick\" of Flamengo versus Palmeiras finals? Not this time! The 2026 Copa Libertadores final will see Verdão face Estudiantes, who knocked out the Red and Blacks at the Maracanã itself. The Arge",
+      "A \"hat-trick\" of Flamengo versus Palmeiras finals?",
+      "The 2026 Copa Libertadores final will see Verdão face Estudiantes, who knocked out the Red and Blacks at the Maracanã itself."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:04:00Z",
+    "sources": [
+      {
+        "publisher": "Onefootball.com",
+        "url": "https://onefootball.com/en/news/brazil-argentina-your-guide-to-the-copa-libertadores-2026-final-43657201",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:04:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://s.yimg.com/lo/mysterio/api/89c90734666d34b26656a297a748e7040bb70d3fcdbb1404e82140d3a581f3b3/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fonefootball_articles_802%2Fd49e23a9db8e84cd6524026a8eb73a6c.jpg"
+  },
+  {
+    "id": "c_ea62a94664",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "InDrive plans 2027 robotaxi tests in Kazakhstan with Pony.ai and Nvidia",
+    "bullets": [
+      "InDrive's robotaxi tests in Kazakhstan could accelerate autonomous vehicle adoption, influencing global ride-hailing and AI integration trends.",
+      "The ride-hailing app wants driverless cars on the road in Astana in the first half of 2027, with Pony.ai supplying vehicles and Nvidia supplying the brains InDrive, the ride-hailing app built on hagg"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:03:35Z",
+    "sources": [
+      {
+        "publisher": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/indrive-pony-ai-nvidia-robotaxi-kazakhstan/",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:03:35Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/23000330/library-indrive-plans-2027-robotaxi-tests-in-kazakhstan-with-pon-800x450.png"
+  },
+  {
+    "id": "c_e7f86bcc66",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Mark Zuckerberg’s Meta deal explained: What he wanted, what the board opposed and what changed",
+    "bullets": [
+      "Mark Zuckerberg and Meta’s board reached a compromise after months of negotiations over voting control, compensation and a proposed new stock class.",
+      "Mark Zuckerbergs battle with Meta Platforms board of directors over voting control, compensation and a proposed new class of shares ended in a compromise after months of tense negotiations, according"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:03:11Z",
+    "sources": [
+      {
+        "publisher": "Livemint",
+        "url": "https://www.livemint.com/companies/news/mark-zuckerberg-s-meta-deal-explained-what-he-wanted-what-the-board-opposed-and-what-changed-11792726353797.html",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:03:11Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.livemint.com/lm-img/img/2026/10/23/1600x900/logo/Zuckerberg_1792728134313_wyJ2_1792728134465_uxeg_ac326acf-d014-4664-8ac4-141107d27a08_gSTQ.jpg"
+  },
+  {
+    "id": "c_27a7e1d2b7",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "parquet-guard added to PyPI",
+    "bullets": [
+      "High-performance, zero-data-scan Parquet schema contract & drift detection guard for data pipelines, MLOps, and CI/CD.",
+      "Alpha Prerelease Notice: parquet-guard is currently classified as Alpha (v0.3.0a1).",
+      "It is functionally verified with 104 automated tests, strict Ruff/Mypy type compliance, standard packaging, reprodu"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:03:01Z",
+    "sources": [
+      {
+        "publisher": "Pypi.org",
+        "url": "https://pypi.org/project/parquet-guard/",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:03:01Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_46c6a7e9b5",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Japan’s Nikkei falls over 1% as Wall Street tech selloff rattles markets",
+    "bullets": [
+      "Japan’s Nikkei 225 falls as a Wall Street tech sell-off weighs on semiconductor and AI-linked stocks. Concerns over valuations and spending pressure Japanese equities, while select consumer and food stocks advance.",
+      "Japans Nikkei 225 index fell on Friday, tracking a technology-led selloff on Wall Street overnight as investors dumped semiconductor and artificial intelligence-linked stocks amid concerns surroundin"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:01:41Z",
+    "sources": [
+      {
+        "publisher": "The Times of India",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/japans-nikkei-falls-over-1-as-wall-street-tech-selloff-rattles-markets/articleshow/135133891.cms",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:01:41Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://img.etimg.com/thumb/msid-135133924,width-1200,height-900,imgsize-232028,overlay-etmarkets/articleshow.jpg"
+  },
+  {
+    "id": "c_3173d8c737",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "AI data centre backlash threatens Australia's $70 billion investment boom",
+    "bullets": [
+      "Of the 40-plus large centers planned or under construction in Sydney and Melbourne, just 23% have confirmed publicly that they have secured electricity supply or grid connections",
+      "Of the 40-plus large centers planned or under construction in Sydney and Melbourne, just 23% have confirmed publicly that they have secured electricity supply or grid connections Nextdc data centre"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:00:19Z",
+    "sources": [
+      {
+        "publisher": "Business Standard",
+        "url": "https://www.business-standard.com/world-news/ai-data-centre-backlash-threatens-australia-s-70-billion-investment-boom-126102300178_1.html",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:00:19Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-10/23/thumb/fitandfill/1200X628/1792727557-0831.jpg"
+  },
+  {
+    "id": "c_0a38421cc5",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "Mori Companion Robot",
+    "bullets": [
+      "Most home robots are designed to perform tasks, answer questions, or automate everyday routines. Mori takes a different approach. Created by OKA, the mushroom-inspired companion robot brings gentle movement, ambient lighting, and a surprisingly expressive per",
+      "Most home robots are designed to perform tasks, answer questions, or automate everyday routines.",
+      "Mori takes a different approach."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T04:00:00Z",
+    "sources": [
+      {
+        "publisher": "Blessthisstuff.com",
+        "url": "https://www.blessthisstuff.com/stuff/technology/misc-gadgets/mori-companion-robot/",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.blessthisstuff.com/imagens/stuff/mori-companion-robot.jpg"
+  },
+  {
+    "id": "c_f4e9bf9289",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "ai",
+      "tech"
+    ],
+    "headline": "AI in Teaching: What the Science of Learning Already Tells Us",
+    "bullets": [
+      "Few topics in higher education generate as much debate right now as the role artificial intelligence in all aspects of teaching and learning. Faculty listservs, teaching centers and national conferences are awash in urgent questions: Is AI undermining learnin",
+      "Few topics in higher education generate as much debate right now as the role artificial intelligence in all aspects of teaching and learning.",
+      "Faculty listservs, teaching centers and national conferen"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 23,
+    "publishedAt": "2026-10-23T04:00:00Z",
+    "sources": [
+      {
+        "publisher": "Facultyfocus.com",
+        "url": "https://www.facultyfocus.com/articles/philosophy-of-teaching/ai-in-teaching-what-the-science-of-learning-already-tells-us/",
+        "tier": 1,
+        "publishedAt": "2026-10-23T04:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://s39613.pcdn.co/wp-content/uploads/2026/10/iStock-1886650965-scaled.jpg"
   },
   {
     "id": "c_0d8a85ab8a",
@@ -956,691 +1533,66 @@
     "imageUrl": null
   },
   {
-    "id": "c_82363d9f69",
+    "id": "c_a15e45fa7e",
     "kind": "news",
     "language": "en",
     "topicTags": [
-      "ai",
-      "tech"
+      "world",
+      "geopolitics"
     ],
-    "headline": "AI Bots Are Spontaneously Accessing People’s Bank Accounts",
+    "headline": "Hundreds of flights cancelled across East Asia as Typhoon Champi roars toward Taiwan",
     "bullets": [
-      "Major American banks have reported unauthorized artificial intelligence bots inside consumer accounts, sources told Axios Thursday. The infiltration is happening faster than the financial institutions can respond to it. Even more concerning, some of the agents",
-      "Its not exactly a secret that he was a homosexual, Jesse said.",
-      "Kelvin alleges he met Graham in Arizona in 2001 when he was 17 years old."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T16:50:13Z",
-    "sources": [
-      {
-        "publisher": "The New Republic",
-        "url": "https://newrepublic.com/post/216962/ai-bots-accessing-bank-accounts",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:50:13Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://images.newrepublic.com/20edbfe70c69054250778f47e0df6f5bd7a94156.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg"
-  },
-  {
-    "id": "c_6158b5e33a",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "In the Bay Area’s Hot Real Estate Market, an AI Startup Claims An Edge",
-    "bullets": [
-      "As newly-minted wealth from the artificial intelligence revolution floods San Francisco Bay Area's real estate market, it's hardly surprising to find a local startup is seeking to become the facilitator for realtor-client interactions in the brave new world o",
-      "As newly-minted wealth from the artificial intelligence revolution floods San Francisco Bay Area's real estate market, it's hardly surprising to find a local startup is seeking to become the facilita"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 23,
-    "publishedAt": "2026-10-22T16:48:22Z",
-    "sources": [
-      {
-        "publisher": "Biztoc.com",
-        "url": "https://biztoc.com/x/c315f27bc1a265a9",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:48:22Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://biztoc.com/cdn/c315f27bc1a265a9_s.webp"
-  },
-  {
-    "id": "c_6974b94a6e",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Rugby's data revolution",
-    "bullets": [
-      "Top rugby clubs are increasingly turning to data when they plan their moves to recruit talent.",
-      "\"I've watched more rugby in the last five years than I think I'll ever watch in the rest of my life.\" And for Angus Campbell, that really is a lot of rugby.",
-      "On a weekend, Campbell will gather with"
+      "At least one person has died in Taiwan as Japan, China and South Korea also brace for the powerful storm.",
+      "Taiwanese authorities issued urgent safety warnings on Thursday ahead of Typhoon Champi's landfall.",
+      "Following an emergency briefing, Premier Cho Jung-Tai urged the public to avoid all high-risk zone"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T16:47:52Z",
+    "publishedAt": "2026-10-23T02:34:43Z",
     "sources": [
       {
         "publisher": "BBC News",
-        "url": "https://www.bbc.com/sport/rugby-union/articles/c6kg7kejxvw5o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+        "url": "https://www.bbc.com/news/live/c6kg7kzzyyvet",
         "tier": 1,
-        "publishedAt": "2026-10-22T16:47:52Z"
+        "publishedAt": "2026-10-23T02:34:43Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://s.yimg.com/lo/mysterio/api/892a63b8dff8134c7c62e16c7876cfe5b1728340e739c7b725ba36f8df5b7d3b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Fb4e0c22c3be991202a7967581ad3c3cb.jpg"
+    "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7185/live/b19252b0-cdd9-11f1-969f-17d4460e028e.jpg"
   },
   {
-    "id": "c_17525b235e",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "NowVertical Closes the Final Tranche of a $15.1 Million Brokered Private Placement",
-    "bullets": [
-      "TORONTO, Oct. 22, 2026 (GLOBE NEWSWIRE) — NowVertical Group Inc. (TSXV: NOW) (the “Company” or “NowVertical”) is pleased to announce that it has closed the second and final tranche of its previously announced “best efforts” private placement offering and issu",
-      "The Convertible Debenture Units and the underlying Subordinate Voting Shares and Debenture Warrants are subject to a hold period expiring four months and one day from the Closing."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 23,
-    "publishedAt": "2026-10-22T16:46:12Z",
-    "sources": [
-      {
-        "publisher": "Financial Post",
-        "url": "https://financialpost.com/globe-newswire/nowvertical-closes-the-final-tranche-of-a-15-1-million-brokered-private-placement",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:46:12Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_ce9326de49",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Data centers are a target of modern warfare. How do we secure the infrastructure that runs our digital lives?",
-    "bullets": [
-      "Attacks against data centers in Europe and the Middle East are raising questions as to how we protect the infrastructure on which our digital lives depend",
-      "When Alexander Olshansky received a call in September telling him that the data center hosting his company's infrastructure in Kyiv had been destroyed by a Russian attack, he made a beeline for the s"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T16:45:00Z",
-    "sources": [
-      {
-        "publisher": "Scientific American",
-        "url": "https://www.scientificamerican.com/article/data-centers-are-a-target-of-modern-warfare-how-do-we-secure-the-infrastructure-that-runs-our-digital-lives/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:45:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://static.scientificamerican.com/dam/asset/b817dc33-a865-431d-888e-229dc19b5b0a/data-center.jpg?m=1792688011.37&w=1200"
-  },
-  {
-    "id": "c_50e46fdc27",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "US Treasury Yields Drop As Investors Seek Safe Havens",
-    "bullets": [
-      "US Treasury yields fell sharply on Thursday as investors moved toward safer assets amid a technology stock sell-off, concerns about artificial intelligence investments and escalating Middle East tensions. The benchmark 10-year Treasury yield dropped 15 basis",
-      "US Treasury yields fell sharply on Thursday as investors moved toward safer assets amid a technology stock sell-off, concerns about artificial intelligence investments and escalating Middle East tens"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T16:44:37Z",
-    "sources": [
-      {
-        "publisher": "Biztoc.com",
-        "url": "https://biztoc.com/x/5a297aaff4adaf52",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:44:37Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://biztoc.com/cdn/5a297aaff4adaf52_s.webp"
-  },
-  {
-    "id": "c_858b45c397",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Chinese AI firm DeepSeek raises $15B in latest challenge to OpenAI, Anthropic: report",
-    "bullets": [
-      "Chinese artificial intelligence firm DeepSeek raked in $15 billion in a fresh fundraising round as it looks to challenge US-based labs like OpenAI and Anthropic, according to a report."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T16:43:48Z",
-    "sources": [
-      {
-        "publisher": "New York Post",
-        "url": "https://nypost.com/2026/10/22/business/chinese-ai-firm-deepseek-raises-15b-in-latest-challenge-to-openai-anthropic-report/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:43:48Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/146089829.jpg?quality=75&strip=all&w=1200"
-  },
-  {
-    "id": "c_4b854aa64d",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Spotify Stock Surges 10% On Q3 Subscriber Beat And Bullish Forecast",
-    "bullets": [
-      "Spotify shares jumped 10% at $572 billion Thursday to a 10-month high as the music streaming giant hit 306 million premium subscribers in the September quarter (up 9% year on year) – one million ahead of forecasts, and with growth across all regions. It guide",
-      "Spotify shares jumped 10% at $572 billion Thursday to a 10-month high as the music streaming giant hit 306 million premium subscribers in the September quarter (up 9% year on year) – one million ahea"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 27,
-    "publishedAt": "2026-10-22T16:42:09Z",
-    "sources": [
-      {
-        "publisher": "Deadline",
-        "url": "http://deadline.com/2026/10/spotify-earnings-stock-subscribers-video-podcasts-ai-1237170553/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:42:09Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://deadline.com/wp-content/uploads/2022/01/Spotify-mobile-phone.jpg?w=1024"
-  },
-  {
-    "id": "c_1ec20997d0",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "ai",
-      "tech"
-    ],
-    "headline": "Ford Foundation Charts New Course to Support Preconditions for Thriving Democracies",
-    "bullets": [
-      "New strategy will refocus the foundation's mission to protect and strengthen democratic values, fundamental freedoms, and inclusive economies worldwide NEW YORK, Oct. 22, 2026 /PRNewswire/ -- The Ford Foundation today unveiled its new strategic direction to s",
-      "New strategy will refocus the foundation's mission to protect and strengthen democratic values, fundamental freedoms, and inclusive economies worldwide NEW YORK, Oct.",
-      "22, 2026 /PRNewswire/ -- The Fo"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 22,
-    "publishedAt": "2026-10-22T16:40:00Z",
-    "sources": [
-      {
-        "publisher": "PRNewswire",
-        "url": "https://www.prnewswire.com/news-releases/ford-foundation-charts-new-course-to-support-preconditions-for-thriving-democracies-302916323.html",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:40:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://mmx.prnewswire.com/media/MS1038280/FORD-FOUNDATION-Logo.jpg?id=OA3033692&p=facebook"
-  },
-  {
-    "id": "c_5f59ae4a41",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Over 4 million tubes of toothpaste recalled. See affected products",
-    "bullets": [
-      "The U. S. Food and Drug Administration has recalled more than 4 million tubes of adult and children's toothpaste. Here are the affected products.",
-      "More than 4 million tubes of toothpaste have been recalled nationwide, including some popular children's brands.",
-      "Pritam International Private Limited initiated the voluntary recall on Sept."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T16:34:00Z",
-    "sources": [
-      {
-        "publisher": "USA Today",
-        "url": "https://www.usatoday.com/story/money/consumer-protection/recalls-alerts/2026/10/21/toothpaste-recall-brush-buddies-evo/92344819007/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T16:34:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/10/21/USAT/92362923007-getty-images-2169266703.jpg?crop=7530,4236,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
-  },
-  {
-    "id": "c_8ce3d102a4",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "world",
-      "geopolitics"
-    ],
-    "headline": "Judge directs President Trump to sit for deposition in his $10 billion lawsuit against the BBC",
-    "bullets": [
-      "A federal judge in Florida on Thursday ordered President Donald Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11 or face the possibility of having his $10 billion action dismissed.",
-      "A federal judge in Florida on Thursday ordered President Donald Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec.",
-      "11 or face the possibility of having his $10 billion ac"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 24,
-    "publishedAt": "2026-10-22T15:59:23Z",
-    "sources": [
-      {
-        "publisher": "NBC News",
-        "url": "https://www.nbcnews.com/politics/donald-trump/trump-sit-deposition-10-billion-defamation-lawsuit-bbc-jan-6-rcna605034",
-        "tier": 1,
-        "publishedAt": "2026-10-22T15:59:23Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-07/260714-donald-trump-ew-122p-337e01.jpg"
-  },
-  {
-    "id": "c_6e3c722eea",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Pepsi renews contract with Taco Bell days after KFC switches to Coke in the U.S.",
-    "bullets": [
-      "Taco Bell is sticking with longtime beverage supplier PepsiCo, even though sister chain KFC defected to Coca-Cola.",
-      "PepsiCo and Taco Bell renewed their long-running partnership through 2036, the food and beverage company said on Thursday.",
-      "The announcement comes one week after Taco Bell's sister chain KFC said tha"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T15:52:00Z",
-    "sources": [
-      {
-        "publisher": "CNBC",
-        "url": "https://www.cnbc.com/2026/10/22/pepsico-taco-bell-beverage-deal.html",
-        "tier": 1,
-        "publishedAt": "2026-10-22T15:52:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://image.cnbcfm.com/api/v1/image/107369751-1707244053108-gettyimages-1653048097-MJP_Taco_Bell_20230821_7844_SOPA.jpeg?v=1707244711&w=1920&h=1080"
-  },
-  {
-    "id": "c_df9f9e78fe",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Meta and chip stocks decline as AI trade comes under pressure: AlphaCheck",
-    "bullets": [
-      "Stocks declined as Big Tech led the AI trade lower on Thursday.",
-      "Stocks declined on Thursday as semiconductor names fell, with the AI trade unwinding following quarterly results from Meta (META) and Tesla (TSLA).",
-      "Shares of the EV maker recovered ear"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T15:39:07Z",
-    "sources": [
-      {
-        "publisher": "Yahoo Entertainment",
-        "url": "https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html",
-        "tier": 1,
-        "publishedAt": "2026-10-22T15:39:07Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://s.yimg.com/lo/mysterio/api/e3ef8170a51485bbe6e0dc3af74a13384ff7ad7d4ae146b7604fc8823c1654bb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2Ffdc154a1-f44d-4f26-9b97-796ffcf69122"
-  },
-  {
-    "id": "c_afa7f40d68",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Cruise lines chase luxury travelers with suites for up to $25,000 a night",
-    "bullets": [
-      "CNBC got a tour of the Regent Suite, a top-of-the-line offering on Regent's Seven Seas Splendor that goes for $15,000 a night.",
-      "The latest push into high-end travel is taking place on the high seas, as cruise lines increasingly lean on luxury offerings.",
-      "On Regent's Seven Seas Splendor, an all-luxury ship, cabins cost anywhe"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T15:16:48Z",
-    "sources": [
-      {
-        "publisher": "CNBC",
-        "url": "https://www.cnbc.com/2026/10/22/luxury-cruise-suites-regent-seven-seas.html",
-        "tier": 1,
-        "publishedAt": "2026-10-22T15:16:48Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108443495-1792615370024-IMG_5675.jpg?v=1792615535&w=1920&h=1080"
-  },
-  {
-    "id": "c_0ecc9eee3c",
+    "id": "c_5ef6bcbd1b",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "tech",
       "ai"
     ],
-    "headline": "Warhammer Tone Pro: Superb coverage and vibrant colours",
+    "headline": "You Should Enable This Chrome Feature That Flags Suspicious Websites",
     "bullets": [
-      "Learn how even yellow and white are a breeze with the new paints.",
-      "© Copyright Games Workshop Limited 2026.",
-      "GW, Games Workshop, Citadel, White Dwarf, Space Marine, 40K, Warhammer, Warhammer 40,000, the Aquila Double-headed Eagle logo, Warhammer Age of Sigmar, Battle"
+      "Google will warn you if you navigate to a site that looks like other known scams."
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:55:23Z",
+    "publishedAt": "2026-10-23T02:14:22Z",
     "sources": [
       {
-        "publisher": "Warhammer-community.com",
-        "url": "https://www.warhammer-community.com/articles/focygbei/warhammer-tone-pro-superb-coverage-and-vibrant-colours",
+        "publisher": "Lifehacker.com",
+        "url": "https://lifehacker.com/tech/you-should-enable-this-chrome-feature-that-flags-suspicious-websites",
         "tier": 1,
-        "publishedAt": "2026-10-22T14:55:23Z"
+        "publishedAt": "2026-10-23T02:14:22Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://assets.warhammer-community.com/articles/0-2026/october/wc-19-10/tonepro_keyfeatures3-oct22-2-share-g1ylepkxxw.jpg"
-  },
-  {
-    "id": "c_1f4876aa02",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Tzeentch Daemons return via Made to Order",
-    "bullets": [
-      "Classic miniatures are coming back – just as planned.",
-      "© Copyright Games Workshop Limited 2026.",
-      "GW, Games Workshop, Citadel, White Dwarf, Space Marine, 40K, Warhammer, Warhammer 40,000, the Aquila Double-headed Eagle logo, Warhammer Age of Sigmar, Battle"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:55:21Z",
-    "sources": [
-      {
-        "publisher": "Warhammer-community.com",
-        "url": "https://www.warhammer-community.com/articles/tzzxr1jc/tzeentch-daemons-return-via-made-to-order",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:55:21Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://assets.warhammer-community.com/articles/0-2026/october/wc-19-10/tzemto-oct22-2-share-jll5vwxssg.jpg"
-  },
-  {
-    "id": "c_e7f901fd72",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Quest Diagnostics reports cyber breach affecting ‘certain patient records’",
-    "bullets": [
-      "Medical laboratory operator Quest Diagnostics said it learned of a cyber breach of one of its systems this week, likely compromising some records for patients. The company discovered the unauthorized access to its Quanum Lab Services Manager on Wednesday and",
-      "CHICAGO (AP) Medical laboratory operator Quest Diagnostics said it learned of a cyber breach of one of its systems this week, likely compromising some records for patients.",
-      "In a Thursday regulatory"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 24,
-    "publishedAt": "2026-10-22T14:46:45Z",
-    "sources": [
-      {
-        "publisher": "Associated Press",
-        "url": "https://apnews.com/article/quest-cyber-breach-82dbe1fa6ba06cf6514bc16f73e64fe1",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:46:45Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://dims.apnews.com/dims4/default/d51388e/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6d%2F30%2Fdd639714f7dc438f324dfba0631c%2Fa300a09543e54f1c8ef35264bec8b12b"
-  },
-  {
-    "id": "c_267c18e18f",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "world",
-      "geopolitics"
-    ],
-    "headline": "Final James Bond Screen Tests Set: Who's On List?",
-    "bullets": [
-      "Sources tell Deadline that screen tests for the role to play James Bond could begin as early as Friday and go through the next week.",
-      "EXCLUSIVE: The process to find out the next James Bond has been long and thorough, but all signs are pointing to the search hitting the homestretch as Amazon MGM Studios is setting its final audition"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:29:00Z",
-    "sources": [
-      {
-        "publisher": "Deadline",
-        "url": "http://deadline.com/2026/10/james-bond-screen-tests-names-1237170401/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:29:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://deadline.com/wp-content/uploads/2025/09/james-bond-logo-oo7.png?w=572"
-  },
-  {
-    "id": "c_43dac0675f",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Sony reportedly exits UHD Blu-ray player market",
-    "bullets": [],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:20:02Z",
-    "sources": [
-      {
-        "publisher": "FlatpanelsHD",
-        "url": "https://www.flatpanelshd.com/news.php?subaction\\\\u003dshowfull\\\\u0026id\\\\u003d1792667456",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:20:02Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
-  },
-  {
-    "id": "c_ed429b9b06",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "world",
-      "geopolitics"
-    ],
-    "headline": "John Anderson, twangy country singer known for ‘Seminole Wind,’ dies at 71",
-    "bullets": [
-      "John Anderson, the Grammy-nominated country crooner best known for the buoyant “Swingin’” and the plaintive “Seminole Wind,” died this week, according to posts on his official social media pages.",
-      "John Anderson, the Grammy-nominated country crooner best known for the buoyant Swingin and the plaintive Seminole Wind, died this week, according to posts on his official social media pages."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:14:53Z",
-    "sources": [
-      {
-        "publisher": "NBC News",
-        "url": "https://www.nbcnews.com/pop-culture/music/john-anderson-country-singer-seminole-wind-dies-71-rcna604985",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:14:53Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261022-j-Anderson-rs-b201e4.jpg"
-  },
-  {
-    "id": "c_9897021311",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "markets",
-      "world"
-    ],
-    "headline": "Nasdaq tumbles on AI spending concerns and jump in oil prices: Live updates",
-    "bullets": [
-      "U. S. equities slid on Thursday, bogged down by declines in mega-cap names Meta Platforms and Tesla as worries around the artificial intelligence trade increase.",
-      "Stocks tumbled slid on Thursday on renewed concerns around spending by artificial intelligence companies, while while oil prices jumped as geopolitical tensions rise.",
-      "The tech-heavy Nasdaq Composite"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:10:35Z",
-    "sources": [
-      {
-        "publisher": "CNBC",
-        "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:10:35Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108442581-1792601105463-Traders-Photo-20261021-AS-PRESS-1.jpg?v=1792601484&w=1920&h=1080"
-  },
-  {
-    "id": "c_cd631e2782",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "‘Gears Of War: E-Day’ Cost Xbox $500 Million, Says New Report",
-    "bullets": [],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:06:48Z",
-    "sources": [
-      {
-        "publisher": "Forbes",
-        "url": "https://www.forbes.com/sites/paultassi/2026/10/22/gears-of-war-e-day-cost-xbox-500-million-says-new-report/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:06:48Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": null
+    "imageUrl": "https://lifehacker.com/imagery/articles/01M5G96TB4CQW2Y4HX5EPNGGJD/hero-image.fill.size_1200x675.jpg"
   },
   {
     "id": "c_ca618f8de4",
@@ -1653,20 +1605,20 @@
     "headline": "Netanyahu says U.S. and Israel must topple Iranian regime",
     "bullets": [
       "Israeli Prime Minister Benjamin Netanyahu said Iran posed an “existential threat” and that President Donald Trump had said he was “ready to finish the job.”",
-      "Israeli Prime Minister Benjamin Netanyahu said Wednesday night that the Iranian regime must be overthrown once and for all.",
-      "Speaking to an Israel Defense Forces officer graduation ceremony, Netanya"
+      "Israeli Prime Minister Benjamin Netanyahu said Wednesday night that the Iranian regime must be overthrown once and for all, following preparations in recent weeks by the U.",
+      "military for possible ad"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:06:19Z",
+    "publishedAt": "2026-10-23T00:53:59Z",
     "sources": [
       {
         "publisher": "The Washington Post",
         "url": "https://www.washingtonpost.com/world/2026/10/22/netanyahu-says-us-israel-must-topple-iranian-regime/",
         "tier": 1,
-        "publishedAt": "2026-10-22T14:06:19Z"
+        "publishedAt": "2026-10-23T00:53:59Z"
       }
     ],
     "disagreement": null,
@@ -1675,812 +1627,1307 @@
     "imageUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/FPSAUWJTINH56OVSSKUWD5I3BQ.JPG&w=1440"
   },
   {
-    "id": "c_d2650e526b",
+    "id": "c_410b20fc49",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "markets",
       "world"
     ],
-    "headline": "Tesla stock slips despite Q3 earnings beat, better-than-expected capex spend",
+    "headline": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
     "bullets": [
-      "Tesla reported Q3 earnings after the bell.",
-      "Tesla (TSLA ) reported better-than-expected third quarter earnings, with its free cash flow and capex spending coming in ahead of Wall Street estimates.",
-      "Tesla reported Q3 revenue of $28.05 billion"
+      "SK Hynix has shelved plans for a potential U. S. IPO of Solidigm amid market volatility and share price concerns.",
+      "Shares of South Korean chipmaker SK Hynix's were down as much as 3% in Seoul on Friday morning after the company halted a review of a potential U.",
+      "initial public offering for its subsidiary Solidig"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:00:10Z",
+    "publishedAt": "2026-10-23T00:53:00Z",
+    "sources": [
+      {
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+        "tier": 1,
+        "publishedAt": "2026-10-23T00:53:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108448623-1792702965566-gettyimages-2299579988-SKOREA_SEMICONDUCTOR_EXPO.jpeg?v=1792703056&w=1920&h=1080"
+  },
+  {
+    "id": "c_088bb62e88",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "All the stories that got the Austin paddock talking",
+    "bullets": [
+      "Lawrence Barretto rounds up the big talking points to emerge during media day at the United States Grand Prix.",
+      "For the first time this season, Kimi Antonelli arrives at a race track with a mathematical chance of clinching his first World Championship, in what is only his second season in F1."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T00:36:55Z",
+    "sources": [
+      {
+        "publisher": "Formula 1",
+        "url": "https://www.formula1.com/en/latest/article/all-the-stories-that-got-the-austin-paddock-talking.3Ft9Iehky7D3daarvVFTEg",
+        "tier": 1,
+        "publishedAt": "2026-10-23T00:36:55Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media.formula1.com/image/upload/t_16by9Centre/c_lfill,w_2048/q_auto/v1740000001/trackside-images/2026/F1_Grand_Prix_of_United_States___Previews/2301489930.webp"
+  },
+  {
+    "id": "c_1e6d039a8a",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Patriots vs. Bears live updates, inactives, where to watch: Drake Maye, Caleb Williams in showdown of the 2024 draft class",
+    "bullets": [
+      "Caleb Williams and Drake Maye were two of the top-three picks in the 2024 NFL Draft. Now they're facing off in primetime.",
+      "Week 7 of the 2026 NFL season kicks off as the New England Patriots visit the Chicago Bears for a prime-time showdown at 8:15 p.m.",
+      "ET Thursday at Soldier Field."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-23T00:28:00Z",
     "sources": [
       {
         "publisher": "Yahoo Entertainment",
-        "url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html",
+        "url": "https://sports.yahoo.com/nfl/live/patriots-bears-score-live-updates-inactives-highlights-stats-where-to-watch-week-7-thursday-night-football-221855929.html",
         "tier": 1,
-        "publishedAt": "2026-10-22T14:00:10Z"
+        "publishedAt": "2026-10-23T00:28:00Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://s.yimg.com/lo/mysterio/api/2a427e4a6ea001e00323e9632553684d441c7c2ca845d6094e20c4dda8bc7abd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fscreenshot-2026-10-15-at-81007-pm_5822.png"
+    "imageUrl": "https://s.yimg.com/lo/mysterio/api/c9c81572ca0c7f878fe7484ddf70643475f1bd053682dcf0d926372137855e3a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F2a865254-4a76-4c41-86b9-dd769c098bf8"
   },
   {
-    "id": "c_f00ac5e977",
+    "id": "c_e381e23cc7",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "world",
       "geopolitics"
     ],
-    "headline": "How a fake pollster may have moved some 2026 elections",
+    "headline": "More parents facing criminal charges for their children's electric motorcycle accidents",
     "bullets": [
-      "Wedgewood Polls admitted that it had made up its survey results. Some candidates say those faked numbers killed their campaigns.",
-      "A new company whose polls had influenced campaign decisions and helped shape the midterms narrative admitted that it was faking its polling data on Tuesday night, setting off a firestorm in the elect"
+      "Among those charged were the mother and father of 13-year-old Benson Nguyen, who died after crashing his e-moto into a light pole in Southern California.",
+      "Parents in a growing number of communities are being held criminally responsible when their children are involved in serious accidents involving electric motorcycles.",
+      "Videos of the practice often em"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T14:00:00Z",
-    "sources": [
-      {
-        "publisher": "Politico",
-        "url": "https://www.politico.com/news/2026/10/22/how-a-fake-pollster-may-have-moved-some-2026-elections-01131675",
-        "tier": 1,
-        "publishedAt": "2026-10-22T14:00:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F0f%2F0d%2F3964fd20443cb89ed5e0134a890e%2Felection-2-26-michigan-62-2.jpg"
-  },
-  {
-    "id": "c_fee1eeb1fe",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "world",
-      "geopolitics"
-    ],
-    "headline": "Feds charge L. Louise Lucas, powerful Virginia Democrat, in alleged drug scheme",
-    "bullets": [
-      "L. Louise Lucas, a longtime state senator from Virginia, has been arrested in connection with an alleged bribery and racketeering scheme.",
-      "Norfolk, Virginia — L.",
-      "Louise Lucas, a powerful Virginia state senator and vocal Trump critic who played a central role in the state's redistricting effort last year, was taken into federal custody T"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T13:53:00Z",
+    "publishedAt": "2026-10-23T00:12:05Z",
     "sources": [
       {
         "publisher": "CBS News",
-        "url": "https://www.cbsnews.com/news/l-louise-lucas-charged-indictment-arrested-virginia/",
+        "url": "https://www.cbsnews.com/news/parents-children-electric-motorcycle-crashes-criminal-charges/",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:53:00Z"
+        "publishedAt": "2026-10-23T00:12:05Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/22/0ef35897-0579-4454-a372-1d284af268fa/thumbnail/1200x630g1/37abeb91984be49f038521e558aeec06/gettyimages-2274274597.jpg"
+    "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/23/fafc34d8-ea45-45f7-8318-ea13dd7addd7/thumbnail/1200x630/31af6d8bfbbbeb65017c688697719f5a/1792713911568.png"
   },
   {
-    "id": "c_a287dc7c14",
+    "id": "c_de3d1bfecc",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "markets",
       "world"
     ],
-    "headline": "Investors would be barred from buying up single-family homes under new US Treasury rule",
+    "headline": "Mark Zuckerberg's creative plan to pay California’s proposed billionaire tax without losing control of Meta",
     "bullets": [
-      "The US Treasury is issuing a proposed federal rule on Thursday to implement one of President Trump’s signature housing affordability bills to bar institutional investors from buying single-fa",
-      "WASHINGTON The US Treasury is issuing a proposed federal rule on Thursday to implement one of President Trump’s signature housing affordability bills that would bar institutional investors from buyi"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T13:52:00Z",
-    "sources": [
-      {
-        "publisher": "New York Post",
-        "url": "https://nypost.com/2026/10/22/us-news/treasury-issues-rule-to-bar-investors-from-buying-up-single-family-homes/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T13:52:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/146069607.jpg?quality=75&strip=all&w=1200"
-  },
-  {
-    "id": "c_4d342cf5b4",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "science"
-    ],
-    "headline": "Viral wildlife video captures coyote launching itself into the air to snatch a pear off a tree",
-    "bullets": [
-      "A viral video shared by Tom Miranda captures a coyote launching itself into the air to snatch a pear off a tree with incredible vertical lift.",
-      "A coyote put its jumping skills on display to grab a piece of fruit.",
-      "As our loyal readers know, nature and outdoors content is easily some of the best kinds of content you can find on the internet."
+      "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law.",
+      "During Meta’s earnings call on Wednesday, the company revealed its board had approved a new class of non-voting stock, called Class C common stock.",
+      "The shares give the holder an ownership stake but n"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T13:39:06Z",
+    "publishedAt": "2026-10-22T23:50:41Z",
     "sources": [
       {
-        "publisher": "Fox News",
-        "url": "https://www.foxnews.com/outkick-culture/viral-wildlife-video-captures-coyote-launching-itself-air-snatch-pear-tree",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:39:06Z"
+        "publishedAt": "2026-10-22T23:50:41Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2025/03/gettyimages-2201785288-1.jpg"
+    "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799"
   },
   {
-    "id": "c_cc4a71a5e2",
+    "id": "c_097270b07d",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Stock Market News, Oct. 22, 2026: Tech Selloff Deepens as Flight Into Treasurys Drives Yields Lower",
+    "bullets": [],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T23:41:00Z",
+    "sources": [
+      {
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-22-2026",
+        "tier": 1,
+        "publishedAt": "2026-10-22T23:41:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": null
+  },
+  {
+    "id": "c_51d6229818",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "world",
       "geopolitics"
     ],
-    "headline": "Ilhan Omar says 'bizarre' pre-dawn raid on her home is forcing her to leave",
+    "headline": "NYC votes to end nearly 170-year-old horse carriage tradition as Trump blasts ban, drivers threaten lawsuit",
     "bullets": [
-      "The congresswoman said federal agents seized over a dozen items, including cell phones and notebooks, as part of a federal investigation.",
-      "She then watched from the couch as agents spent roughly five hours going from room to room, Omar said, leaving with a total of 17 items, including multiple cellphones, notebooks, and her husband's ca"
+      "The Transport Workers Union threatened federal court action after the New York City Council voted 40-7 to ban horse-drawn carriages by June 2028.",
+      "The New York City Council voted Thursday to ban horse-drawn carriages by June 2028, moving to end a nearly 170-year tradition after the death of a teenager in Central Park and prompting threats of le"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T13:36:21Z",
+    "publishedAt": "2026-10-22T23:32:56Z",
     "sources": [
       {
-        "publisher": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cm75p1kxryl5o",
+        "publisher": "Fox News",
+        "url": "https://www.foxnews.com/politics/nyc-votes-end-nearly-170-year-old-horse-carriage-tradition-trump-blasts-ban-drivers-threaten-lawsuit",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:36:21Z"
+        "publishedAt": "2026-10-22T23:32:56Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/972d/live/a8e0d8b0-ce1c-11f1-906e-e3128518d85d.jpg"
+    "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/nyc-horse-drawn-carriage.jpg"
   },
   {
-    "id": "c_17431ebc47",
+    "id": "c_d4932dc2fe",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "The next-gen Xbox won’t cost you $1,800. It can’t. Can it?",
+    "bullets": [
+      "After a report that Microsoft’s Xbox Helix might cost $1,800, The Verge explores the possibilities.",
+      "Didnt Microsoft say the next Xbox needed to be affordable?",
+      "Didnt Microsoft say the next Xbox needed to be affordable?"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T23:00:00Z",
+    "sources": [
+      {
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
+        "tier": 1,
+        "publishedAt": "2026-10-22T23:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "c_0c7477f679",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "DOJ monitoring plans and DHS voter checks raise concerns of election interference",
+    "bullets": [
+      "With the midterm elections less than two weeks away, a new legal battle is raising questions about the federal government's role in policing who is eligible to vote. A federal judge in California has blocked a Department of Homeland Security effort to identif",
+      "With the midterm elections less than two weeks away, a new legal battle is raising questions about the federal government's role in policing who is eligible to vote.",
+      "A federal judge in California has"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 26,
+    "publishedAt": "2026-10-22T22:55:44Z",
+    "sources": [
+      {
+        "publisher": "PBS",
+        "url": "https://www.pbs.org/newshour/show/doj-monitoring-plans-and-dhs-voter-checks-raise-concerns-of-election-interference",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:55:44Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/election-1024x683.jpg"
+  },
+  {
+    "id": "c_6a0822cbf2",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Supreme Court rules NH can block voters from using student IDs",
+    "bullets": [
+      "The Supreme Court on Thursday ruled New Hampshire’s top election official can fully stop voters from using their student IDs when showing up to the polls in the midterms — a request backed by the Republican National Committee (RNC). A lower judge ruled offic",
+      "Skip to content The Supreme Court on Thursday ruled New Hampshire’s top election official can fully stop voters from using their student IDs when showing up to the polls in the midterms — a request"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 26,
+    "publishedAt": "2026-10-22T22:50:00Z",
+    "sources": [
+      {
+        "publisher": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6166987-supreme-court-new-hampshire-student-ids/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:50:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://thehill.com/wp-content/uploads/sites/2/2026/09/6aa0da935d3c83.00970314-e1792709009599.jpeg?w=1280"
+  },
+  {
+    "id": "c_225e394f70",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Trump tells Ramaswamy not to take down controversial ad featuring his opponent’s estranged mother",
+    "bullets": [
+      "Ohio Gov. Mike DeWine had called on his party’s nominee for governor, Vivek Ramaswamy, to remove a controversial ad. Follow for live updates.",
+      "A woman was collecting ballots from a drop box in Baltimore on Thursday when her vehicle was struck by gunfire as a police officer shot at a man nearby who had pulled out a semi-automatic gun, accord"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:40:00Z",
+    "sources": [
+      {
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/10/22/politics/live-news/midterm-election-congress",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:40:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/acton-ramaswamy-split.jpg?c=16x9&q=w_800,c_fill"
+  },
+  {
+    "id": "c_47234b8220",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Switch 2 jailbreak gives hackers new ways to run homebrew and mod games",
+    "bullets": [
+      "Userland\" exploit relies on integer overflow found in \"SmileBasic\" interpreter."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:25:33Z",
+    "sources": [
+      {
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:25:33Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/switch2hack-1152x648-1792704912.png"
+  },
+  {
+    "id": "c_73ef2c6a50",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "markets",
       "world"
     ],
-    "headline": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
+    "headline": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
     "bullets": [
-      "Chip stocks declined on Thursday amid concerns about supply constraints and lingering worries about the AI trade.",
-      "Semiconductor stocks fell in premarket trading on Thursday as a major equipment supplier cited supply chain constraints on its earnings call.",
-      "The PHLX Semiconductor Index (SOXX) tumbled 4% amid inve"
+      "A Moderna and Merck personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to standard treatment.",
+      "MADRID A personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to a standard treatment, according to a large clinical trial conducted by th"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T13:32:49Z",
+    "publishedAt": "2026-10-22T22:15:55Z",
     "sources": [
       {
-        "publisher": "Yahoo Entertainment",
-        "url": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-equipment-maker-lam-research-cites-supply-chain-constraints-130648719.html",
+        "publisher": "STAT",
+        "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:32:49Z"
+        "publishedAt": "2026-10-22T22:15:55Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://s.yimg.com/lo/mysterio/api/8e114d7b359e2fed57cad6ec75ef5dcb2d04aef13dfcdfaf787652541b97046e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F7d7e32c6-2de0-47e5-95ac-712bed9e5827"
+    "imageUrl": "https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_525738206_Editorial_Use_Only-1024x576.jpeg"
   },
   {
-    "id": "c_f59bdc7a4c",
+    "id": "c_32b154d437",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "markets",
       "world"
     ],
-    "headline": "Jon Gray Rebuts AI Bubble Warnings, Calls Demand ‘Parabolic’",
+    "headline": "Hackers appear to be struggling to exploit PHP flaws after global cybersecurity crisis",
     "bullets": [
-      "Blackstone Inc. President Jon Gray said investors don’t need to fear that the boom in AI will turn into a bubble, just days after billionaire Ken Griffin said he fears the industry was “almost certainly” headed in that direction.",
-      "President Jon Gray said investors dont need to fear that the boom in AI will turn into a bubble, just days after billionaire Ken Griffin said he fears the industry was almost certainl"
+      "There were few, if any, reports of widespread damage by hackers exploiting PHP flaws, experts said, one day after officials warned of severe vulnerabilities.",
+      "One day after governments around the world warned that newly publicized software vulnerabilities were so severe that websites should consider going offline until they could fix them, experts and insi"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:07:15Z",
+    "sources": [
+      {
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/tech/security/hackers-php-flaws-cybersecurity-crisis-rcna605112",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:07:15Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-02/240220-russian-ransomware-stock-aa-831a-6fee4b.jpg"
+  },
+  {
+    "id": "c_076ad6aa79",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "YouTube removing ‘Subscriptions’ bottom bar tab on Android, iOS after nearly a decade",
+    "bullets": [
+      "YouTube is making a number of changes to its Android and iOS apps, including moving Subscriptions out of the bottom bar.",
+      "YouTube is making a number of changes to its Android and iOS apps with the launch of custom feeds, including moving Subscriptions out of the bottom bar.",
+      "On mobile, YouTube is kicking off a series of"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:05:00Z",
+    "sources": [
+      {
+        "publisher": "9to5google.com",
+        "url": "http://9to5google.com/2026/10/22/youtube-subscriptions-android-ios/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:05:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/YouTube-Subscriptions-move-cover.jpg?quality=82&strip=all&resize=1200,628"
+  },
+  {
+    "id": "c_627c9f9287",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "world",
+      "geopolitics"
+    ],
+    "headline": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat",
+    "bullets": [
+      "GOP strategists say challenger Roy Cooper’s “institutional identity” and bankrolled campaign doomed them from the start.",
+      "We are getting your experience ready."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:03:15Z",
+    "sources": [
+      {
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/republicans-retreat-north-carolina-senate-race-rcna604771",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:03:15Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261021-split-Michael-Whatley-Roy-Cooper-ch-1358-fced95.jpg"
+  },
+  {
+    "id": "c_082aedb29f",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Scientists Just Cracked a Quantum Mystery That's Puzzled Physicists For Decades",
+    "bullets": [
+      "The Kondo effect is one of the most important in quantum physics, describing the strange interference that magnetic atoms can have in metals.",
+      "Usually, as metals cool, they become better at conductin"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:02:14Z",
+    "sources": [
+      {
+        "publisher": "ScienceAlert",
+        "url": "https://www.sciencealert.com/scientists-just-cracked-a-quantum-mystery-thats-puzzled-physicists-for-decades",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:02:14Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.sciencealert.com/images/2026/10/KondoEffect.jpg"
+  },
+  {
+    "id": "c_1a983037c2",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Europe's Space Rider vehicle comes crashing down during drop test",
+    "bullets": [
+      "This was not exactly what engineers had in mind when they performed Space Rider's drop test."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T22:00:00Z",
+    "sources": [
+      {
+        "publisher": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/europes-space-rider-vehicle-comes-crashing-down-during-drop-test",
+        "tier": 1,
+        "publishedAt": "2026-10-22T22:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/BR2gyzRjmFiFh82R7FFpLT-1920-80.jpg"
+  },
+  {
+    "id": "c_ba1b46be96",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Airbnb guests no longer have to wash the dishes or strip the beds at checkout",
+    "bullets": [
+      "Airbnb guests may soon have fewer chores to tackle before checking out. The short-term rental platform says it is changing its rules to limit what hosts can require of guests. The new policy says hosts can no longer ask guests to wash dishes, strip beds or ta",
+      "Airbnb guests can say goodbye to checkout chores like washing dishes, stripping beds and taking out the trash under a new policy announced this week.",
+      "The short-term rental platforms new rules limit"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 26,
+    "publishedAt": "2026-10-22T21:33:00Z",
+    "sources": [
+      {
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/airbnb-guests-checkout-chores-new-policy-24a2d80b09ae1fca77d0411c6a08dddd",
+        "tier": 1,
+        "publishedAt": "2026-10-22T21:33:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://dims.apnews.com/dims4/default/e9b79f3/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Feb%2F05%2Fceb6c1b3ec8370a6a4e86f3df00d%2F1ebd51bc205940b08aa67df86416b64d"
+  },
+  {
+    "id": "c_e346d34f8f",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "Treasury yields see extreme plunge. Why investors are ducking for cover.",
+    "bullets": [
+      "The scramble for safety was attributed to a confluence of factors suddenly plaguing the market all at once",
+      "Treasury yields sank on Thursday, in a rare bout of extreme buying as tech stocks plunged and investors headed for cover in one of the worlds largest and most liquid asset classes."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T21:32:00Z",
+    "sources": [
+      {
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66",
+        "tier": 1,
+        "publishedAt": "2026-10-22T21:32:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.mktw.net/im-46225712/social"
+  },
+  {
+    "id": "c_397cd5c6e0",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "markets",
+      "world"
+    ],
+    "headline": "SpaceX in Talks to Access 80,000 Cell Sites for Wireless Network",
+    "bullets": [
+      "SpaceX aims to secure a minimum of 80,000 cell sites across the US, and it’s in talks with at least one major cellular infrastructure company to reach that goal, according to people familiar with the matter.",
+      "SpaceX aims to secure a minimum of 80,000 cell sites across the US, and its in talks with at least one major cellular infrastructure company to reach that goal, according to people familiar with the"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 24,
-    "publishedAt": "2026-10-22T13:08:38Z",
+    "publishedAt": "2026-10-22T21:31:42Z",
     "sources": [
       {
         "publisher": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-10-22/jon-gray-rebuts-ai-bubble-warnings-calls-demand-parabolic",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-22/spacex-in-talks-to-access-80-000-cell-sites-for-wireless-network",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:08:38Z"
+        "publishedAt": "2026-10-22T21:31:42Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/is8rN2BWPkyo/v1/1200x800.jpg"
+    "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMoYuhPaNfpI/v0/1200x800.jpg"
   },
   {
-    "id": "c_9aa2540148",
+    "id": "c_d0a7833ac9",
     "kind": "news",
     "language": "en",
     "topicTags": [
-      "tech",
-      "ai"
+      "markets",
+      "world"
     ],
-    "headline": "Apple Reveals More Than 50 Apps That Will Be Updated for iPhone Duo",
+    "headline": "1 Thing in Bloom Energy’s Strong Earnings That May Be Dragging the Stock Down",
     "bullets": [
-      "Apple today highlighted more than 50 third-party App Store apps that are or will soon be fully optimized for the iPhone Duo and its various layouts",
-      "Apple today highlighted more than 50 third-party App Store apps that are or will soon be fully optimized for the iPhone Duo and its various layouts and poses.",
-      "You can hold the iPhone Duo and set it"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T13:04:26Z",
-    "sources": [
-      {
-        "publisher": "MacRumors",
-        "url": "https://www.macrumors.com/2026/10/22/apple-highlights-iphone-duo-apps/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T13:04:26Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://images.macrumors.com/t/BANHsGJWWM8qtc3b-G0ZHChHWL8=/2038x/article-new/2026/10/iPhone-Duo-Apps-feature.jpg"
-  },
-  {
-    "id": "c_f3eba00e34",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "COROS DURA 2 SOLAR Review: Big Upgrade, Bigger Price",
-    "bullets": [
-      "Neil's latest review digs into his experience with the COROS DURA 2 Solar, a new bike computer that claims to improve on the first model",
-      "As a longtime user of the original, Neil was excited to see what the new COROS DURA 2 SOLAR had in store.",
-      "His review dives into his impressions of the new head unit, how it differs from the much-belo"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T13:00:51Z",
-    "sources": [
-      {
-        "publisher": "Bikepacking.com",
-        "url": "https://bikepacking.com/gear/coros-dura-2-solar-review/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T13:00:51Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://bikepacking.com/wp-content/uploads/2026/10/Coros-Dura-2-solar-review_share.jpg"
-  },
-  {
-    "id": "c_da247c7786",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2",
-    "bullets": [
-      "PlayStation 5 spending rose 43% year over year, while unit sales increased 22%",
-      "Marvel's Wolverine led US game sales in September, achieving the highest monthly dollar sales for a Sony-published title since Helldivers 2.",
-      "Sony continued its hardware momentum, with PlayStation 5"
+      "Bloom Energy reported 94 cents of earnings per share on $1.24 billion in revenue, beating expectations. The stock was sliding in after-hours trading.",
+      "Weakness in Twisted Tea, Truly hard seltzer, and Samuel Adams outweighed growth in Sun Cruiser and Angry Orchard cider, the company said."
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T13:00:08Z",
+    "publishedAt": "2026-10-22T21:31:00Z",
     "sources": [
       {
-        "publisher": "GamesIndustry.biz",
-        "url": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
+        "publisher": "Barron's",
+        "url": "https://www.barrons.com/articles/bloom-energy-earnings-stock-price-11245d98",
         "tier": 1,
-        "publishedAt": "2026-10-22T13:00:08Z"
+        "publishedAt": "2026-10-22T21:31:00Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://assetsio.gnwcdn.com/marvels-wolverine.webp?width=1200&height=630&fit=crop&enable=upscale&auto=webp"
+    "imageUrl": "https://images.barrons.com/im-07201090/social"
   },
   {
-    "id": "c_008f2a457f",
+    "id": "c_aa6115cdc5",
     "kind": "news",
     "language": "en",
     "topicTags": [
-      "world",
-      "geopolitics"
+      "markets",
+      "world"
     ],
-    "headline": "Millions take fish oil for brain health. A two-year study found no benefit",
+    "headline": "SF man operating self-driving Tesla hits, kills pedestrian on I-80, CHP says",
     "bullets": [
-      "A surprising two-year clinical trial found that fish oil supplements successfully delivered omega-3s to the brain but failed to improve memory or protect against Alzheimer&apos;s-related brain shrinkage. Researchers suspect that getting these nutrients throug",
-      "Millions of Americans take fish oil supplements in hopes of protecting their memory and keeping their brains healthy as they age.",
-      "These products have become a major business, with Americans spending"
+      "A 71-year-old man was killed on Interstate 80 in Solano County early Thursday morning.",
+      "A view of I-80 westbound near the I-780 interchange.",
+      "A Tesla driver from San Francisco allegedly struck and killed a pedestrian near the interchange early Thursday morning while his car was in self-d"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
-    "estimatedSeconds": 22,
-    "publishedAt": "2026-10-22T12:48:28Z",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T21:30:40Z",
     "sources": [
       {
-        "publisher": "Science Daily",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261020085427.htm",
+        "publisher": "SFGate",
+        "url": "https://www.sfgate.com/bayarea/article/tesla-crash-solano-county-pedestrian-22489807.php",
         "tier": 1,
-        "publishedAt": "2026-10-22T12:48:28Z"
+        "publishedAt": "2026-10-22T21:30:40Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://www.sciencedaily.com/images/1920/fish-oil-omega-3-capsules-dha-epa.webp"
+    "imageUrl": "https://s.hdnux.com/photos/01/67/55/14/31380238/6/rawImage.jpg"
   },
   {
-    "id": "c_251b380d59",
+    "id": "c_9bb8d917af",
     "kind": "news",
     "language": "en",
     "topicTags": [
-      "world",
-      "geopolitics"
+      "tech",
+      "ai"
     ],
-    "headline": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+    "headline": "Not Just Game Discs: Sony’s Killing Its Blu-Ray Players, Too",
     "bullets": [
-      "Russia has launched a nighttime missile barrage on Kyiv while its military says it intercepted more than 800 Ukrainian drones targeting Moscow and other Russian cities. The attacks dampen hopes for peace talks. Russian President Vladimir Putin has agreed “in",
-      "KYIV, Ukraine (AP) Russia bombarded Kyiv with ballistic missiles in an hourslong nighttime barrage, while the Russian military said Thursday that its air defenses intercepted over 800 drones fired by"
+      "The end to Sony's last 'budget' 4K Blu-ray player means physical media could become more bespoke and—worse—more expensive.",
+      "Sony is exiting yet another market it used to dominate: Blu-ray players.",
+      "You’re likely having flashbacks to PlayStations big announcement that it was killing off game disc production in 2028."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T21:30:20Z",
+    "sources": [
+      {
+        "publisher": "Gizmodo.com",
+        "url": "https://gizmodo.com/sony-blu-ray-player-discontinued-2000829662",
+        "tier": 1,
+        "publishedAt": "2026-10-22T21:30:20Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gizmodo.com/app/uploads/2026/10/Sony-Blu-ray-Players-1-1200x675.jpg"
+  },
+  {
+    "id": "c_142d213f77",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "A Mass Effect 5 Trailer Featuring Liara Appears To Have Leaked Following BioWare's Closure",
+    "bullets": [
+      "While the trailer hasn't been officially confirmed, it seems legitimate. The game would have been called Mass Effect Universe. - Game Informer",
+      "In case you missed the tragic news yesterday, EA laid off 400 employees this week, including all of BioWare.",
+      "The studio behind Mass Effect, Dragon Age, Star Wars: Knights of the Old Republic, and mor"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T21:27:00Z",
+    "sources": [
+      {
+        "publisher": "Gameinformer.com",
+        "url": "https://gameinformer.com/report/2026/10/22/a-mass-effect-5-trailer-featuring-liara-appears-to-have-leaked-following-biowares",
+        "tier": 1,
+        "publishedAt": "2026-10-22T21:27:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gameinformer.com/sites/default/files/styles/og_image/public/2026/10/22/673637bc/masseffect-hero.jpg.webp"
+  },
+  {
+    "id": "c_a8f2132df5",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Microsoft Says Its New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+    "bullets": [
+      "Microsoft plans to start testing the tool in a Boston hospital soon.",
+      "Microsoft says its medical AI system can diagnose difficult cases more than twice as accurately as practicing doctors.",
+      "Dubbed the Microsoft AI Diagnostic Orchestrator (MAI-DxO), the system “substant"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T20:40:46Z",
+    "sources": [
+      {
+        "publisher": "Gizmodo.com",
+        "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+        "tier": 1,
+        "publishedAt": "2026-10-22T20:40:46Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://gizmodo.com/app/uploads/2026/01/shutterstock_2163957793-1200x675.jpg"
+  },
+  {
+    "id": "c_917d54fb96",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "iOS 27 adds new Phone app feature that’s an instant favorite",
+    "bullets": [
+      "Out of all the various upgrades in iOS 27, one of the features that’s impressed me most is a new Phone addition: Call Context.",
+      "iOS 27 is packed with new features for apps like Notes, Wallet, Maps, Messages, and more.",
+      "But one iOS 27 addition thats especially impressed me is a new Phone feature: Call Context."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T20:29:00Z",
+    "sources": [
+      {
+        "publisher": "9to5Mac",
+        "url": "https://9to5mac.com/2026/10/22/ios-27-adds-new-phone-app-feature-thats-an-instant-favorite/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T20:29:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/phone-app-icon-fi-ios-27.jpg?quality=82&strip=all&resize=1200,628"
+  },
+  {
+    "id": "c_b908ce2f90",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
+    "bullets": [
+      "Application of the high-precision technique is part of a clinical trial to treat a genetic disease that can cause liver and nerve damage.",
+      "The method called prime editing can make fine-scale edits to DNA (artists illustration)."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T20:11:34Z",
+    "sources": [
+      {
+        "publisher": "Nature.com",
+        "url": "https://www.nature.com/articles/d41586-026-03371-x",
+        "tier": 1,
+        "publishedAt": "2026-10-22T20:11:34Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03371-x/d41586-026-03371-x_53883104.jpg"
+  },
+  {
+    "id": "c_074c0076ab",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "A Strange Radio Signal in The Far Reaches of The Milky Way Is Behaving Like Nothing Else in The Galaxy",
+    "bullets": [
+      "Many things scattered throughout the Milky Way flicker, glow, and pulse in idiosyncratic ways.",
+      "From the staccato static of a pulsar to the sudden eruption and slow fade of light from a nova, astrono"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T20:02:30Z",
+    "sources": [
+      {
+        "publisher": "ScienceAlert",
+        "url": "https://www.sciencealert.com/a-strange-radio-signal-in-the-far-reaches-of-the-milky-way-is-behaving-like-nothing-else-in-the-galaxy",
+        "tier": 1,
+        "publishedAt": "2026-10-22T20:02:30Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://www.sciencealert.com/images/2026/10/telescope-1200x675.png"
+  },
+  {
+    "id": "c_6acab0970b",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "3 minutes of fear: Artemis II commander recalls the moment he thought he'd be lost in space forever",
+    "bullets": [
+      "Artemis II Commander Reid Wiseman felt genuine fear when he saw the Orion spacecraft had gone farther from Earth than anticipated"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T20:00:00Z",
+    "sources": [
+      {
+        "publisher": "Live Science",
+        "url": "https://www.livescience.com/space/space-exploration/were-never-going-to-come-home-artemis-ii-commander-recalls-the-most-terrifying-moment-of-his-10-day-trip-around-the-moon",
+        "tier": 1,
+        "publishedAt": "2026-10-22T20:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/okJPhZBzpSUq73QF7gf773-1920-80.jpg"
+  },
+  {
+    "id": "c_10b388a95b",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Christy Turlington says she ‘will never alter or augment’ her face; instead, she uses this science-backed skin care line",
+    "bullets": [
+      "“I feel like I’ve earned and deserve better care when it comes to my skin,” she told Vogue.",
+      "Page Six may be compensated and/or receive an affiliate commission if you click or buy through our links.",
+      "Featured pricing is subject to change."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T19:47:00Z",
+    "sources": [
+      {
+        "publisher": "Page Six",
+        "url": "https://pagesix.com/2026/10/22/style/christy-turlington-go-to-noble-panacea-skincare-brand-has-a-new-anti-aging-serum/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T19:47:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/CT_5adda6.jpg?quality=75&strip=all&w=1200"
+  },
+  {
+    "id": "c_ee7ecab289",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+    "bullets": [
+      "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "Concerns have swirled over the access that consumers are increasingly entrusting to AI agents.",
+      "Now, security services are trying to catch up."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T19:07:09Z",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T19:07:09Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/AI-agents.jpg?resize=1200,675"
+  },
+  {
+    "id": "c_bba5d39ad5",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Valve Employee Accidentally Mentions Half-Life 3 Codename For The First Time Ever",
+    "bullets": [
+      "Wait a minute, what's HLX?",
+      "During a recent developer panel dedicated to video game audio, longtime Valve composer Mike Morasky mentioned two of the company’s games while answering a question: Deadlock and “HLX.” The problem: O"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T19:04:14Z",
+    "sources": [
+      {
+        "publisher": "Kotaku",
+        "url": "https://kotaku.com/valve-employee-seemingly-slips-up-and-says-rumored-half-life-3-codename-on-stage-2000748885",
+        "tier": 1,
+        "publishedAt": "2026-10-22T19:04:14Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://kotaku.com/app/uploads/2025/11/hl3-1200x675.jpg"
+  },
+  {
+    "id": "c_afbb328c26",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Canva releases its first image generation model",
+    "bullets": [
+      "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T19:00:00Z",
+    "sources": [
+      {
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T19:00:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/10/Sample-Outputs.jpeg?resize=1200,675"
+  },
+  {
+    "id": "c_ba925e7a59",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
+    "bullets": [
+      "Searches for Samsung foldables just happened to skyrocket following iPhone Duo unveiling."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T18:49:14Z",
+    "sources": [
+      {
+        "publisher": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T18:49:14Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Galaxy-Z8-1-1152x648.jpg"
+  },
+  {
+    "id": "c_cfe99479c0",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Survive the Pitch: Five Nights at Freddy's Haunts Rocket League",
+    "bullets": [
+      "Haunted Hallows returns to Rocket League from October 22 at 9 AM PT through November 2 at 9 AM PT, and this year the animatronic crew from Five Nights at Freddy's has taken over the pitch."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T18:12:46Z",
+    "sources": [
+      {
+        "publisher": "Rocketleague.com",
+        "url": "https://www.rocketleague.com/news/survive-the-pitch-five-nights-at-freddys-haunts-rocket-league",
+        "tier": 1,
+        "publishedAt": "2026-10-22T18:12:46Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://cms-assets.unrealengine.com/cmkr1i7c9047e07n0es5291ez/cmvi6oqmjopzl07mqo2pdykxj"
+  },
+  {
+    "id": "c_c55ba09782",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "tech",
+      "ai"
+    ],
+    "headline": "Apple Pulls Keynote, Pages and Numbers From App Store",
+    "bullets": [
+      "Apple has temporarily removed Keynote, Pages, and Numbers from the App Store, just after releasing an update that added iPhone Duo support and a new",
+      "Apple has temporarily removed Keynote, Pages, and Numbers from the App Store, just after releasing an update that added iPhone Duo support and a new Intelligent Assistant.",
+      "It is not clear if the app"
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T18:01:29Z",
+    "sources": [
+      {
+        "publisher": "MacRumors",
+        "url": "https://www.macrumors.com/2026/10/22/apple-removes-iwork-apps-app-store/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T18:01:29Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://images.macrumors.com/t/qUEJgXn5mTD02eCK2VbfApTX9wU=/2500x/article-new/2026/01/Apple-Creator-Studio-iWork-suite.jpg"
+  },
+  {
+    "id": "c_ead24bfb88",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "The surprising job that could be the secret to a longer life: ‘High degree of autonomy’",
+    "bullets": [
+      "A new study shows that one profession, one that certainly does not shy away from long hours and high stress, could actually help folks live a longer life.",
+      "So much for work-life balance.",
+      "Long hours and high-stress jobs lay waste to our mental health, age us on a cellular level and increase our risk of an early death."
+    ],
+    "whyItMatters": null,
+    "confidence": "confirmed",
+    "risk": "standard",
+    "estimatedSeconds": 20,
+    "publishedAt": "2026-10-22T18:01:00Z",
+    "sources": [
+      {
+        "publisher": "New York Post",
+        "url": "https://nypost.com/2026/10/22/health/surprising-job-could-be-secret-to-longer-life-new-study/",
+        "tier": 1,
+        "publishedAt": "2026-10-22T18:01:00Z"
+      }
+    ],
+    "disagreement": null,
+    "youtubeId": null,
+    "channel": null,
+    "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-vv9mpvi3i-1792687620869.jpg?quality=75&strip=all&1792673241&w=1200"
+  },
+  {
+    "id": "c_38a183dd7f",
+    "kind": "news",
+    "language": "en",
+    "topicTags": [
+      "science"
+    ],
+    "headline": "Quantum interference traps electron waves in metal for first time",
+    "bullets": [
+      "Ever since quantum mechanics first described particles, like electrons, as rippling waves, researchers have wondered if those waves could be trapped in place. Writing today in Science a century later, a team of Columbia University researchers reports waves of",
+      "Ever since quantum mechanics first described particles, like electrons, as rippling waves, researchers have wondered if those waves could be trapped in place.",
+      "Writing today in Science a century later"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 23,
-    "publishedAt": "2026-10-22T12:44:00Z",
+    "publishedAt": "2026-10-22T18:00:18Z",
     "sources": [
       {
-        "publisher": "Associated Press",
-        "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attacks-putin-5eef1c7dc4cc401dd8de85f718574877",
+        "publisher": "Phys.Org",
+        "url": "https://phys.org/news/2026-10-quantum-electron-metal.html",
         "tier": 1,
-        "publishedAt": "2026-10-22T12:44:00Z"
+        "publishedAt": "2026-10-22T18:00:18Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://dims.apnews.com/dims4/default/6c3baca/2147483647/strip/true/crop/8640x5760+0+0/resize/1200x800!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F78%2Fae%2Fb612b0a920e04f3217e1b0835769%2Fd7592559d17c44aaa2d2c9076cc362d8"
+    "imageUrl": "https://scx2.b-cdn.net/gfx/news/2026/quantum-interference-i.jpg"
   },
   {
-    "id": "c_a6abc503c4",
+    "id": "c_7d0d5d7f19",
     "kind": "news",
     "language": "en",
     "topicTags": [
-      "tech",
-      "ai"
+      "science"
     ],
-    "headline": "Test Driving an iPhone Duo? 6 Things to Try at the Apple Store",
+    "headline": "A New Ice Age Was Beginning. Then Humans Started Burning Fossil Fuels",
     "bullets": [
-      "Apple's first foldable has a lot going for it, but there may be some compromises you aren't expecting. See for yourself if the Duo is for you.",
-      "If you weren’t able to preorder an iPhone Duo last week, you’re out of luck until January — but come Friday, you’ll finally be able to walk into an Apple Store and try out the new foldable phone."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 22,
-    "publishedAt": "2026-10-22T12:00:14Z",
-    "sources": [
-      {
-        "publisher": "CNET",
-        "url": "https://www.cnet.com/tech/mobile/test-iphone-duo-things-to-try-at-apple-store/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T12:00:14Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.cnet.com/wp-content/uploads/sites/2/iPhone-Duo-still-4.jpg"
-  },
-  {
-    "id": "c_12f0e0af7c",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Xbox Shocktober Sale 2026 goes live with over 1,200 terrifyingly good deals",
-    "bullets": [
-      "The huge Xbox Shocktober Sale 2026 is now underway, featuring a massive 1,200 discounts on Xbox games, bundles, DLC packs, and more."
+      "Ancient plants reveal that the vestiges of the North American ice sheet started expanding a few thousand years ago, but that climate change caused it to reverse course.",
+      "After the ice cap retreated, mosses eventually colonized this newly exposed land, says Nicolás Young, a paleoclimatologist at the Lamont-Doherty Earth Observatory at Columbia University and lead auth"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T11:29:57Z",
-    "sources": [
-      {
-        "publisher": "TrueAchievements",
-        "url": "https://www.trueachievements.com/news/xbox-shocktober-sale-2026",
-        "tier": 1,
-        "publishedAt": "2026-10-22T11:29:57Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.trueachievements.com/imgs/179953/xbox-shocktober-sale-2026-now-live-with-over-1200-discounts.jpg"
-  },
-  {
-    "id": "c_6ab568188c",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "iPhone Duo 2 Prototypes Include Under-Display Face ID",
-    "bullets": [
-      "Apple's second-generation iPhone Duo could gain Face ID, with prototypes already incorporating the technology beneath the outer display,",
-      "Apple's second-generation iPhone Duo could gain Face ID, with prototypes already incorporating the technology beneath the outer display, according to Bloomberg's Mark Gurman ('https://www.bloomberg.c"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T10:46:07Z",
-    "sources": [
-      {
-        "publisher": "MacRumors",
-        "url": "https://www.macrumors.com/2026/10/22/iphone-duo-2-prototypes-under-display-face-id/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T10:46:07Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://images.macrumors.com/t/AqrzK-nj5wMmpgGD4SJUW-ow6N0=/2500x/article-new/2026/10/iPhone-Duo-Open-large-scaled-feature.jpg"
-  },
-  {
-    "id": "c_843d7a0483",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Hackers are turning web browsing into a spyware trap",
-    "bullets": [
-      "Hackers use ads to secretly install spyware on iPhones.",
-      "Driving the news: Researchers at iVerify and Report URI said Thursday they've uncovered two campaigns in which criminal groups with suspected ties to China exploited online advertising infrastructure"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T10:21:35Z",
-    "sources": [
-      {
-        "publisher": "Axios",
-        "url": "https://www.axios.com/2026/10/22/spyware-phones-security-threats",
-        "tier": 1,
-        "publishedAt": "2026-10-22T10:21:35Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://images.axios.com/NX3IYfVO-O_VrL2lyB75HHcBpYM=/0x0:1568x882/1366x768/2026/10/22/1792627677073.png"
-  },
-  {
-    "id": "c_72972368be",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Several Linux Kernel Vulnerabilities Accidentally Posted To Public Kernel Mailing List",
-    "bullets": [
-      "Seemingly as an accident, overnight several new Linux kernel vulnerability reports were posted to the public Linux kernel mailing list rather than the private security mailing list",
-      "Seemingly as an accident, overnight several new Linux kernel vulnerability reports were posted to the public Linux kernel mailing list rather than the private security mailing list."
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T10:05:00Z",
-    "sources": [
-      {
-        "publisher": "Phoronix",
-        "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
-        "tier": 1,
-        "publishedAt": "2026-10-22T10:05:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.phoronix.net/image.php?id=2026&image=public_zdi"
-  },
-  {
-    "id": "c_ebda393945",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "From the Anime to the Game — Free Update Brings Edgerunners 2 Content and More to Cyberpunk 2077!",
-    "bullets": [
-      "The free Edgerunners 2 Update to Cyberpunk 2077 is available now, with content inspired by the second installment of the hit anime series now streaming on Netflix",
-      "Cyberpunk: Edgerunners 2 premiered on Netflix on October 20, bringing a whole new cast of characters to Night City for a dark, gritty ride.",
-      "And now were bringing a little piece of that story into Cyb"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T10:03:29Z",
-    "sources": [
-      {
-        "publisher": "Xbox.com",
-        "url": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/",
-        "tier": 1,
-        "publishedAt": "2026-10-22T10:03:29Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/10/EN_CP77_ER2_badge2.5_16x9-8659829d0e6e5766ee9c.jpg"
-  },
-  {
-    "id": "c_ddf7f86b51",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "tech",
-      "ai"
-    ],
-    "headline": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
-    "bullets": [
-      "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
-      "The AI platform Hugging Face on Thursday released a new open model for understanding DNA that can run locally on a laptop.",
-      "Developed in collaboration with researchers at Zhongguancun Academy in Chin"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T10:00:00Z",
+    "publishedAt": "2026-10-22T18:00:00Z",
     "sources": [
       {
         "publisher": "Wired",
-        "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+        "url": "https://www.wired.com/story/ice-age-beginning-then-humans-started-burning-fossil-fuels/",
         "tier": 1,
-        "publishedAt": "2026-10-22T10:00:00Z"
+        "publishedAt": "2026-10-22T18:00:00Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://media.wired.com/photos/6ad92806649bdf60df6fd54f/191:100/w_1280,c_limit/Science_Hugging%20Face%E2%80%99s%20Powerful%20New%20DNA%20Model%20Is%20Small%20Enough%20to%20Run%20on%20a%20Laptop_v1.jpg"
+    "imageUrl": "https://media.wired.com/photos/6ad93d4fded54679300f8db7/191:100/w_1280,c_limit/GettyImages-53043931.jpg"
   },
   {
-    "id": "c_f8210a60b8",
+    "id": "c_f0788814c5",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "science"
     ],
-    "headline": "NASA giving update about Artemis moon plans on Oct. 23: Watch it live",
+    "headline": "Astronomers Found Something They Thought Couldn’t Exist: A Green Star",
     "bullets": [
-      "NASA Administrator Jared Isaacman will participate in the press conference, which starts at 2 p.m. ET on Friday (Oct. 23)."
+      "Astronomers had never before convincingly identified a green star.",
+      "Illustration: University of Warwick.",
+      "The universe is full of red stars, blue stars, and white stars."
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T10:00:00Z",
+    "publishedAt": "2026-10-22T17:43:53Z",
     "sources": [
       {
-        "publisher": "Space.com",
-        "url": "https://www.space.com/space-exploration/artemis/nasa-giving-update-about-artemis-moon-plans-on-oct-23-watch-it-live",
+        "publisher": "ZME Science",
+        "url": "https://www.zmescience.com/science/astronomy/astronomers-found-something-they-thought-couldnt-exist-a-green-star/",
         "tier": 1,
-        "publishedAt": "2026-10-22T10:00:00Z"
+        "publishedAt": "2026-10-22T17:43:53Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://cdn.mos.cms.futurecdn.net/C9EEVo5B2rTe7JYJ2NhjCa-1920-80.jpg"
+    "imageUrl": "https://cdn.zmescience.com/wp-content/uploads/2026/10/78fde5f8-e9dd-4990-b759-47982663d191.jpg"
   },
   {
-    "id": "c_ca276dd913",
+    "id": "c_b519c99eca",
     "kind": "news",
     "language": "en",
     "topicTags": [
       "science"
     ],
-    "headline": "Space Force scrambles as Musk’s SpaceX retires its major rocket",
+    "headline": "Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
     "bullets": [
-      "Other rocket-makers have faced delays getting their vehicles up and running, leaving the Pentagon in a bind.",
-      "SpaceXs plans to retire its most popular rocket could jeopardize the United States ability to launch military satellites a plight compounded by the Pentagons dependence on Elon Musks company."
+      "Nature - Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
+      "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel Anil Kumar Singh & Oren Tal .",
+      "Department of Physics, Indian Institute of Technology Madr"
     ],
     "whyItMatters": null,
     "confidence": "confirmed",
     "risk": "standard",
     "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T09:00:00Z",
-    "sources": [
-      {
-        "publisher": "Politico",
-        "url": "https://www.politico.com/news/2026/10/22/space-force-spacex-rocket-musk-01131131",
-        "tier": 1,
-        "publishedAt": "2026-10-22T09:00:00Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F53%2F3c%2F521e3c0548cbaf1aa67ef19a002a%2Fspacex-crew-launch-8-897.jpg"
-  },
-  {
-    "id": "c_68ee0b446b",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "science"
-    ],
-    "headline": "Bacteria discovered to be synthesising metal–organic frameworks with ‘extraordinary conductivity’",
-    "bullets": [
-      "Biosynthesis of MOFs observed for the first time and could inspire the design of sustainable electronic structures",
-      "For the first time, researchers have discovered a microorganism that has made metalorganic frameworks (MOFs) and it appears to have been making them for millions of years.",
-      "These supramolecular struct"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-22T08:37:30Z",
-    "sources": [
-      {
-        "publisher": "Chemistry World",
-        "url": "https://www.chemistryworld.com/news/bacteria-discovered-to-be-synthesising-metal-organic-frameworks-with-extraordinary-conductivity/4024399.article",
-        "tier": 1,
-        "publishedAt": "2026-10-22T08:37:30Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/1024x536/1/1/8/552118_picture1_480412_crop.jpg"
-  },
-  {
-    "id": "c_004db241b9",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "science"
-    ],
-    "headline": "A rock plunged 90 kilometers into Earth and revealed something unexpected",
-    "bullets": [
-      "Scientists discovered a rock in Papua New Guinea that plunged more than 90 kilometers beneath Earth&apos;s surface, revealing a bizarre temperature pattern that challenges established theories of Earth&apos;s interior. The unexpected shift from unusually hot",
-      "A remarkable rock discovered in Papua New Guinea has revealed an unexpected temperature pattern deep beneath Earth's surface, challenging scientists' understanding of how tectonic plates move into th"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 21,
-    "publishedAt": "2026-10-22T01:37:15Z",
-    "sources": [
-      {
-        "publisher": "Science Daily",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261020084816.htm",
-        "tier": 1,
-        "publishedAt": "2026-10-22T01:37:15Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://www.sciencedaily.com/images/1920/earth-core-structure-layers.webp"
-  },
-  {
-    "id": "c_301454ac44",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "science"
-    ],
-    "headline": "An environmentally regulated dichotomy in cell lineages of the root",
-    "bullets": [
-      "An environment-regulated state is identified across multiple cell types at the root tip, revealing a shared dichotomy between cells with and without this state.",
-      "Plant material and growth conditions Seeds from wild-type A.thaliana ecotypes (Col-0, Ws-2, Cvi-0, c24 and Ler) or the mutants aba2-3 (Col-0 background, ABRC stock number CS3834), pyl11458 (Col-0 ba"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-21T22:41:15Z",
+    "publishedAt": "2026-10-22T16:21:42Z",
     "sources": [
       {
         "publisher": "Nature.com",
-        "url": "https://www.nature.com/articles/s41586-026-11179-y",
+        "url": "https://www.nature.com/articles/s41586-026-11312-x.pdf",
         "tier": 1,
-        "publishedAt": "2026-10-21T22:41:15Z"
+        "publishedAt": "2026-10-22T16:21:42Z"
       }
     ],
     "disagreement": null,
     "youtubeId": null,
     "channel": null,
-    "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-11179-y/MediaObjects/41586_2026_11179_Fig1_HTML.png"
-  },
-  {
-    "id": "c_f399106a3f",
-    "kind": "news",
-    "language": "en",
-    "topicTags": [
-      "science"
-    ],
-    "headline": "Peak viewing for the Orionid meteor showers and for fall foliage across parts of CNY",
-    "bullets": [
-      "Get specifics about how to find the peak viewing for the Orionid meteor shower and fall foliage across Upstate New York here!",
-      "With another night of clear skies, expect more chilly temperatures.",
-      "However, this will provide for nearly perfect viewing of the peak time to see the Orionid meteor shower!"
-    ],
-    "whyItMatters": null,
-    "confidence": "confirmed",
-    "risk": "standard",
-    "estimatedSeconds": 20,
-    "publishedAt": "2026-10-21T22:20:09Z",
-    "sources": [
-      {
-        "publisher": "CNYcentral.com",
-        "url": "https://cnycentral.com/news/local/peak-viewing-for-the-orionid-meteor-showers-and-for-fall-foliage-across-parts-of-cny",
-        "tier": 1,
-        "publishedAt": "2026-10-21T22:20:09Z"
-      }
-    ],
-    "disagreement": null,
-    "youtubeId": null,
-    "channel": null,
-    "imageUrl": "https://cnycentral.com/resources/media2/16x9/7668/1320/0x108/90/6ed8d49b-84c3-4d69-94de-89a2bbcc66ea-SteveStreeter.jpg"
+    "imageUrl": null
   }
 ]
